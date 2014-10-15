@@ -5,18 +5,20 @@ To Do:
 	* ~~Improve mobile version~~
 	* Check that mobile looks OK
 	* Accessibility
-	* Design improvements (map markers, css, tour guide, map tiles)
+	* Design improvements (map markers, css, map tiles)
+	* Recenter on county change
 * Filtering
 	* ~~Filter by county~~
 	* Move county selection to separate page or div
-	* Filter by date
+	* Filter or color by date
 * Data
-	* Add more counties
-	* Change data formatting for better filtering
+	* ~~Add more counties~~
+	* ~~Change data formatting for better filtering~~
 * Features
 	* Address entry 
 	* ~~Geolocation~~
 	* Mobile app 
+	* Tour guide
 * Publicity
 	* Adwords
 	* Other publicity

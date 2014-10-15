@@ -45,7 +45,9 @@
 <div id="map"></div>
 
 <script type="text/javascript">
-  var map = L.map('map').setView([33.76,-84.365], 10);
+  var map = L.map('map', {
+    attributionControl: false
+  }).setView([33.76,-84.365], 10);
 </script>
 <script type="text/javascript" src="map.js"></script>
 
