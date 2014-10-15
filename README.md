@@ -3,10 +3,10 @@ To Do:
 	* ~~Change page title~~
 	* ~~Add Proximity Viz logo and Code for ATL logo~~
 	* ~~Improve mobile version~~
-	* Check that mobile looks OK
+	* ~~Check that mobile looks OK~~
 	* Accessibility
 	* Design improvements (map markers, css, map tiles)
-	* Recenter on county change
+	* ~~Recenter on county change~~
 * Filtering
 	* ~~Filter by county~~
 	* Move county selection to separate page or div
@@ -16,12 +16,9 @@ To Do:
 	* ~~Change data formatting for better filtering~~
 * Features
 	* Address entry 
-	* ~~Geolocation~~
+	* Geolocation
 	* Mobile app 
-	* Tour guide
-* Publicity
-	* Adwords
-	* Other publicity
+	* ~~Tour guide or info page~~
 
 
 Contributors:
