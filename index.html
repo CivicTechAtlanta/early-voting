@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head profile="http://www.w3.org/2005/10/profile">
+  <title>Advance Polling Places</title>
+  <link rel="icon" 
+    type="image/png" 
+    href="http://mollietaylor.com/favicon.png">
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+  <![endif]-->
+  <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+
+  <!-- Data -->
+  <script type="text/javascript" src="advance-polling-places.js"></script>
+
+  <style type="text/css">
+  html, body{
+    padding: 0;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+  }
+
+  #map {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script type="text/javascript">
+  var map = L.map('map').setView([33.76,-84.365], 10);
+</script>
+<script type="text/javascript" src="map.js"></script>
+
+
+
+
+
+</body>
+</html>
