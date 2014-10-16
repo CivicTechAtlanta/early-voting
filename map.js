@@ -26,14 +26,13 @@ window.onload = function () {
       "</b><br>" + feature.properties.Location +
       "<br>" + feature.properties.Address +
       "<br>" + feature.properties.City +
-      "<br><table><tr><td><b>Oct. 13-17:</b> </td><td>" + feature.properties.Oct13to17 +
-      "</td></tr><tr><td><b>Oct. 20-24:</b> </td><td>" + feature.properties.Oct20to24 +
-      "</td></tr><tr><td><b>Oct. 27-31:</b> </td><td>" + feature.properties.Oct27to31 +
-      "</td></tr><tr><td><b>Sat. Oct. 18:</b> </td><td>" + feature.properties.Oct18 +
-      "</td></tr><tr><td><b>Sun. Oct. 19:</b> </td><td>" + feature.properties.Oct19 +
-      "</td></tr><tr><td><b>Sat. Oct. 25:</b> </td><td>" + feature.properties.Oct25 +
-      "</td></tr><tr><td><b>Sun. Oct. 26:</b> </td><td>" + feature.properties.Oct26 +
-      "</td></tr></table>");
+      "<br><br><b>Oct. 13-17:</b> " + feature.properties.Oct13to17 +
+      "<br><b>Oct. 20-24:</b> " + feature.properties.Oct20to24 +
+      "<br><b>Oct. 27-31:</b> " + feature.properties.Oct27to31 +
+      "<br><b>Sat. Oct. 18:</b> " + feature.properties.Oct18 +
+      "<br><b>Sun. Oct. 19:</b> " + feature.properties.Oct19 +
+      "<br><b>Sat. Oct. 25:</b> " + feature.properties.Oct25 +
+      "<br><b>Sun. Oct. 26:</b> " + feature.properties.Oct26);
   };
 
   function createCountyLayer(county) {
