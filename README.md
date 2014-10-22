@@ -23,6 +23,7 @@ To Do:
 
 Contributors:
 * David Rohm
+* Luigi Montanez
 * Mollie Taylor
 
 
