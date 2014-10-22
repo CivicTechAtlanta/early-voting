@@ -27,12 +27,12 @@ window.onload = function () {
       "<br>" + feature.properties.Address +
       "<br>" + feature.properties.City +
       "<br><br><b>Oct. 13-17:</b> " + feature.properties.Oct13to17 +
-      "<br><b>Oct. 20-24:</b> " + feature.properties.Oct20to24 +
-      "<br><b>Oct. 27-31:</b> " + feature.properties.Oct27to31 +
       "<br><b>Sat. Oct. 18:</b> " + feature.properties.Oct18 +
       "<br><b>Sun. Oct. 19:</b> " + feature.properties.Oct19 +
+      "<br><b>Oct. 20-24:</b> " + feature.properties.Oct20to24 +
       "<br><b>Sat. Oct. 25:</b> " + feature.properties.Oct25 +
-      "<br><b>Sun. Oct. 26:</b> " + feature.properties.Oct26);
+      "<br><b>Sun. Oct. 26:</b> " + feature.properties.Oct26 +
+      "<br><b>Oct. 27-31:</b> " + feature.properties.Oct27to31);
   };
 
   function createCountyLayer(county) {
