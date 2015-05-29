@@ -1,0 +1,9 @@
+Search: <input ng-model="query">
+
+<ul>
+  <li ng-repeat="county in counties | filter:query">
+    <a href="#/county-map/{{county.name}}">{{county.name}}</a>
+  </li>
+</ul>
+
+<div>Download the mobile app</div>
