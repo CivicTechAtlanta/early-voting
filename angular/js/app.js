@@ -1,7 +1,4 @@
-var earlyVotingApp = angular.module('earlyVotingApp', [
-	'ngRoute',
-	'earlyVotingControllers'
-]);
+var earlyVotingApp = angular.module('earlyVotingApp', ['ngRoute']);
 
 earlyVotingApp.config(['$routeProvider',function($routeProvider) {
 	$routeProvider.
