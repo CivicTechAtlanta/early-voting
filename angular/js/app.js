@@ -1,4 +1,4 @@
-var earlyVotingApp = angular.module('earlyVotingApp', ['ngRoute']);
+var earlyVotingApp = angular.module('earlyVotingApp', ['ngRoute', 'leaflet-directive']);
 
 earlyVotingApp.config(['$routeProvider',function($routeProvider) {
 	$routeProvider.
