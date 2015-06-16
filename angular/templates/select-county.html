@@ -2,7 +2,7 @@ Search: <input ng-model="query">
 
 <ul>
   <li ng-repeat="county in counties | filter:query">
-    <a ng-click="setCounty(county.name)" ng-href="#/county-map/{{ county.name }}">{{ county.name }}</a>
+    <a ng-click="setCounty(county.name)" ng-href="#/county-map/{{ county.name | lowercase }}">{{ county.name }}</a>
   </li>
 </ul>
 
