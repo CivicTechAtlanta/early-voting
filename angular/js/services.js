@@ -38,4 +38,15 @@ angular.module('earlyVotingApp')
       toggleOpenSunday: toggleOpenSunday,
       toggleOpenSaturday: toggleOpenSaturday
     }
-  });
+  })
+
+  .factory('Locations', [ '$http', function($http) {
+
+    function getLocations() {
+      return $http.get('models/20150616.json');
+    }
+
+    return {
+      getLocations: getLocations
+    }
+  }]);
