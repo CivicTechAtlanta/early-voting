@@ -1,0 +1,619 @@
+[{
+	"coordinates": [-84.492061, 33.754541],
+	"County": "Fulton",
+	"Location": "Adamsville Recreation Center",
+	"Address": "3201 MLK Jr. Drive, SW",
+	"City": "Atlanta, GA  30311"
+},{
+	"coordinates": [-84.391737, 33.8753238],
+	"County": "Fulton",
+	"Location": "Chastian Park Gymnasium",
+	"Address": "140 West Wieuca Road, NW",
+	"City": "Atlanta, GA  30342"
+},{
+	"coordinates": [-84.392639, 33.7511493],
+	"County": "Fulton",
+	"Location": "Fulton County Government Center",
+	"Address": "130 Peachtree Street, SW",
+	"City": "Atlanta, GA  30303"
+},{
+	"coordinates": [-84.2655154, 33.9773142],
+	"County": "Fulton",
+	"Location": "Johns Creek Environmental Campus",
+	"Address": "8100 Holcomb Bridge Road",
+	"City": "Alpharetta, GA  30022"
+},{
+	"coordinates": [-84.3627312, 33.9657187],
+	"County": "Fulton",
+	"Location": "North Fulton Annex",
+	"Address": "7741 Roswell Road, Suite 224",
+	"City": "Atlanta, GA  30350"
+},{
+	"coordinates": [-84.4254094, 33.8451648],
+	"County": "Fulton",
+	"Location": "Northside Branch Library",
+	"Address": "3295 Northside Parkway",
+	"City": "Atlanta, GA  30327"
+},{
+	"coordinates": [-84.2095934, 34.0645505],
+	"County": "Fulton",
+	"Location": "Ocee Library",
+	"Address": "5090 Abbotts Bridge Road",
+	"City": "Alpharetta, GA  30005"
+},{
+	"coordinates": [-84.2947595, 34.0725744],
+	"County": "Fulton",
+	"Location": "Roswell Branch Library",
+	"Address": "115 Norcross Street",
+	"City": "Roswell, GA  30075"
+},{
+	"coordinates": [-84.5498808, 33.6014156],
+	"County": "Fulton",
+	"Location": "South Fulton Annex",
+	"Address": "5600 Stonewall Tell Road, Room 108",
+	"City": "College Park, GA  30349"
+},{
+	"coordinates": [-84.450878, 33.655064],
+	"County": "Fulton",
+	"Location": "College Park Historical Building",
+	"Address": "3675 Auditorium Way",
+	"City": "College Park, GA  30337"
+},{
+	"coordinates": [-84.440535, 33.680195],
+	"County": "Fulton",
+	"Location": "East Point Branch Library",
+	"Address": "2757 Main Street",
+	"City": "East Point, GA  30344"
+},{
+	"coordinates": [-84.5846062, 33.5669263],
+	"County": "Fulton",
+	"Location": "Fairburn Library",
+	"Address": "60 Valley Drive",
+	"City": "Fairburn, GA  30213"
+},{
+	"coordinates": [-84.3796499, 33.7367318],
+	"County": "Fulton",
+	"Location": "Georgia Hills Neighborhood Facility",
+	"Address": "250 Georgia Avenue, SE",
+	"City": "Atlanta , GA  30312"
+},{
+	"coordinates": [-84.3793794, 33.7370753],
+	"County": "Fulton",
+	"Location": "Georgia Hill Building",
+	"Address": "250 Georgia Avenue, SE",
+	"City": "Atlanta, GA  30312"
+},{
+	"coordinates": [-84.2227533, 34.0147999],
+	"County": "Fulton",
+	"Location": "Northeast/Spruill Oaks Library",
+	"Address": "9560 Spruill Road",
+	"City": "John Creeks, GA  30022"
+},{
+	"coordinates": [-84.3740999, 33.9244086],
+	"County": "Fulton",
+	"Location": "Sandy Springs Branch Library",
+	"Address": "395 Mount Vernon Highway, NE",
+	"City": "Sandy Springs, GA  30328"
+},{
+	"coordinates": [-84.5415544, 33.7296843],
+	"County": "Fulton",
+	"Location": "Southwest Arts Center",
+	"Address": "915 New Hope Road, SW",
+	"City": "Atlanta, GA  30331"
+},{
+	"coordinates": [-84.2989111, 34.0768876],
+	"County": "Fulton",
+	"Location": "The Milton Center",
+	"Address": "86 School Drive",
+	"City": "Alpharetta, GA  30004"
+},{
+	"coordinates": [-84.4237409, 33.7540521],
+	"County": "Fulton",
+	"Location": "Washington Park Library",
+	"Address": "1116 MLK JR. Drive, SW",
+	"City": "Atlanta, GA  30314"
+},{
+	"coordinates": [-84.5284217, 33.6331104],
+	"County": "Fulton",
+	"Location": "Welcome All Park Recreation Center",
+	"Address": "4255 Will Lee Road",
+	"City": "College Park, GA  30349"
+},{
+	"coordinates": [-84.2466489, 33.7779683],
+	"County": "DeKalb",
+	"Location": "Memorial Drive Complex, Suite 300",
+	"Address": "4380 Memorial Drive",
+	"City": "Decatur, GA  30032"
+},{
+	"coordinates": [-84.2748457, 33.7087634],
+	"County": "DeKalb",
+	"Location": "The Gallery at South DeKalb Mall",
+	"Address": "2801 Candler Road",
+	"City": "Decatur, GA  30034"
+},{
+	"coordinates": [-84.220701, 33.855758],
+	"County": "DeKalb",
+	"Location": "Tucker Recreation Center",
+	"Address": "4898 LaVista Road",
+	"City": "Tucker, GA  30084"
+},{
+	"coordinates": [-84.299345, 33.896014],
+	"County": "DeKalb",
+	"Location": "Chamblee Civic Center",
+	"Address": "3540 Broad Street",
+	"City": "Chamblee, GA  30341"
+},{
+	"coordinates": [-84.178803, 33.733515],
+	"County": "DeKalb",
+	"Location": "Berean Christian Church Community Center",
+	"Address": "2440 Young Road",
+	"City": "Stone Mountain, GA  30088"
+},{
+	"coordinates": [-84.334038, 33.87074],
+	"County": "DeKalb",
+	"Location": "Brookhaven City Hall",
+	"Address": "4362 Peachtree Road NE",
+	"City": "Brookhaven, GA  30319"
+},{
+	"coordinates": [-84.3006403, 33.775326],
+	"County": "DeKalb",
+	"Location": "Clark Harrison Center - Decatur",
+	"Address": "330 West Ponce de Leon Ave., Room A",
+	"City": "Decatur, GA  30030"
+},{
+	"coordinates": [-83.9829774, 33.93861],
+	"County": "Gwinnett",
+	"Location": "Voter Registration and Elections Main Office",
+	"Address": "455 Grayson Highway, Suite 200",
+	"City": "Lawrenceville, GA  30046"
+},{
+	"coordinates": [-83.9691803, 34.1072984],
+	"County": "Gwinnett",
+	"Location": "Bogan Park Community Recreation Center",
+	"Address": "2723 North Bogan Road",
+	"City": "Buford, GA  30518"
+},{
+	"coordinates": [-84.049469, 33.8168329],
+	"County": "Gwinnett",
+	"Location": "Centerville Community Center",
+	"Address": "3025 Bethany Church Road",
+	"City": "Snellville, GA  30039"
+},{
+	"coordinates": [-83.8921146, 33.9961374],
+	"County": "Gwinnett",
+	"Location": "Dacula Activity Building",
+	"Address": "2735 Old Auburn Road",
+	"City": "Dacula, GA  30019"
+},{
+	"coordinates": [-84.0506174, 34.0595517],
+	"County": "Gwinnett",
+	"Location": "George Pierce Park Community Recreation Center",
+	"Address": "55 Buford Highway",
+	"City": "Suwanee, GA  30024"
+},{
+	"coordinates": [-84.001639, 33.790141],
+	"County": "Gwinnett",
+	"Location": "Lenora Park Activity Room",
+	"Address": "4515 Lenora Church Road",
+	"City": "Snellville, GA  30078"
+},{
+	"coordinates": [-84.1978186, 33.8821369],
+	"County": "Gwinnett",
+	"Location": "Lucky Shoals Park Community Recreation Center",
+	"Address": "4651 Britt Road",
+	"City": "Norcross, GA  30039"
+},{
+	"coordinates": [-84.5739717, 33.9535641],
+	"County": "Cobb",
+	"Location": "MAIN OFFICE",
+	"Address": "736 Whitlock Ave.",
+	"City": "Marietta, GA  30064"
+},{
+	"coordinates": [-84.4228727, 33.9632547],
+	"County": "Cobb",
+	"Location": "EAST, East Cobb Government Svcs. Center",
+	"Address": "4400 Lower Roswell Rd.",
+	"City": "Marietta, GA  30068-4233"
+},{
+	"coordinates": [-84.571845, 33.8185969],
+	"County": "Cobb",
+	"Location": "SOUTH, South Cobb Community Center",
+	"Address": "620 Lions Club Dr.",
+	"City": "Mableton, GA  30126-2438"
+},{
+	"coordinates": [-84.6950732, 33.9421345],
+	"County": "Cobb",
+	"Location": "WEST, Boots Ward Recreation Center (Lost Mountain Park)",
+	"Address": "4845 Dallas Hwy.",
+	"City": "Powder Springs, GA  30127-4486"
+},{
+	"coordinates": [-84.6517694, 34.0360177],
+	"County": "Cobb",
+	"Location": "NORTH, NorthStar Church",
+	"Address": "3413 Blue Springs Rd., NW",
+	"City": "Kennesaw, GA  30144-1082"
+},{
+	"coordinates": [-84.5258519, 34.0514598],
+	"County": "Cobb",
+	"Location": "NORTHEAST, Noonday Baptist Church Sanctuary",
+	"Address": "4120 Canton Rd.",
+	"City": "Marietta, GA  30066-2714"
+},{
+	"coordinates": [-84.504898, 33.8907475],
+	"County": "Cobb",
+	"Location": "SMYRNA, Windy Hill Community Center",
+	"Address": "1885 Roswell St. SE",
+	"City": "Smyrna, GA  30080-2213"
+},{
+	"coordinates": [-84.7305898, 33.7434934],
+	"County": "Douglas",
+	"Location": "Board of Elections and Registration",
+	"Address": "8700 Hospital Drive",
+	"City": "Douglasville, GA  30134"
+},{
+	"coordinates": [-84.6580816, 33.6709096],
+	"County": "Douglas",
+	"Location": "Boundary Waters Aquatic Center",
+	"Address": "5000 Ga. Hwy 92",
+	"City": "Douglasville, GA  30135"
+},{
+	"coordinates": [-84.684364, 33.7491739],
+	"County": "Douglas",
+	"Location": "Deer Lick Park Recreation Center",
+	"Address": "2105 Mack Road",
+	"City": "Douglasville, GA  30135"
+},{
+	"coordinates": [-84.8315887, 33.6418986],
+	"County": "Douglas",
+	"Location": "Dog River Library",
+	"Address": "6100 Ga. Hwy 5",
+	"City": "Douglasville, GA  30135"
+},{
+	"coordinates": [-84.7504251, 33.7496736],
+	"County": "Douglas",
+	"Location": "Old Douglas County Courthouse",
+	"Address": "6745 Church Street",
+	"City": "Douglasville, GA  30134"
+},{
+	"coordinates": [-84.8141196, 34.2062407],
+	"County": "Bartow",
+	"Location": "Bartow County Voter Registration Office",
+	"Address": "1300 Joe Frank Harris Pkwy",
+	"City": "Cartersville, GA  30120"
+},{
+	"coordinates": [-84.9349219, 34.367663],
+	"County": "Bartow",
+	"Location": "Adairsville Interim City Hall",
+	"Address": "101 Public Square",
+	"City": "Adairsville, GA  30103"
+},{
+	"coordinates": [-84.805994, 34.164961],
+	"County": "Bartow",
+	"Location": "Cartersville Civic Center",
+	"Address": "435 West Main Street",
+	"City": "Cartersville, GA"
+},{
+	"coordinates": [-84.487127, 34.236605],
+	"County": "Cherokee",
+	"Location": "Cherokee County Elections & Registration",
+	"Address": "400 East Main Street",
+	"City": "Canton, GA  30114"
+},{
+	"coordinates": [-84.3781149, 34.340435],
+	"County": "Cherokee",
+	"Location": "Ball Ground Public Library",
+	"Address": "435 Old Canton Road",
+	"City": "Ball Ground, GA  30107"
+},{
+	"coordinates": [-84.4214352, 34.1704298],
+	"County": "Cherokee",
+	"Location": "Hickory Flat Public Library",
+	"Address": "2740 East Cherokee Drive",
+	"City": "Canton, GA  30115"
+},{
+	"coordinates": [-84.5440235, 34.1057048],
+	"County": "Cherokee",
+	"Location": "Rose Creek Public Library",
+	"Address": "4476 Towne Lake Parkway",
+	"City": "Woodstock, GA  30189"
+},{
+	"coordinates": [-84.5144904, 34.1127015],
+	"County": "Cherokee",
+	"Location": "Woodstock Public Library",
+	"Address": "7735 Main Street",
+	"City": "Woodstock, GA  30188"
+},{
+	"coordinates": [-84.1395336, 34.2073259],
+	"County": "Forsyth",
+	"Location": "Cumming City Hall",
+	"Address": "100 Main Street",
+	"City": "Cumming, GA  30040"
+},{
+	"coordinates": [-84.0676029, 34.3052558],
+	"County": "Forsyth",
+	"Location": "Hampton Park Library",
+	"Address": "5345 Settingdown Rd",
+	"City": "Cumming, GA  30041"
+},{
+	"coordinates": [-84.215062, 34.2024959],
+	"County": "Forsyth",
+	"Location": "Midway Park Community Building",
+	"Address": "5100 Post Road",
+	"City": "Cumming, GA  30040"
+},{
+	"coordinates": [-84.163131, 34.1180612],
+	"County": "Forsyth",
+	"Location": "Sharon Springs Park Community Building",
+	"Address": "1950 Sharon Road",
+	"City": "Cumming, GA  30041"
+},{
+	"coordinates": [-84.13868, 34.2073343],
+	"County": "Forsyth",
+	"Location": "Voter Registrations & Elections Office, Forsyth County Administration Bldg",
+	"Address": "110 East Main Street",
+	"City": "Cumming, GA  30040"
+},{
+	"coordinates": [-83.8769938, 34.2776167],
+	"County": "Hall",
+	"Location": "Hall County Board of Elections and Voter Registrat",
+	"Address": "2875 Browns Bridge Road",
+	"City": "Gainesville, GA  30501"
+},{
+	"coordinates": [-84.847128, 33.917349],
+	"County": "Paulding",
+	"Location": "Board of Elections and Registration, Watson Government Complex, First Floor",
+	"Address": "240 Constitution Blvd.",
+	"City": "Dallas, GA  30132"
+},{
+	"coordinates": [-84.8415947, 34.0352083],
+	"County": "Paulding",
+	"Location": "Burnt Hickory Park",
+	"Address": "8650 Cartersville Hwy",
+	"City": "Dallas, GA  30132"
+},{
+	"coordinates": [-84.7708603, 33.9436681],
+	"County": "Paulding",
+	"Location": "Mt. Tabor Park",
+	"Address": "1550 East Paulding Dr",
+	"City": "Dallas, GA  30157"
+},{
+	"coordinates": [-84.7629309, 33.8634053],
+	"County": "Paulding",
+	"Location": "Poplar Springs Baptist Church",
+	"Address": "2056 Hiram Douglasville Hwy",
+	"City": "Hiram, GA  30141"
+},{
+	"coordinates": [-83.7091401, 33.9967351],
+	"County": "Barrow",
+	"Location": "Barrow County Administration Building",
+	"Address": "233 East Broad Street",
+	"City": "Winder, GA  30680"
+},{
+	"coordinates": [-85.071579, 33.5838589],
+	"County": "Carroll",
+	"Location": "Carroll County Board of Elections and Registration, Lower Level",
+	"Address": "423 College Street",
+	"City": "Carrollton, GA  30117"
+},{
+	"coordinates": [-84.9288121, 33.7290987],
+	"County": "Carroll",
+	"Location": "POWELL PARK ART CENTER",
+	"Address": "424 LESLIE DR",
+	"City": "VILLA RICA , GA  30180"
+},{
+	"coordinates": [-84.353608, 33.52071],
+	"County": "Clayton",
+	"Location": "Clayton County Elections and Registration",
+	"Address": "121 S. McDonough Street",
+	"City": "Jonesboro, GA  30236"
+},{
+	"coordinates": [-84.2762357, 33.587247],
+	"County": "Clayton",
+	"Location": "Carl Rhodenizer Recreation Center",
+	"Address": "3499 Rex Road",
+	"City": "Rex, GA  30273"
+},{
+	"coordinates": [-84.3633345, 33.5532549],
+	"County": "Clayton",
+	"Location": "Lee Headquarters Library",
+	"Address": "865 Battle Creek Road",
+	"City": "Jonesboro, GA  30236"
+},{
+	"coordinates": [-84.340798, 33.583658],
+	"County": "Clayton",
+	"Location": "Morrow Municipal Complex, Community Room",
+	"Address": "1500 Morrow Road",
+	"City": "Morrow, GA  30260"
+},{
+	"coordinates": [-84.3308016, 33.4480994],
+	"County": "Clayton",
+	"Location": "South Clayton Recreation Center",
+	"Address": "1837 McDonough Road",
+	"City": "Hampton, GA  30228"
+},{
+	"coordinates": [-84.437761, 33.5900625],
+	"County": "Clayton",
+	"Location": "Virginia Burton Gray Recreation Center",
+	"Address": "1475 East Fayetteville Road",
+	"City": "Riverdale, GA  30274"
+},{
+	"coordinates": [-84.018625, 33.652711],
+	"County": "Rockdale",
+	"Location": "",
+	"Address": "1400 Parker Road, Lobby C",
+	"City": "Conyers, GA  30094"
+},{
+	"coordinates": [-84.7987338, 33.3743085],
+	"County": "Coweta",
+	"Location": "Coweta County Voter Registration Office",
+	"Address": "22 East Broad Street, Room 128",
+	"City": "Newnan, GA  30263"
+},{
+	"coordinates": [-84.4564211, 33.4471469],
+	"County": "Fayette",
+	"Location": "Fayette County Elections Office",
+	"Address": "140 Stonewall Avenue West, Suite 209",
+	"City": "Fayetteville, GA  30214"
+},{
+	"coordinates": [-84.5831162, 33.3988896],
+	"County": "Fayette",
+	"Location": "Peachtree City Library",
+	"Address": "201 Willowbend Road",
+	"City": "Peachtree City , GA  30269"
+},{
+	"coordinates": [-84.5968589, 33.4751976],
+	"County": "Fayette",
+	"Location": "Tyrone Town Hall",
+	"Address": "881 Senoia Road",
+	"City": "Tyrone , GA  30290"
+},{
+	"coordinates": [-84.2500625, 33.2428168],
+	"County": "Spalding",
+	"Location": "Memorial Drive Plaza",
+	"Address": "825 Memorial Drive",
+	"City": "Griffin, GA  30224"
+},{
+	"coordinates": [-84.1599298, 33.434396],
+	"County": "Henry",
+	"Location": "Elections and Registration",
+	"Address": "345 Phillips Drive",
+	"City": "McDonough, GA  30253"
+},{
+	"coordinates": [-84.2362858, 33.5492835],
+	"County": "Henry",
+	"Location": "Merle Manders Conference Center",
+	"Address": "111 Davis Rd",
+	"City": "Stockbridge, GA  30281"
+},{
+	"coordinates": [-84.1866298, 33.6067239],
+	"County": "Henry",
+	"Location": "Fairview Library",
+	"Address": "28 Austin Rd",
+	"City": "Stockbridge, GA  30281"
+},{
+	"coordinates": [-84.274237, 33.383234],
+	"County": "Henry",
+	"Location": "Fortson Library",
+	"Address": "61 McDonough St",
+	"City": "Hampton, GA  30228"
+},{
+	"coordinates": [-84.1122617, 33.3509495],
+	"County": "Henry",
+	"Location": "Locust Grove Recreation Center",
+	"Address": "10 Cleveland St.",
+	"City": "Locust Grove, GA  30248"
+},{
+	"coordinates": [-83.859156, 33.5977453],
+	"County": "Newton",
+	"Location": "Registrar's Office/Newton Administration Bldg.",
+	"Address": "1113 Usher Street,",
+	"City": "Covington, GA  30014"
+},{
+	"coordinates": [-84.0045568, 33.5263208],
+	"County": "Newton",
+	"Location": "Porter Memorial Branch Library",
+	"Address": "6191 Highway 212",
+	"City": "Covington, GA  30016"
+},{
+	"coordinates": [-83.6989342, 33.7977874],
+	"County": "Walton",
+	"Location": "Walton County Elections Office",
+	"Address": "303 S. Hammond Drive",
+	"City": "Monroe, GA  30655"
+},{
+	"coordinates": [-84.5129982, 33.6886564],
+	"County": "Fulton",
+	"Location": "Ben Hill Recreation Center",
+	"Address": "2405 Fairburn Road SW",
+	"City": "Atlanta, GA 30331"
+},{
+	"coordinates": [-84.336664, 33.7519124],
+	"County": "Fulton",
+	"Location": "Coan Park Recreation Center",
+	"Address": "1530 Woodbine Avenue, SE",
+	"City": "Atlanta, GA 30317"
+},{
+	"coordinates": [-84.4137157, 33.7126213],
+	"County": "Fulton",
+	"Location": "Perkerson Park Recreation Center",
+	"Address": "770 Deckner Avenue, SW",
+	"City": "Atlanta, GA 30310"
+},{
+	"coordinates": [-84.3552663, 33.7741759],
+	"County": "Fulton",
+	"Location": "Ponce De Leon Library",
+	"Address": "980 Ponce De Leon Avenue NE",
+	"City": "Atlanta, GA 30306"
+},{
+	"coordinates": [-84.3792862,33.8377839],
+	"County": "Fulton",
+	"Location": "Buckhead Library",
+    "Address": "269 Buckhead Avenue NE",
+    "City": "Atlanta, GA  30305"
+},{
+    "coordinates": [-84.5416523,33.7296369],
+	"County": "Fulton",
+	"Location": "SouthWest Arts Center",
+    "Address": "915 New Hope Road SW",
+    "City": "Atlanta, GA  30331"
+},{
+    "coordinates": [-83.2285435,33.0815549],
+	"County": "Baldwin",
+	"Location": "121 N Wilkinson St",
+    "Address": "Ste 104",
+    "City": "Milledgeville, GA  31061"
+},{
+    "coordinates": [-83.2552197,31.7139029],
+	"County": "Ben Hill",
+	"Location": "Ben Hill Elections Office",
+    "Address": "115 W Pine Street",
+    "City": "Fitzgerald, GA  31750"
+},{
+    "coordinates": [-81.721063,30.9681185],
+	"County": "Camden",
+	"Location": "Voter Registration",
+    "Address": "200 E 4th St",
+    "City": "Woodbine, GA  31569"
+},{
+    "coordinates": [-83.4167206,31.12107],
+	"County": "Cook",
+	"Location": "Cook County Administration Building",
+    "Address": "1200 S Hutchinson Ave",
+    "City": "Adel, GA  31620"
+},{
+    "coordinates": [-84.9434666,31.3787738],
+	"County": "Early",
+	"Location": "Elections and Registration Office",
+    "Address": "15157 River Street",
+    "City": "Blakely, GA"
+},{
+    "coordinates": [-83.235869,34.369048],
+	"County": "Franklin",
+	"Location": "Elections & Registration Office",
+    "Address": "211 Athens Street",
+    "City": "Carnesville, GA  30521"
+},{
+    "coordinates": [-81.5958437,31.8477693],
+	"County": "Liberty",
+	"Location": "100 N. Main St. Suite 1600",
+    "Address": "Historical Courthouse",
+    "City": "Hinesville, GA  31313"
+},{
+    "coordinates": [-81.4533188,31.7984767],
+	"County": "Liberty",
+	"Location": "liberty County Complex",
+    "Address": "9397 E. Oglethorpe Hwy",
+    "City": "Midway, GA  31320"
+},{
+    "coordinates": [-82.6861835,31.9299842],
+	"County": "Telfair",
+	"Location": "City of Lumber City City Hall",
+    "Address": "301 Main St",
+    "City": "Lumber City, GA  31549"
+},{
+    "coordinates": [-81.879965,31.6041842],
+	"County": "Wayne",
+	"Location": "Wayne County Courthouse Registrar's Office",
+    "Address": "174 North Brunswick Street",
+    "City": "Jesup, GA  31546"
+}]
