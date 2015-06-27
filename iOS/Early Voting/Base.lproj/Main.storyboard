@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4iB-U6-KtM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="jvl-Nj-tRp">
+            <objects>
+                <navigationController id="4iB-U6-KtM" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eP4-lg-Feh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="iKq-gN-XmV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qgq-N0-6Ey" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-277" y="387"/>
+        </scene>
+        <!--Georgia Early Voting-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="IntroVC" customModule="Early_Voting" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The next Georgia election is" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAg-al-Z4j">
+                                <rect key="frame" x="16" y="80" width="567" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3Ft-QI-kYj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[date unknown]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEA-6w-tzr">
+                                <rect key="frame" x="16" y="121" width="568" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ZbV-jr-XPr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mg-Q2-JPX">
+                                <rect key="frame" x="16" y="536" width="568" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Nhy-Qc-xF0"/>
+                                </constraints>
+                                <state key="normal" title="Find Your Polling Places and Dates for Early Voting">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="w78-ng-2ql" kind="show" id="W7n-nC-sZh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can vote early at any location in your county" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VU5-Pn-TvN">
+                                <rect key="frame" x="188" y="440" width="224" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="4cg-ey-QQw"/>
+                                    <constraint firstAttribute="width" constant="224" id="Z1J-VZ-se6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3mg-Q2-JPX" firstAttribute="top" secondItem="VU5-Pn-TvN" secondAttribute="bottom" constant="8" id="BzE-UD-pMB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3mg-Q2-JPX" secondAttribute="trailing" id="FnX-A9-soN"/>
+                            <constraint firstAttribute="centerX" secondItem="VU5-Pn-TvN" secondAttribute="centerX" id="HtE-uE-MCW"/>
+                            <constraint firstItem="GEA-6w-tzr" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="K9m-UH-Qfn"/>
+                            <constraint firstItem="lAg-al-Z4j" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="Nmi-Jd-3ZM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lAg-al-Z4j" secondAttribute="trailing" constant="1" id="Wo9-Gt-8JV"/>
+                            <constraint firstItem="GEA-6w-tzr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="djw-Qe-BiR"/>
+                            <constraint firstItem="lAg-al-Z4j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jct-BI-p7l"/>
+                            <constraint firstItem="3mg-Q2-JPX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="px0-4q-kt3"/>
+                            <constraint firstItem="GEA-6w-tzr" firstAttribute="top" secondItem="lAg-al-Z4j" secondAttribute="bottom" constant="20" id="zPh-BR-Bap"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3mg-Q2-JPX" secondAttribute="bottom" constant="20" id="zof-We-GfI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Georgia Early Voting" id="g94-8h-qFM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="433" y="387"/>
+        </scene>
+        <!--CountiesTVC-->
+        <scene sceneID="Gmi-JV-xal">
+            <objects>
+                <tableViewController id="w78-ng-2ql" customClass="CountiesTVC" customModule="Early_Voting" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="VH5-Qb-xJ1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="e8V-HK-C37">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="w78-ng-2ql" id="m4g-bh-vrf"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="QbK-s9-iYs" detailTextLabel="fqD-0U-RsQ" style="IBUITableViewCellStyleValue1" id="M8W-A1-Rwn">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M8W-A1-Rwn" id="7nT-JM-94Z">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QbK-s9-iYs">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fqD-0U-RsQ">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Tn8-aO-7um" kind="show" id="odg-uD-8aG"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="w78-ng-2ql" id="ClH-KE-kDa"/>
+                            <outlet property="delegate" destination="w78-ng-2ql" id="Hty-SN-GY7"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="f7B-tV-3tl" id="VlV-7a-FoR"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LEj-4h-Pqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="f7B-tV-3tl">
+                    <connections>
+                        <outlet property="delegate" destination="w78-ng-2ql" id="t0R-oO-6cU"/>
+                        <outlet property="searchBar" destination="e8V-HK-C37" id="cgg-wd-JTD"/>
+                        <outlet property="searchContentsController" destination="w78-ng-2ql" id="NgV-qc-8Zl"/>
+                        <outlet property="searchResultsDataSource" destination="w78-ng-2ql" id="kiQ-jd-jej"/>
+                        <outlet property="searchResultsDelegate" destination="w78-ng-2ql" id="gtb-gi-fYt"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="1126" y="387"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4Oe-zh-ZhW">
+            <objects>
+                <viewController id="Tn8-aO-7um" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jSL-fl-zMI"/>
+                        <viewControllerLayoutGuide type="bottom" id="npP-Nr-O7r"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zt7-v8-s5T">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="G7j-sK-VEU">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="G7j-sK-VEU" firstAttribute="leading" secondItem="Zt7-v8-s5T" secondAttribute="leading" id="18h-TT-Sg2"/>
+                            <constraint firstItem="G7j-sK-VEU" firstAttribute="top" secondItem="jSL-fl-zMI" secondAttribute="bottom" id="8fc-Tl-iuh"/>
+                            <constraint firstAttribute="trailing" secondItem="G7j-sK-VEU" secondAttribute="trailing" id="Ho4-Xj-cZC"/>
+                            <constraint firstItem="npP-Nr-O7r" firstAttribute="top" secondItem="G7j-sK-VEU" secondAttribute="bottom" id="Vxg-20-3NS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CQZ-ar-T7j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1879" y="387"/>
+        </scene>
+    </scenes>
+</document>
