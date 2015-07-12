@@ -20,6 +20,7 @@
 		EC20EC1D1B3F1C77005D8025 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EC1C1B3F1C77005D8025 /* MapVC.swift */; };
 		EC4851DC1B4022B8006F70A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4851DB1B4022B8006F70A8 /* MapKit.framework */; };
 		EC4851DE1B408A5E006F70A8 /* Counties.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC4851DD1B408A5E006F70A8 /* Counties.plist */; };
+		ECACB69E1B52B7A600C08540 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECACB69D1B52B7A600C08540 /* RegisterVC.swift */; };
 		ECDD18001B3EC9250003B350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD17FF1B3EC9250003B350 /* AppDelegate.swift */; };
 		ECDD18051B3EC9250003B350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDD18031B3EC9250003B350 /* Main.storyboard */; };
 		ECDD18071B3EC9250003B350 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDD18061B3EC9250003B350 /* Images.xcassets */; };
@@ -59,6 +60,7 @@
 		EC20EC1C1B3F1C77005D8025 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		EC4851DB1B4022B8006F70A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EC4851DD1B408A5E006F70A8 /* Counties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Counties.plist; sourceTree = "<group>"; };
+		ECACB69D1B52B7A600C08540 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		ECDD17FA1B3EC9250003B350 /* Early Voting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Early Voting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDD17FE1B3EC9250003B350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDD17FF1B3EC9250003B350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				EC4851DD1B408A5E006F70A8 /* Counties.plist */,
 				EC20EC101B3ECDAF005D8025 /* Data.swift */,
 				EC20EC121B3ED2EE005D8025 /* IntroVC.swift */,
+				ECACB69D1B52B7A600C08540 /* RegisterVC.swift */,
 				EC20EC161B3EE403005D8025 /* CountiesTVC.swift */,
 				EC20EC1C1B3F1C77005D8025 /* MapVC.swift */,
 				ECDD18031B3EC9250003B350 /* Main.storyboard */,
@@ -289,6 +292,7 @@
 				EC20EC131B3ED2EE005D8025 /* IntroVC.swift in Sources */,
 				EC1557871B435CCA00F31B67 /* MBXMapKit.m in Sources */,
 				EC20EC171B3EE403005D8025 /* CountiesTVC.swift in Sources */,
+				ECACB69E1B52B7A600C08540 /* RegisterVC.swift in Sources */,
 				EC1557821B435CCA00F31B67 /* MBXOfflineMapDatabase.m in Sources */,
 				EC1557831B435CCA00F31B67 /* MBXOfflineMapDownloader.m in Sources */,
 			);
