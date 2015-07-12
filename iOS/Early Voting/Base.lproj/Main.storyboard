@@ -51,20 +51,34 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mg-Q2-JPX">
-                                <rect key="frame" x="16" y="536" width="568" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="YRM-NH-bao">
+                                <rect key="frame" x="15" y="514" width="568" height="66"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="Nhy-Qc-xF0"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="66" id="6V7-Hr-DmH"/>
+                                    <constraint firstAttribute="height" constant="66" id="dTo-UR-kLK"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Register to Vote or Change Registration">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3mg-Q2-JPX">
+                                <rect key="frame" x="16" y="440" width="568" height="66"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="Nhy-Qc-xF0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Find Your Polling Places and Dates for Early Voting">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="w78-ng-2ql" kind="show" id="W7n-nC-sZh"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can vote early at any location in your county" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VU5-Pn-TvN">
-                                <rect key="frame" x="188" y="440" width="224" height="88"/>
+                                <rect key="frame" x="188" y="344" width="224" height="88"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="88" id="4cg-ey-QQw"/>
                                     <constraint firstAttribute="width" constant="224" id="Z1J-VZ-se6"/>
@@ -76,17 +90,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="YRM-NH-bao" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="03n-fn-qpq"/>
                             <constraint firstItem="3mg-Q2-JPX" firstAttribute="top" secondItem="VU5-Pn-TvN" secondAttribute="bottom" constant="8" id="BzE-UD-pMB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="3mg-Q2-JPX" secondAttribute="trailing" id="FnX-A9-soN"/>
                             <constraint firstAttribute="centerX" secondItem="VU5-Pn-TvN" secondAttribute="centerX" id="HtE-uE-MCW"/>
                             <constraint firstItem="GEA-6w-tzr" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="K9m-UH-Qfn"/>
+                            <constraint firstItem="YRM-NH-bao" firstAttribute="top" secondItem="3mg-Q2-JPX" secondAttribute="bottom" constant="8" id="NLo-1y-rGQ"/>
                             <constraint firstItem="lAg-al-Z4j" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="Nmi-Jd-3ZM"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lAg-al-Z4j" secondAttribute="trailing" constant="1" id="Wo9-Gt-8JV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YRM-NH-bao" secondAttribute="trailing" id="bGY-Lo-1w8"/>
                             <constraint firstItem="GEA-6w-tzr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="djw-Qe-BiR"/>
                             <constraint firstItem="lAg-al-Z4j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jct-BI-p7l"/>
                             <constraint firstItem="3mg-Q2-JPX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="px0-4q-kt3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YRM-NH-bao" secondAttribute="bottom" constant="20" id="wyq-rZ-Yio"/>
                             <constraint firstItem="GEA-6w-tzr" firstAttribute="top" secondItem="lAg-al-Z4j" secondAttribute="bottom" constant="20" id="zPh-BR-Bap"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3mg-Q2-JPX" secondAttribute="bottom" constant="20" id="zof-We-GfI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Georgia Early Voting" id="g94-8h-qFM"/>
@@ -94,6 +111,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="433" y="387"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qOE-my-bfK">
+            <objects>
+                <viewController id="1d9-xF-jcy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f63-MC-o5D"/>
+                        <viewControllerLayoutGuide type="bottom" id="tnL-AL-Eek"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KNu-os-2Op">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="T4i-6u-vhT">
+                                <rect key="frame" x="0.0" y="178" width="600" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="457185963.27804601">
+                                    <!--2015-06-28 12:06:03 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WHz-ka-Y72" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2559" y="387"/>
         </scene>
         <!--CountiesTVC-->
         <scene sceneID="Gmi-JV-xal">
@@ -158,10 +201,10 @@
             </objects>
             <point key="canvasLocation" x="1126" y="387"/>
         </scene>
-        <!--View Controller-->
+        <!--MapVC-->
         <scene sceneID="4Oe-zh-ZhW">
             <objects>
-                <viewController id="Tn8-aO-7um" sceneMemberID="viewController">
+                <viewController id="Tn8-aO-7um" customClass="MapVC" customModule="Early_Voting" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jSL-fl-zMI"/>
                         <viewControllerLayoutGuide type="bottom" id="npP-Nr-O7r"/>
@@ -182,6 +225,9 @@
                             <constraint firstItem="npP-Nr-O7r" firstAttribute="top" secondItem="G7j-sK-VEU" secondAttribute="bottom" id="Vxg-20-3NS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="G7j-sK-VEU" id="gHd-iO-HwB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CQZ-ar-T7j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

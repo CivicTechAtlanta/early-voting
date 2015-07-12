@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC1557701B43571900F31B67 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC15576F1B43571900F31B67 /* libsqlite3.dylib */; };
+		EC1557821B435CCA00F31B67 /* MBXOfflineMapDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1557781B435A5600F31B67 /* MBXOfflineMapDatabase.m */; };
+		EC1557831B435CCA00F31B67 /* MBXOfflineMapDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EC15577A1B435A5600F31B67 /* MBXOfflineMapDownloader.m */; };
+		EC1557841B435CCA00F31B67 /* MBXPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC15577C1B435A5600F31B67 /* MBXPointAnnotation.m */; };
+		EC1557851B435CCA00F31B67 /* MBXRasterTileOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = EC15577E1B435A5600F31B67 /* MBXRasterTileOverlay.m */; };
+		EC1557861B435CCA00F31B67 /* MBXRasterTileRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1557801B435A5600F31B67 /* MBXRasterTileRenderer.m */; };
+		EC1557871B435CCA00F31B67 /* MBXMapKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1557741B43584700F31B67 /* MBXMapKit.m */; };
 		EC20EC111B3ECDAF005D8025 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EC101B3ECDAF005D8025 /* Data.swift */; };
 		EC20EC131B3ED2EE005D8025 /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EC121B3ED2EE005D8025 /* IntroVC.swift */; };
 		EC20EC171B3EE403005D8025 /* CountiesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EC161B3EE403005D8025 /* CountiesTVC.swift */; };
-		EC20EC191B3EEFBB005D8025 /* County.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EC181B3EEFBB005D8025 /* County.swift */; };
+		EC20EC1D1B3F1C77005D8025 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC20EC1C1B3F1C77005D8025 /* MapVC.swift */; };
+		EC4851DC1B4022B8006F70A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4851DB1B4022B8006F70A8 /* MapKit.framework */; };
+		EC4851DE1B408A5E006F70A8 /* Counties.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC4851DD1B408A5E006F70A8 /* Counties.plist */; };
 		ECDD18001B3EC9250003B350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD17FF1B3EC9250003B350 /* AppDelegate.swift */; };
 		ECDD18051B3EC9250003B350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDD18031B3EC9250003B350 /* Main.storyboard */; };
 		ECDD18071B3EC9250003B350 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDD18061B3EC9250003B350 /* Images.xcassets */; };
@@ -29,10 +38,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC15576F1B43571900F31B67 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EC1557721B43580E00F31B67 /* MBXMapKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MBXMapKit.h; path = MBXMapKit/MBXMapKit.h; sourceTree = "<group>"; };
+		EC1557731B43584700F31B67 /* Early Voting-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Early Voting-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC1557741B43584700F31B67 /* MBXMapKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBXMapKit.m; path = MBXMapKit/MBXMapKit.m; sourceTree = "<group>"; };
+		EC1557761B435A5600F31B67 /* MBXConstantsAndTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXConstantsAndTypes.h; sourceTree = "<group>"; };
+		EC1557771B435A5600F31B67 /* MBXOfflineMapDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXOfflineMapDatabase.h; sourceTree = "<group>"; };
+		EC1557781B435A5600F31B67 /* MBXOfflineMapDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXOfflineMapDatabase.m; sourceTree = "<group>"; };
+		EC1557791B435A5600F31B67 /* MBXOfflineMapDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXOfflineMapDownloader.h; sourceTree = "<group>"; };
+		EC15577A1B435A5600F31B67 /* MBXOfflineMapDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXOfflineMapDownloader.m; sourceTree = "<group>"; };
+		EC15577B1B435A5600F31B67 /* MBXPointAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXPointAnnotation.h; sourceTree = "<group>"; };
+		EC15577C1B435A5600F31B67 /* MBXPointAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXPointAnnotation.m; sourceTree = "<group>"; };
+		EC15577D1B435A5600F31B67 /* MBXRasterTileOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXRasterTileOverlay.h; sourceTree = "<group>"; };
+		EC15577E1B435A5600F31B67 /* MBXRasterTileOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXRasterTileOverlay.m; sourceTree = "<group>"; };
+		EC15577F1B435A5600F31B67 /* MBXRasterTileRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXRasterTileRenderer.h; sourceTree = "<group>"; };
+		EC1557801B435A5600F31B67 /* MBXRasterTileRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXRasterTileRenderer.m; sourceTree = "<group>"; };
 		EC20EC101B3ECDAF005D8025 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		EC20EC121B3ED2EE005D8025 /* IntroVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
 		EC20EC161B3EE403005D8025 /* CountiesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountiesTVC.swift; sourceTree = "<group>"; };
-		EC20EC181B3EEFBB005D8025 /* County.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = County.swift; sourceTree = "<group>"; };
+		EC20EC1C1B3F1C77005D8025 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		EC4851DB1B4022B8006F70A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EC4851DD1B408A5E006F70A8 /* Counties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Counties.plist; sourceTree = "<group>"; };
 		ECDD17FA1B3EC9250003B350 /* Early Voting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Early Voting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDD17FE1B3EC9250003B350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDD17FF1B3EC9250003B350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1557701B43571900F31B67 /* libsqlite3.dylib in Frameworks */,
+				EC4851DC1B4022B8006F70A8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,10 +90,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC1557711B43579A00F31B67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC1557761B435A5600F31B67 /* MBXConstantsAndTypes.h */,
+				EC1557771B435A5600F31B67 /* MBXOfflineMapDatabase.h */,
+				EC1557781B435A5600F31B67 /* MBXOfflineMapDatabase.m */,
+				EC1557791B435A5600F31B67 /* MBXOfflineMapDownloader.h */,
+				EC15577A1B435A5600F31B67 /* MBXOfflineMapDownloader.m */,
+				EC15577B1B435A5600F31B67 /* MBXPointAnnotation.h */,
+				EC15577C1B435A5600F31B67 /* MBXPointAnnotation.m */,
+				EC15577D1B435A5600F31B67 /* MBXRasterTileOverlay.h */,
+				EC15577E1B435A5600F31B67 /* MBXRasterTileOverlay.m */,
+				EC15577F1B435A5600F31B67 /* MBXRasterTileRenderer.h */,
+				EC1557801B435A5600F31B67 /* MBXRasterTileRenderer.m */,
+				EC1557721B43580E00F31B67 /* MBXMapKit.h */,
+				EC1557741B43584700F31B67 /* MBXMapKit.m */,
+				EC1557731B43584700F31B67 /* Early Voting-Bridging-Header.h */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECDD17F11B3EC9240003B350 = {
 			isa = PBXGroup;
 			children = (
+				EC15576F1B43571900F31B67 /* libsqlite3.dylib */,
+				EC4851DB1B4022B8006F70A8 /* MapKit.framework */,
 				ECDD17FC1B3EC9250003B350 /* Early Voting */,
+				EC1557711B43579A00F31B67 /* Frameworks */,
 				ECDD18121B3EC9250003B350 /* Early VotingTests */,
 				ECDD17FB1B3EC9250003B350 /* Products */,
 			);
@@ -83,10 +135,11 @@
 		ECDD17FC1B3EC9250003B350 /* Early Voting */ = {
 			isa = PBXGroup;
 			children = (
-				EC20EC181B3EEFBB005D8025 /* County.swift */,
+				EC4851DD1B408A5E006F70A8 /* Counties.plist */,
 				EC20EC101B3ECDAF005D8025 /* Data.swift */,
 				EC20EC121B3ED2EE005D8025 /* IntroVC.swift */,
 				EC20EC161B3EE403005D8025 /* CountiesTVC.swift */,
+				EC20EC1C1B3F1C77005D8025 /* MapVC.swift */,
 				ECDD18031B3EC9250003B350 /* Main.storyboard */,
 				ECDD17FD1B3EC9250003B350 /* Supporting Files */,
 			);
@@ -170,6 +223,11 @@
 				TargetAttributes = {
 					ECDD17F91B3EC9240003B350 = {
 						CreatedOnToolsVersion = 6.3.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					ECDD180E1B3EC9250003B350 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -203,6 +261,7 @@
 			files = (
 				ECDD18051B3EC9250003B350 /* Main.storyboard in Resources */,
 				ECDD180A1B3EC9250003B350 /* LaunchScreen.xib in Resources */,
+				EC4851DE1B408A5E006F70A8 /* Counties.plist in Resources */,
 				ECDD18071B3EC9250003B350 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,11 +280,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC20EC191B3EEFBB005D8025 /* County.swift in Sources */,
+				EC1557851B435CCA00F31B67 /* MBXRasterTileOverlay.m in Sources */,
+				EC20EC1D1B3F1C77005D8025 /* MapVC.swift in Sources */,
 				ECDD18001B3EC9250003B350 /* AppDelegate.swift in Sources */,
 				EC20EC111B3ECDAF005D8025 /* Data.swift in Sources */,
+				EC1557841B435CCA00F31B67 /* MBXPointAnnotation.m in Sources */,
+				EC1557861B435CCA00F31B67 /* MBXRasterTileRenderer.m in Sources */,
 				EC20EC131B3ED2EE005D8025 /* IntroVC.swift in Sources */,
+				EC1557871B435CCA00F31B67 /* MBXMapKit.m in Sources */,
 				EC20EC171B3EE403005D8025 /* CountiesTVC.swift in Sources */,
+				EC1557821B435CCA00F31B67 /* MBXOfflineMapDatabase.m in Sources */,
+				EC1557831B435CCA00F31B67 /* MBXOfflineMapDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,9 +419,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Early Voting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Early Voting-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -364,9 +432,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Early Voting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Early Voting-Bridging-Header.h";
 			};
 			name = Release;
 		};
