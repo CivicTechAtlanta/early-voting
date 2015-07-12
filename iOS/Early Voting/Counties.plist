@@ -31,7 +31,7 @@
 		<array>
 			<real>-83.661672</real>
 			<real>34.716007</real>
-			<real>-83.098244</real>
+			<real>-83.09824399999999</real>
 			<real>35.000659</real>
 		</array>
 	</dict>
@@ -40,7 +40,7 @@
 		<string>Floyd</string>
 		<key>bbox</key>
 		<array>
-			<real>-85.462207</real>
+			<real>-85.46220700000001</real>
 			<real>34.079133</real>
 			<real>-85.005235</real>
 			<real>34.587483</real>
@@ -62,7 +62,7 @@
 		<string>Marion</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.658983</real>
+			<real>-84.65898300000001</real>
 			<real>32.134058</real>
 			<real>-84.389927</real>
 			<real>32.562083</real>
@@ -84,7 +84,7 @@
 		<string>Dawson</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.34655</real>
+			<real>-84.34654999999999</real>
 			<real>34.334011</real>
 			<real>-83.957077</real>
 			<real>34.617924</real>
@@ -119,7 +119,7 @@
 		<array>
 			<real>-84.657098</real>
 			<real>34.548495</real>
-			<real>-84.193481</real>
+			<real>-84.19348100000001</real>
 			<real>34.85556</real>
 		</array>
 	</dict>
@@ -150,7 +150,7 @@
 		<string>Bleckley</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.498089</real>
+			<real>-83.49808899999999</real>
 			<real>32.272489</real>
 			<real>-83.138991</real>
 			<real>32.584201</real>
@@ -174,7 +174,7 @@
 		<array>
 			<real>-85.265114</real>
 			<real>34.767639</real>
-			<real>-84.979661</real>
+			<real>-84.97966099999999</real>
 			<real>34.987647</real>
 		</array>
 	</dict>
@@ -185,7 +185,7 @@
 		<array>
 			<real>-82.421097</real>
 			<real>30.355757</real>
-			<real>-81.891878</real>
+			<real>-81.89187800000001</real>
 			<real>31.075467</real>
 		</array>
 	</dict>
@@ -196,7 +196,7 @@
 		<array>
 			<real>-84.202628</real>
 			<real>32.529695</real>
-			<real>-83.70109</real>
+			<real>-83.70108999999999</real>
 			<real>32.857137</real>
 		</array>
 	</dict>
@@ -216,7 +216,7 @@
 		<string>Decatur</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.871322</real>
+			<real>-84.87132200000001</real>
 			<real>30.689993</real>
 			<real>-84.375929</real>
 			<real>31.079544</real>
@@ -238,7 +238,7 @@
 		<string>Echols</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.13662</real>
+			<real>-83.13661999999999</real>
 			<real>30.591548</real>
 			<real>-82.578692</real>
 			<real>30.872249</real>
@@ -249,7 +249,7 @@
 		<string>Fayette</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.62722</real>
+			<real>-84.62721999999999</real>
 			<real>33.2565</real>
 			<real>-84.38163</real>
 			<real>33.550933</real>
@@ -282,9 +282,9 @@
 		<string>Cook</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.577053</real>
+			<real>-83.57705300000001</real>
 			<real>31.027275</real>
-			<real>-83.279728</real>
+			<real>-83.27972800000001</real>
 			<real>31.350361</real>
 		</array>
 	</dict>
@@ -293,9 +293,9 @@
 		<string>Grady</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.380705</real>
+			<real>-84.38070500000001</real>
 			<real>30.675804</real>
-			<real>-84.07291</real>
+			<real>-84.07290999999999</real>
 			<real>31.078949</real>
 		</array>
 	</dict>
@@ -304,9 +304,9 @@
 		<string>Lanier</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.197995</real>
+			<real>-83.19799500000001</real>
 			<real>30.844709</real>
-			<real>-82.969659</real>
+			<real>-82.96965899999999</real>
 			<real>31.184208</real>
 		</array>
 	</dict>
@@ -315,9 +315,9 @@
 		<string>Morgan</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.687401</real>
+			<real>-83.68740099999999</real>
 			<real>33.434472</real>
-			<real>-83.269134</real>
+			<real>-83.26913399999999</real>
 			<real>33.817829</real>
 		</array>
 	</dict>
@@ -326,7 +326,7 @@
 		<string>Rockdale</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.184143</real>
+			<real>-84.18414300000001</real>
 			<real>33.525776</real>
 			<real>-83.91323</real>
 			<real>33.786054</real>
@@ -359,7 +359,7 @@
 		<string>Lowndes</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.484766</real>
+			<real>-83.48476599999999</real>
 			<real>30.623967</real>
 			<real>-83.019419</real>
 			<real>31.031964</real>
@@ -383,7 +383,7 @@
 		<array>
 			<real>-83.647031</real>
 			<real>33.698327</real>
-			<real>-83.275933</real>
+			<real>-83.27593299999999</real>
 			<real>33.965912</real>
 		</array>
 	</dict>
@@ -392,9 +392,9 @@
 		<string>Seminole</string>
 		<key>bbox</key>
 		<array>
-			<real>-85.028573</real>
+			<real>-85.02857299999999</real>
 			<real>30.711493</real>
-			<real>-84.730855</real>
+			<real>-84.73085500000001</real>
 			<real>31.075564</real>
 		</array>
 	</dict>
@@ -403,7 +403,7 @@
 		<string>Bartow</string>
 		<key>bbox</key>
 		<array>
-			<real>-85.047074</real>
+			<real>-85.04707399999999</real>
 			<real>34.075296</real>
 			<real>-84.644293</real>
 			<real>34.413061</real>
@@ -458,7 +458,7 @@
 		<string>Bacon</string>
 		<key>bbox</key>
 		<array>
-			<real>-82.628273</real>
+			<real>-82.62827299999999</real>
 			<real>31.416906</real>
 			<real>-82.226585</real>
 			<real>31.710796</real>
@@ -482,7 +482,7 @@
 		<array>
 			<real>-82.957066</real>
 			<real>32.509473</real>
-			<real>-82.434149</real>
+			<real>-82.43414900000001</real>
 			<real>32.822356</real>
 		</array>
 	</dict>
@@ -493,7 +493,7 @@
 		<array>
 			<real>-84.703377</real>
 			<real>32.518639</real>
-			<real>-84.286516</real>
+			<real>-84.28651600000001</real>
 			<real>32.883595</real>
 		</array>
 	</dict>
@@ -504,7 +504,7 @@
 		<array>
 			<real>-82.647733</real>
 			<real>32.291882</real>
-			<real>-82.001236</real>
+			<real>-82.00123600000001</real>
 			<real>32.84133</real>
 		</array>
 	</dict>
@@ -513,7 +513,7 @@
 		<string>Heard</string>
 		<key>bbox</key>
 		<array>
-			<real>-85.293805</real>
+			<real>-85.29380500000001</real>
 			<real>33.129559</real>
 			<real>-84.939015</real>
 			<real>33.428106</real>
@@ -524,7 +524,7 @@
 		<string>Jackson</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.817602</real>
+			<real>-83.81760199999999</real>
 			<real>33.965912</real>
 			<real>-83.357051</real>
 			<real>34.295276</real>
@@ -535,9 +535,9 @@
 		<string>Houston</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.856851</real>
+			<real>-83.85685100000001</real>
 			<real>32.282583</real>
-			<real>-83.482459</real>
+			<real>-83.48245900000001</real>
 			<real>32.692169</real>
 		</array>
 	</dict>
@@ -601,9 +601,9 @@
 		<string>Walker</string>
 		<key>bbox</key>
 		<array>
-			<real>-85.534089</real>
+			<real>-85.53408899999999</real>
 			<real>34.581799</real>
-			<real>-85.050446</real>
+			<real>-85.05044599999999</real>
 			<real>34.985175</real>
 		</array>
 	</dict>
@@ -689,7 +689,7 @@
 		<string>Putnam</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.545876</real>
+			<real>-83.54587600000001</real>
 			<real>33.167491</real>
 			<real>-83.143428</real>
 			<real>33.483447</real>
@@ -724,7 +724,7 @@
 		<array>
 			<real>-82.353498</real>
 			<real>33.227165</real>
-			<real>-81.828336</real>
+			<real>-81.82833599999999</real>
 			<real>33.544934</real>
 		</array>
 	</dict>
@@ -744,9 +744,9 @@
 		<string>Sumter</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.443807</real>
+			<real>-84.44380700000001</real>
 			<real>31.872756</real>
-			<real>-83.919119</real>
+			<real>-83.91911899999999</real>
 			<real>32.229703</real>
 		</array>
 	</dict>
@@ -755,7 +755,7 @@
 		<string>Thomas</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.119245</real>
+			<real>-84.11924500000001</real>
 			<real>30.658396</real>
 			<real>-83.736158</real>
 			<real>31.077971</real>
@@ -766,7 +766,7 @@
 		<string>Hall</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.062841</real>
+			<real>-84.06284100000001</real>
 			<real>34.098281</real>
 			<real>-83.61529</real>
 			<real>34.514096</real>
@@ -801,7 +801,7 @@
 		<array>
 			<real>-83.207583</real>
 			<real>31.774629</real>
-			<real>-82.645581</real>
+			<real>-82.64558100000001</real>
 			<real>32.153274</real>
 		</array>
 	</dict>
@@ -812,7 +812,7 @@
 		<array>
 			<real>-85.33823</real>
 			<real>33.425506</real>
-			<real>-84.808934</real>
+			<real>-84.80893399999999</real>
 			<real>33.812429</real>
 		</array>
 	</dict>
@@ -823,7 +823,7 @@
 		<array>
 			<real>-83.982201</real>
 			<real>33.596919</real>
-			<real>-83.505902</real>
+			<real>-83.50590200000001</real>
 			<real>33.929844</real>
 		</array>
 	</dict>
@@ -834,7 +834,7 @@
 		<array>
 			<real>-82.940242</real>
 			<real>31.918883</real>
-			<real>-82.539184</real>
+			<real>-82.53918400000001</real>
 			<real>32.310324</real>
 		</array>
 	</dict>
@@ -843,7 +843,7 @@
 		<string>White</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.877418</real>
+			<real>-83.87741800000001</real>
 			<real>34.503598</real>
 			<real>-83.615517</real>
 			<real>34.801374</real>
@@ -865,9 +865,9 @@
 		<string>Stephens</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.45977</real>
+			<real>-83.45977000000001</real>
 			<real>34.461135</real>
-			<real>-83.103451</real>
+			<real>-83.10345100000001</real>
 			<real>34.687187</real>
 		</array>
 	</dict>
@@ -876,9 +876,9 @@
 		<string>Spalding</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.509104</real>
+			<real>-84.50910399999999</real>
 			<real>33.17862</real>
-			<real>-84.088991</real>
+			<real>-84.08899099999999</real>
 			<real>33.352621</real>
 		</array>
 	</dict>
@@ -931,7 +931,7 @@
 		<string>Worth</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.03288</real>
+			<real>-84.03288000000001</real>
 			<real>31.318365</real>
 			<real>-83.649384</real>
 			<real>31.849588</real>
@@ -942,7 +942,7 @@
 		<string>Barrow</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.869115</real>
+			<real>-83.86911499999999</real>
 			<real>33.894573</real>
 			<real>-83.537385</real>
 			<real>34.127518</real>
@@ -953,9 +953,9 @@
 		<string>Gordon</string>
 		<key>bbox</key>
 		<array>
-			<real>-85.112327</real>
+			<real>-85.11232699999999</real>
 			<real>34.38419</real>
-			<real>-84.644432</real>
+			<real>-84.64443199999999</real>
 			<real>34.634128</real>
 		</array>
 	</dict>
@@ -975,7 +975,7 @@
 		<string>Treutlen</string>
 		<key>bbox</key>
 		<array>
-			<real>-82.748742</real>
+			<real>-82.74874199999999</real>
 			<real>32.293595</real>
 			<real>-82.38194</real>
 			<real>32.512507</real>
@@ -999,7 +999,7 @@
 		<array>
 			<real>-83.141586</real>
 			<real>31.183012</real>
-			<real>-82.62896</real>
+			<real>-82.62896000000001</real>
 			<real>31.420395</real>
 		</array>
 	</dict>
@@ -1019,7 +1019,7 @@
 		<string>Glascock</string>
 		<key>bbox</key>
 		<array>
-			<real>-82.755846</real>
+			<real>-82.75584600000001</real>
 			<real>33.118881</real>
 			<real>-82.431957</real>
 			<real>33.32727</real>
@@ -1030,7 +1030,7 @@
 		<string>Greene</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.406196</real>
+			<real>-83.40619599999999</real>
 			<real>33.35503</real>
 			<real>-82.950723</real>
 			<real>33.761774</real>
@@ -1098,7 +1098,7 @@
 		<array>
 			<real>-84.033411</real>
 			<real>32.027938</real>
-			<real>-83.606113</real>
+			<real>-83.60611299999999</real>
 			<real>32.292175</real>
 		</array>
 	</dict>
@@ -1107,9 +1107,9 @@
 		<string>Harris</string>
 		<key>bbox</key>
 		<array>
-			<real>-85.184914</real>
+			<real>-85.18491400000001</real>
 			<real>32.583129</real>
-			<real>-84.682876</real>
+			<real>-84.68287599999999</real>
 			<real>32.872496</real>
 		</array>
 	</dict>
@@ -1118,7 +1118,7 @@
 		<string>Fannin</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.622752</real>
+			<real>-84.62275200000001</real>
 			<real>34.602958</real>
 			<real>-84.092589</real>
 			<real>34.989639</real>
@@ -1142,7 +1142,7 @@
 		<array>
 			<real>-81.936988</real>
 			<real>30.708651</real>
-			<real>-81.304353</real>
+			<real>-81.30435300000001</real>
 			<real>31.169595</real>
 		</array>
 	</dict>
@@ -1173,9 +1173,9 @@
 		<string>Chattahoochee</string>
 		<key>bbox</key>
 		<array>
-			<real>-85.008096</real>
+			<real>-85.00809599999999</real>
 			<real>32.220951</real>
-			<real>-84.637323</real>
+			<real>-84.63732299999999</real>
 			<real>32.534956</real>
 		</array>
 	</dict>
@@ -1197,7 +1197,7 @@
 		<array>
 			<real>-83.66967</real>
 			<real>34.197499</real>
-			<real>-83.337849</real>
+			<real>-83.33784900000001</real>
 			<real>34.491734</real>
 		</array>
 	</dict>
@@ -1206,7 +1206,7 @@
 		<string>Ben Hill</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.484529</real>
+			<real>-83.48452899999999</real>
 			<real>31.651691</real>
 			<real>-82.995666</real>
 			<real>31.851987</real>
@@ -1241,7 +1241,7 @@
 		<array>
 			<real>-82.254572</real>
 			<real>32.268783</real>
-			<real>-81.918652</real>
+			<real>-81.91865199999999</real>
 			<real>32.560063</real>
 		</array>
 	</dict>
@@ -1250,7 +1250,7 @@
 		<string>Clinch</string>
 		<key>bbox</key>
 		<array>
-			<real>-82.971336</real>
+			<real>-82.97133599999999</real>
 			<real>30.581767</real>
 			<real>-82.418632</real>
 			<real>31.184154</real>
@@ -1261,7 +1261,7 @@
 		<string>Chatham</string>
 		<key>bbox</key>
 		<array>
-			<real>-81.391698</real>
+			<real>-81.39169800000001</real>
 			<real>31.705198</real>
 			<real>-80.751429</real>
 			<real>32.237591</real>
@@ -1329,7 +1329,7 @@
 		<array>
 			<real>-83.500952</real>
 			<real>31.471857</real>
-			<real>-82.99836</real>
+			<real>-82.99836000000001</real>
 			<real>31.769659</real>
 		</array>
 	</dict>
@@ -1373,7 +1373,7 @@
 		<array>
 			<real>-84.19104</real>
 			<real>34.418674</real>
-			<real>-83.831618</real>
+			<real>-83.83161800000001</real>
 			<real>34.740944</real>
 		</array>
 	</dict>
@@ -1382,7 +1382,7 @@
 		<string>McDuffie</string>
 		<key>bbox</key>
 		<array>
-			<real>-82.6488</real>
+			<real>-82.64879999999999</real>
 			<real>33.310879</real>
 			<real>-82.294179</real>
 			<real>33.659994</real>
@@ -1395,7 +1395,7 @@
 		<array>
 			<real>-82.656244</real>
 			<real>31.948572</real>
-			<real>-82.409118</real>
+			<real>-82.40911800000001</real>
 			<real>32.353848</real>
 		</array>
 	</dict>
@@ -1415,7 +1415,7 @@
 		<string>Muscogee</string>
 		<key>bbox</key>
 		<array>
-			<real>-85.080784</real>
+			<real>-85.08078399999999</real>
 			<real>32.373874</real>
 			<real>-84.667463</real>
 			<real>32.608137</real>
@@ -1439,7 +1439,7 @@
 		<array>
 			<real>-83.946068</real>
 			<real>34.79052</real>
-			<real>-83.546883</real>
+			<real>-83.54688299999999</real>
 			<real>34.992492</real>
 		</array>
 	</dict>
@@ -1459,9 +1459,9 @@
 		<string>Warren</string>
 		<key>bbox</key>
 		<array>
-			<real>-82.866605</real>
+			<real>-82.86660500000001</real>
 			<real>33.25344</real>
-			<real>-82.383829</real>
+			<real>-82.38382900000001</real>
 			<real>33.611437</real>
 		</array>
 	</dict>
@@ -1481,9 +1481,9 @@
 		<string>Elbert</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.103287</real>
+			<real>-83.10328699999999</real>
 			<real>33.955728</real>
-			<real>-82.564462</real>
+			<real>-82.56446200000001</real>
 			<real>34.289489</real>
 		</array>
 	</dict>
@@ -1503,7 +1503,7 @@
 		<string>Early</string>
 		<key>bbox</key>
 		<array>
-			<real>-85.114601</real>
+			<real>-85.11460099999999</real>
 			<real>31.07259</real>
 			<real>-84.627579</real>
 			<real>31.51867</real>
@@ -1527,7 +1527,7 @@
 		<array>
 			<real>-83.398529</real>
 			<real>34.223753</real>
-			<real>-83.05138</real>
+			<real>-83.05137999999999</real>
 			<real>34.536617</real>
 		</array>
 	</dict>
@@ -1538,7 +1538,7 @@
 		<array>
 			<real>-83.115847</real>
 			<real>34.209708</real>
-			<real>-82.774094</real>
+			<real>-82.77409400000001</real>
 			<real>34.493761</real>
 		</array>
 	</dict>
@@ -1547,9 +1547,9 @@
 		<string>Miller</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.922423</real>
+			<real>-84.92242299999999</real>
 			<real>31.06801</real>
-			<real>-84.537101</real>
+			<real>-84.53710100000001</real>
 			<real>31.259469</real>
 		</array>
 	</dict>
@@ -1580,7 +1580,7 @@
 		<string>Webster</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.65582</real>
+			<real>-84.65582000000001</real>
 			<real>31.919167</real>
 			<real>-84.431214</real>
 			<real>32.233103</real>
@@ -1591,7 +1591,7 @@
 		<string>Washington</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.073648</real>
+			<real>-83.07364800000001</real>
 			<real>32.756261</real>
 			<real>-82.510851</real>
 			<real>33.238428</real>
@@ -1602,7 +1602,7 @@
 		<string>Bibb</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.893037</real>
+			<real>-83.89303700000001</real>
 			<real>32.660643</real>
 			<real>-83.48943</real>
 			<real>32.952792</real>
@@ -1635,9 +1635,9 @@
 		<string>Coweta</string>
 		<key>bbox</key>
 		<array>
-			<real>-85.015358</real>
+			<real>-85.01535800000001</real>
 			<real>33.191043</real>
-			<real>-84.497043</real>
+			<real>-84.49704300000001</real>
 			<real>33.511758</real>
 		</array>
 	</dict>
@@ -1646,7 +1646,7 @@
 		<string>Crisp</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.961278</real>
+			<real>-83.96127799999999</real>
 			<real>31.803495</real>
 			<real>-83.609514</real>
 			<real>32.030602</real>
@@ -1668,7 +1668,7 @@
 		<string>Douglas</string>
 		<key>bbox</key>
 		<array>
-			<real>-84.911059</real>
+			<real>-84.91105899999999</real>
 			<real>33.5733</real>
 			<real>-84.578132</real>
 			<real>33.806264</real>
@@ -1690,9 +1690,9 @@
 		<string>Haralson</string>
 		<key>bbox</key>
 		<array>
-			<real>-85.386581</real>
+			<real>-85.38658100000001</real>
 			<real>33.652087</real>
-			<real>-85.036684</real>
+			<real>-85.03668399999999</real>
 			<real>33.906302</real>
 		</array>
 	</dict>
@@ -1701,9 +1701,9 @@
 		<string>Jefferson</string>
 		<key>bbox</key>
 		<array>
-			<real>-82.662135</real>
+			<real>-82.66213500000001</real>
 			<real>32.761452</real>
-			<real>-82.232554</real>
+			<real>-82.23255399999999</real>
 			<real>33.313299</real>
 		</array>
 	</dict>
@@ -1745,7 +1745,7 @@
 		<string>Wilkinson</string>
 		<key>bbox</key>
 		<array>
-			<real>-83.40699</real>
+			<real>-83.40698999999999</real>
 			<real>32.584201</real>
 			<real>-82.945098</real>
 			<real>33.008791</real>

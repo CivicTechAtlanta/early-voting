@@ -8,8 +8,10 @@
 
 import UIKit
 
+var selectedCounty = ""
+
 class CountiesTVC: UITableViewController, UISearchResultsUpdating {
-    
+        
     var filteredCounties = [String]()
     var resultSearchController = UISearchController()
 
@@ -66,7 +68,7 @@ class CountiesTVC: UITableViewController, UISearchResultsUpdating {
         
         // add disclosure indicator programmatically if there is an election in the county
         // otherwise add a subtitle "no election"
-        if countiesWithElection.contains(county) {
+        if Data.countiesWithElection.contains(county) {
             cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
             cell.detailTextLabel?.text = " "
         } else {
@@ -87,6 +89,20 @@ class CountiesTVC: UITableViewController, UISearchResultsUpdating {
         filteredCounties = array as! [String]
         
         self.tableView.reloadData()
+    }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        resultSearchController.active = false
+        
+        if self.resultSearchController.active {
+            selectedCounty = filteredCounties[indexPath.row]
+            println(selectedCounty)
+        } else {
+            selectedCounty = gaCounties[indexPath.row]
+            println(selectedCounty)
+        }
+        
     }
 
 }

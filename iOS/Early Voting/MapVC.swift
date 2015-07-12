@@ -16,11 +16,13 @@ class MapVC: UIViewController, MKMapViewDelegate, MBXRasterTileOverlayDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = selectedCounty
+        
         mapView.delegate = self
         
-    MBXMapKit.setAccessToken("pk.eyJ1IjoibW9sbGllIiwiYSI6IjdoX1Z4d0EifQ.hXHw5tonOOCDlvh3oKQNXA")
-
-        let bbox = [-84.850713, 33.502412, -84.097692, 34.186289]
+        MBXMapKit.setAccessToken("pk.eyJ1IjoibW9sbGllIiwiYSI6IjdoX1Z4d0EifQ.hXHw5tonOOCDlvh3oKQNXA")
+        
+        let bbox = Data.getBBoxForCounty(selectedCounty)
         
         let mapSpan = MKCoordinateSpanMake((bbox[3] - bbox[1]) / 2, (bbox[2] - bbox[0]) / 2)
         let centerPoint = CLLocationCoordinate2DMake(bbox[1] + ((bbox[3] - bbox[1]) / 2), bbox[0] + ((bbox[2] - bbox[0]) / 2))
@@ -52,6 +54,11 @@ class MapVC: UIViewController, MKMapViewDelegate, MBXRasterTileOverlayDelegate {
             let mbxOverlay = overlay as! MBXRasterTileOverlay
             let renderer = MBXRasterTileRenderer(tileOverlay: mbxOverlay)
             return renderer
+        } else if overlay is MKPolyline {
+            let lineView = MKPolylineRenderer(overlay: overlay)
+            lineView.strokeColor = UIColor.greenColor()
+            
+            return lineView
         }
         return nil
     }
