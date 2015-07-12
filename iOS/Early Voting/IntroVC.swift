@@ -21,6 +21,8 @@ class IntroVC: UIViewController {
         
         Data.getCurrentElectionDataWithSuccess { (earlyVotingData) -> Void in
             
+            Data.getLocationsForCounty("Forsyth")
+            
             let formatToDate = NSDateFormatter()
             formatToDate.dateFormat = "yyyy-MM-dd"
             let formatToString = NSDateFormatter()

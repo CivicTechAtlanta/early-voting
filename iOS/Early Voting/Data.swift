@@ -22,6 +22,51 @@ class Data: NSObject {
     static var importantDates = [String:NSDate]()
     static var countiesWithElection = Set<String>()
     static var pollingPlaceData = [AnyObject]()
+    
+    class func getLocationInfo(location: [String:AnyObject]) -> Dictionary<String, AnyObject> {
+        
+        var locationInfo = Dictionary<String, AnyObject>()
+    
+        if let geometry = location["geometry"] as? [String:AnyObject] {
+            if let coordinates = geometry["coordinates"] as? [Double] {
+                locationInfo["latitude"] = coordinates[1]
+                locationInfo["longitude"] = coordinates[0]
+            }
+        }
+        
+        if let properties = location["properties"] as? [String:AnyObject] {
+            locationInfo["county"] = properties["county"]
+            locationInfo["location"] = properties["location"]
+            locationInfo["address"] = properties["address"]
+            locationInfo["city"] = properties["city"]
+            locationInfo["address"] = properties["address"]
+            locationInfo["zip"] = properties["zip"]
+//            if let dates = properties["dates"] as? [String:AnyObject] {
+//                println(dates)
+//            }
+            locationInfo["dates"] = properties["dates"]
+        }
+        
+        return locationInfo
+    }
+    
+    class func getLocationsForCounty(selectedCounty: String) -> [AnyObject] {
+        
+        var countyLocations = [AnyObject]()
+        
+        for place in pollingPlaceData {
+            if let properties = place["properties"] as? [String:AnyObject] {
+                if let county = properties["county"] as? String {
+                    if county == selectedCounty {
+                        let location = getLocationInfo(place as! [String : AnyObject])
+                        countyLocations.append(location)
+                    }
+                }
+            }
+        }
+        
+        return countyLocations
+    }
 
     class func getDates() {
         
@@ -60,20 +105,6 @@ class Data: NSObject {
                 if name == county {
                     if let bBox = countyData["bbox"] as? [Double] {
                         return bBox
-                    }
-                    break
-                }
-            }
-        }
-        return []
-    }
-    
-    class func getBorderForCounty(county: String) -> [String] {
-        for countyData in bBoxes! {
-            if let name = countyData["Name"] as? String {
-                if name == county {
-                    if let border = countyData["Border"] as? [String] {
-                        return border
                     }
                     break
                 }
