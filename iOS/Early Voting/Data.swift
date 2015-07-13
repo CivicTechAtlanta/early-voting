@@ -22,6 +22,7 @@ class Data: NSObject {
     static var importantDates = [String:NSDate]()
     static var countiesWithElection = Set<String>()
     static var pollingPlaceData = [AnyObject]()
+    static var openDates = [String]()
     
     class func getLocationInfo(location: [String:AnyObject]) -> Dictionary<String, AnyObject> {
         
@@ -97,6 +98,31 @@ class Data: NSObject {
                 }
             }
         }
+        
+        // from startDate to endDate,
+//        openDates =
+        
+        let votingStartDate = importantDates["votingStartDate"]
+        let votingEndDate = importantDates["votingEndDate"]
+        var loopDate = votingStartDate
+        let calendar = NSCalendar.currentCalendar()
+        let loopFormat = NSDateFormatter()
+        loopFormat.dateFormat = "yyyy-MM-dd"
+        
+        while loopDate!.compare(votingEndDate!) == NSComparisonResult.OrderedAscending {
+            
+            let dateString = loopFormat.stringFromDate(loopDate!)
+            openDates.append(dateString)
+            
+            // increment loopDate
+            var dayComponent = NSDateComponents()
+            dayComponent.day = 1
+            loopDate = calendar.dateByAddingComponents(dayComponent, toDate: loopDate!, options: NSCalendarOptions(rawValue: 0))
+        }
+        let lastDate = loopFormat.stringFromDate(votingEndDate!)
+        openDates.append(lastDate)
+        println(openDates)
+        
     }
     
     class func getBBoxForCounty(county: String) -> [Double] {

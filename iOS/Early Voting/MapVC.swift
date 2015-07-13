@@ -38,11 +38,7 @@ class MapVC: UIViewController, MKMapViewDelegate, MBXRasterTileOverlayDelegate {
         
         for location in countyLocations {
             
-            let coordinates:CLLocationCoordinate2D = CLLocationCoordinate2DMake(location["latitude"] as! Double, location["longitude"] as! Double)
-            let annotation = MKPointAnnotation()
-            annotation.coordinate = coordinates
-            annotation.title = location["location"] as! String
-            annotation.subtitle = location["address"] as! String
+            let annotation = PollingPlace(data: location as! [String : AnyObject])
             
             mapView.addAnnotation(annotation)
             
@@ -84,6 +80,15 @@ class MapVC: UIViewController, MKMapViewDelegate, MBXRasterTileOverlayDelegate {
         return pinView
     }
     
+    func mapView(mapView: MKMapView!, annotationView view: MKAnnotationView!, calloutAccessoryControlTapped control: UIControl!) {
+        
+        let annotation = view.annotation as! PollingPlace
+        
+        performSegueWithIdentifier("pollingPlaceSegue", sender: view)
+        
+        
+    }
+    
     func tileOverlay(overlay: MBXRasterTileOverlay!, didLoadMarkers markers: [AnyObject]!, withError error: NSError!) {
         
         if error == nil {
@@ -94,15 +99,13 @@ class MapVC: UIViewController, MKMapViewDelegate, MBXRasterTileOverlayDelegate {
         
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let destination = segue.destinationViewController as! PollingPlaceVC
+        let annotation = sender?.annotation as! PollingPlace
+        destination.pollingPlace = annotation.data
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
 
 }

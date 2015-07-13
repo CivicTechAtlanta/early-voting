@@ -12,6 +12,7 @@ class IntroVC: UIViewController {
     
     @IBOutlet weak var countiesListLabel: UILabel!
     @IBOutlet weak var nextElectionDateLabel: UILabel!
+    @IBOutlet weak var earlyVotingDateLabel: UILabel!
     @IBOutlet weak var registerToVoteLabel: UILabel!
     @IBOutlet weak var findPollingPlaceButton: UIButton!
     @IBOutlet weak var earlyVotingInfoLabel: UILabel!
@@ -32,10 +33,12 @@ class IntroVC: UIViewController {
             let today = NSDate()
             if today.compare(importantDates["electionDate"]!) == NSComparisonResult.OrderedAscending {
                 let dateString = formatToString.stringFromDate(importantDates["electionDate"]!)
+                let earlyString = formatToString.stringFromDate(importantDates["votingStartDate"]!)
                 dispatch_async(dispatch_get_main_queue()) {
                     self.earlyVotingInfoLabel.text = "You can vote early at any location in your county"
                     self.nextElectionDateLabel.text = "The next Georgia election is " + dateString
                     self.findPollingPlaceButton.hidden = false
+                    self.earlyVotingDateLabel.text = "Early voting begins " + earlyString
                 }
             } else {
                 // election has passed
@@ -43,6 +46,7 @@ class IntroVC: UIViewController {
                 let dateString = formatToString.stringFromDate(importantDates["nextElectionDate"]!)
                 dispatch_async(dispatch_get_main_queue()) {
                     self.nextElectionDateLabel.text = "The next Georgia election is " + dateString
+                    self.earlyVotingDateLabel.text = ""
                 }
             }
             
