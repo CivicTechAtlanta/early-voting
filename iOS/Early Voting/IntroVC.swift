@@ -55,7 +55,7 @@ class IntroVC: UIViewController {
                 let dateString = formatToString.stringFromDate(importantDates["registerNextElection"]!)
                 if today.compare(importantDates["electionDate"]!) == NSComparisonResult.OrderedAscending {
                     dispatch_async(dispatch_get_main_queue()) {
-                        self.registerToVoteLabel.text = "Register to vote for the next election by " + dateString
+                        self.registerToVoteLabel.text = "Register to vote in the next election by " + dateString
                     }
                 } else {
                     // election has passed
