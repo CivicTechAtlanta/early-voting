@@ -13,6 +13,7 @@ angular
     'ngAnimate',
     'ngAria',
     'ngCookies',
+    'ngMaterial',
     'ngResource',
     'ngRoute',
     'ngSanitize',

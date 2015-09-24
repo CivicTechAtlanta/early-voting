@@ -1,23 +1,32 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
 
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
-
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
-</div>
+<md-content class="md-padding">
+  <md-card>
+    <md-card-content>
+      <h2 class="md-title">Next Election</h2>
+      <p>
+        Special Runoff (only in some regions) October 13, 2015
+        Voter Registration Deadline August 17, 2015 (past)
+      </p>
+      <p ng-style="{color: nextElectionRegistrationColor}">{{main.nextElectionRegistrationDateRelative}}
+      </p>
+      <p>
+        Early voting [begins/began] 
+        No early voting for this election
+        {{main.nextElectionEarlyVotingText}}
+      </p>
+    </md-card-content>
+    <div class="md-actions" layout="row" layout-align="end center">
+      <md-button>Share</md-button>
+      <md-button>Action 2</md-button>
+    </div>
+  </md-card>
+  <br/>
+  <md-card>
+    <md-card-content>
+      <h2 class="md-title">Subsequent Elections</h2>
+      <p>
+        <a href="http://soswebadmin.sos.state.ga.us/index.php/elections/2015-2016_elections_and_voter_registration_calendar">Georgia Secretary of State</a>
+      </p>
+    </md-card-content>
+  </md-card>
+</md-content>
