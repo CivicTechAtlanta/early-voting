@@ -8,29 +8,48 @@
  * Controller of the earlyVotingApp
  */
 angular.module('earlyVotingApp')
-  .controller('MainCtrl', function ($scope) {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, $log, $location) {
+    this.gaCounties = [];
+
+    this.querySearch = function(query) {
+      var results = query ? this.counties.filter( createFilterFor(query) ) : this.counties,
+          deferred;
+      return results;
+    };
+    this.searchTextChange = function(text) {
+      $log.info('Text changed to ' + text);
+    };
+    this.selectedCountyChange = function(county) {
+      $log.info('County changed to ' + JSON.stringify(county));
+      $location.path("/counties/" + county.value);
+    };
+    /**
+     * Build `counties` list of key/value pairs
+     */
+    function loadAll() {
+      var gaCounties = 'Appling,Atkinson,Bacon,Baker,Baldwin,Banks,Barrow,Bartow,Ben Hill,Berrien,Bibb,Bleckley,Brantley,Brooks,Bryan,Bulloch,Burke,Butts,Calhoun,Camden,Candler,Carroll,Catoosa,Charlton,Chatham,Chattahoochee,Chattooga,Cherokee,Clarke,Clay,Clayton,Clinch,Cobb,Coffee,Colquitt,Columbia,Cook,Coweta,Crawford,Crisp,Dade,Dawson,Decatur,DeKalb,Dodge,Dooly,Dougherty,Douglas,Early,Echols,Effingham,Elbert,Emanuel,Evans,Fannin,Fayette,Floyd,Forsyth,Franklin,Fulton,Gilmer,Glascock,Glynn,Gordon,Grady,Greene,Gwinnett,Habersham,Hall,Hancock,Haralson,Harris,Hart,Heard,Henry,Houston,Irwin,Jackson,Jasper,Jeff Davis,Jefferson,Jenkins,Johnson,Jones,Lamar,Lanier,Laurens,Lee,Liberty,Lincoln,Long,Lowndes,Lumpkin,Macon,Madison,Marion,McDuffie,McIntosh,Meriwether,Miller,Mitchell,Monroe,Montgomery,Morgan,Murray,Muscogee,Newton,Oconee,Oglethorpe,Paulding,Peach,Pickens,Pierce,Pike,Polk,Pulaski,Putnam,Quitman,Rabun,Randolph,Richmond,Rockdale,Schley,Screven,Seminole,Spalding,Stephens,Stewart,Sumter,Talbot,Taliaferro,Tattnall,Taylor,Telfair,Terrell,Thomas,Tift,Toombs,Towns,Treutlen,Troup,Turner,Twiggs,Union,Upson,Walker,Walton,Ware,Warren,Washington,Wayne,Webster,Wheeler,White,Whitfield,Wilcox,Wilkes,Wilkinson,Worth';
+      return gaCounties.split(/,+/g).map( function (county) {
+        return {
+          value: county.toLowerCase(),
+          display: county
+        };
+      });
+    }
+    this.counties = loadAll();
+    /**
+     * Create filter function for a query string
+     */
+    function createFilterFor(query) {
+      var lowercaseQuery = angular.lowercase(query);
+      return function filterFn(county) {
+        return (county.value.indexOf(lowercaseQuery) === 0);
+      };
+    }
+
+
     var now = moment();
-    this.nextElectionRegistrationDate = moment("20150926", "YYYYMMDD");
-    // if it's in the past, say passed, otherwise say how far away it is
-    if (this.nextElectionRegistrationDate.endOf('day').isBefore(now)) {
-    	this.nextElectionRegistrationDateRelative = "The registration deadline has passed.";
-    	$scope.nextElectionRegistrationColor = "red";
-    } else if (this.nextElectionRegistrationDate.endOf('day').isSame(now, 'day')) {
-    	this.nextElectionRegistrationDateRelative = "The registration deadline is today!";
-    	$scope.nextElectionRegistrationColor = "green";
-    } else {
-    	this.nextElectionRegistrationDateRelative = "The registration deadline is " + this.nextElectionRegistrationDate.fromNow() + ".";
-    	$scope.nextElectionRegistrationColor = "green";
-    }
-    this.nextElectionEarlyVotingDate = moment("20150925", "YYYYMMDD");
-    if (moment.isDate(this.nextElectionEarlyVotingDate)) {
-      this.nextElectionEarlyVotingText = "Early voting begins " + this.nextElectionEarlyVotingDate;
-    } else {
-      this.nextElectionEarlyVotingText = "We have no information about early voting for this election.";
-    }
+    this.nextElectionDate = moment("20151103", "YYYYMMDD").format('LL');
+    this.nextElectionType = "general election";
+    this.nextElectionRegistrationDate = moment("20150926", "YYYYMMDD").format('LL');
+    this.nextElectionEarlyVotingDate = moment("20151012", "YYYYMMDD").format('LL');
   });
