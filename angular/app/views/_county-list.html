@@ -1,9 +1,10 @@
 <md-content class="md-padding">
+  <p>{{ county.sorted }}</p>
   <md-list>
-    <md-list-item ng-repeat="thing in list.awesomeThings">
+    <md-list-item ng-repeat="place in county.sortedPollingPlaces">
       <div class="md-list-item-text" layout="column">
-        <h3>{{ thing }}</h3>
-        <!-- <h4>{{ date.openTime }}</h4> -->
+        <h3>{{ place.distance }}</h3>
+        <h4>{{ place.properties.location }}</h4>
       </div>
     </md-list-item>
   </md-list>

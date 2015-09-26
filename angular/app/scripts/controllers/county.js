@@ -78,12 +78,50 @@ angular.module('earlyVotingApp')
 		});
 
 		// geolocation
-		console.log(countyElectionInfo[0].features);
-		this.sortedPollingPlaces;
+		var pollingPlaces = countyElectionInfo[0].features;
+		this.sortedPollingPlaces = pollingPlaces.slice(); // copy so as not to mess up IDs of routes for polling places within a county
+		var sortedPollingPlaces = this.sortedPollingPlaces;
+		this.sorted = "Sorting by distance is OFF";
+		var sorted = this.sorted;
+
+		var compare = function(a,b) {
+		  if (a.distance < b.distance)
+		    return -1;
+		  if (a.distance > b.distance)
+		    return 1;
+		  return 0;
+		}
+
+		var haversine = function(userLat, userLon, placeLat, placeLon) {
+			function toRad(x) {
+			  return x * Math.PI / 180;
+			}
+
+			var R = 3961; // mi
+			var x1 = userLat-placeLat;
+			var dLat = toRad(x1);  
+			var x2 = userLon-placeLon;
+			var dLon = toRad(x2);  
+			var a = Math.sin(dLat/2) * Math.sin(dLat/2) + 
+        Math.cos(toRad(placeLat)) * Math.cos(toRad(userLat)) * 
+        Math.sin(dLon/2) * Math.sin(dLon/2);  
+			var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+			var d = R * c; 
+
+			return d;
+		};
+
+		var computeDistances = function(userPosition) {
+			for (var i = 0; i < sortedPollingPlaces.length; i++) {
+				var place = sortedPollingPlaces[i];
+				place.distance = haversine(userPosition.latitude, userPosition.longitude, place.geometry.coordinates[1], place.geometry.coordinates[0]);
+			};
+		};
+
 		navigator.geolocation.getCurrentPosition(function(position) {
-			console.log(position);
-			var pollingPlaces = countyElectionInfo[0].features;
-			this.sortedPollingPlaces = "";
+			computeDistances(position.coords);
+			sortedPollingPlaces = sortedPollingPlaces.sort(compare);
+			sorted = "Sorting by distance is ON";
 		});
 
   }]);
