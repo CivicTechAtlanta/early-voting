@@ -1,0 +1,40 @@
+{
+	"Pickens": [{
+		"type": "FeatureCollection",
+		"features": [{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-84.427565, 34.4706111]
+			},
+			"properties": {
+				"location": "",
+				"address": "83 Pioneer Rd",
+				"city": "Atlanta",
+				"zip": 33039,
+				"dates": {
+					"2015-10-12": {"startTime": "08:00:00", "endTime": "17:00:00"},
+					"2015-10-13": {"startTime": "08:00:00", "endTime": "17:00:00"},
+					"2015-10-14": {"startTime": "08:00:00", "endTime": "17:00:00"},
+					"2015-10-15": {"startTime": "08:00:00", "endTime": "17:00:00"},
+					"2015-10-16": {"startTime": "08:00:00", "endTime": "17:00:00"},
+					"2015-10-19": {"startTime": "08:00:00", "endTime": "17:00:00"},
+					"2015-10-20": {"startTime": "08:00:00", "endTime": "17:00:00"},
+					"2015-10-21": {"startTime": "08:00:00", "endTime": "17:00:00"},
+					"2015-10-22": {"startTime": "08:00:00", "endTime": "17:00:00"},
+					"2015-10-23": {"startTime": "08:00:00", "endTime": "17:00:00"},
+					"2015-10-26": {"startTime": "08:00:00", "endTime": "17:00:00"},
+					"2015-10-27": {"startTime": "08:00:00", "endTime": "17:00:00"},
+					"2015-10-28": {"startTime": "08:00:00", "endTime": "17:00:00"},
+					"2015-10-29": {"startTime": "08:00:00", "endTime": "17:00:00"},
+					"2015-10-30": {"startTime": "08:00:00", "endTime": "17:00:00"}
+				},
+				"datesSimplified": "M-F 10/12-10/30 8:00AM - 5:00PM"
+			}
+		}]
+	}],
+	"Wayne": [
+
+	]
+}
+

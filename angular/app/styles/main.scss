@@ -1,5 +1,15 @@
 // bower:scss
+@import "font-awesome/scss/font-awesome.scss";
 // endbower
+
+$positive: #3356B7;
+$assertive: #E03D69;
+
+@mixin placeholder-text {
+   color: $positive;
+   font-weight: bold;
+   font-size: 1.2em;
+}
 
 .browsehappy {
   margin: 0.2em 0;
@@ -86,4 +96,29 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+.ng-scope {
+  background-color: #ddd;
+}
+
+md-autocomplete {
+  border: 2px solid $positive;
+  text-color: $positive;
+}
+
+::-webkit-input-placeholder {
+  @include placeholder-text;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  @include placeholder-text;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  @include placeholder-text;
+}
+
+:-ms-input-placeholder {
+  @include placeholder-text;
 }
