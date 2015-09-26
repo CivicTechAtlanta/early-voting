@@ -1,4 +1,13 @@
 <md-content class="md-padding">
-  <h1>{{ county.county }}</h1>
-  <leaflet defaults="defaults" bounds="county.bounds" geojson="geojson" geojson-nested="true" height="480px" width="640px"></leaflet>
+  <md-tabs md-dynamic-height md-border-bottom>
+    <md-tab label="map">
+      <md-content class="md-padding">
+        <h1>{{ county.county }}</h1>
+        <leaflet defaults="defaults" bounds="county.bounds" geojson="geojson" geojson-nested="true" height="480px" width="640px"></leaflet>
+      </md-content>
+    </md-tab>
+    <md-tab label="list closest">
+      <ng-include src="'views/_county-list.html'"></ng-include>
+    </md-tab>
+  </md-tabs>
 </md-content>

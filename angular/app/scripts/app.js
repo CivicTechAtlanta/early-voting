@@ -43,7 +43,31 @@ angular
         title: 'County | ',
         templateUrl: 'views/county.html',
         controller: 'CountyCtrl',
-        controllerAs: 'county'
+        controllerAs: 'county',
+        resolve: {
+          countyElectionInfo: [ '$http', '$route', function($http, $route) {
+            var county = $route.current.params.countyName.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+            return $http.get('data/elections/20151103-locations.json').then(function(result) {
+              return result.data[county];
+            })
+          }
+          ]
+        }
+      })
+      .when('/counties/:countyName/:pollingPlace', {
+        title: 'Polling Place | ',
+        templateUrl: 'views/place.html',
+        controller: 'PlaceCtrl',
+        controllerAs: 'place',
+        resolve: {
+          pollingPlaceInfo: [ '$http', '$route', function($http, $route) {
+            var county = $route.current.params.countyName.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+            return $http.get('data/elections/20151103-locations.json').then(function(result) {
+              return result.data[county][0].features[$route.current.params.pollingPlace];
+            })
+          }
+          ]
+        }
       })
       .otherwise({
         redirectTo: '/'

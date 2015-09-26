@@ -8,10 +8,10 @@
  * Controller of the earlyVotingApp
  */
 angular.module('earlyVotingApp')
-  .controller('CountyCtrl', ['$scope', '$http', '$routeParams', 'leafletBoundsHelpers', 'leafletData', 
-  									function ($scope,   $http,   $routeParams,   leafletBoundsHelpers,   leafletData) {
+  .controller('CountyCtrl', ['$scope', '$http', '$routeParams', 'countyElectionInfo', 'leafletBoundsHelpers', 
+  									function ($scope,   $http,   $routeParams,   countyElectionInfo,   leafletBoundsHelpers) {
   	function toTitleCase(str) {
-		    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+	    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 		}
     this.county = toTitleCase($routeParams.countyName);
     var county = this.county;
@@ -23,6 +23,7 @@ angular.module('earlyVotingApp')
   	]);
   	// get bbox from geojson instead of above dictionary
   	var fileName = 'data/county-outlines/' + this.county + '.geojson';
+  	var pollingPlaceIndex = 0;
 
 	  var pollingIcon = {
 	  	iconUrl: '/images/pink-marker.png',
@@ -35,15 +36,15 @@ angular.module('earlyVotingApp')
 	  };
 
   	angular.extend($scope, {
-  		layers: {
-  			baselayers: {
-          googleRoadmap: {
-              name: 'Google Streets',
-              layerType: 'ROADMAP',
-              type: 'google'
-          }
-  			}
-  		},
+  		// layers: {
+  		// 	baselayers: {
+    //       googleRoadmap: {
+    //           name: 'Google Streets',
+    //           layerType: 'ROADMAP',
+    //           type: 'google'
+    //       }
+  		// 	}
+  		// },
   		geojson: {}
   	});
 
@@ -61,55 +62,28 @@ angular.module('earlyVotingApp')
 				}
 			});
 		});
-  	$http.get('data/elections/20151103-locations.json')
-		.then(function(result) {
-			angular.extend($scope.geojson, {
-				election: {
-					data: result.data[county],
-					style: function(feature) {return {};},
-					pointToLayer: function(feature, latlng) {
-						// return new L.marker(latlng, {icon: L.AwesomeMarkers.icon({
-					 //    icon: 'check-square-o',
-					 //    prefix: 'fa',
-					 //    markerColor: 'red'
-					 //  })})
-						return new L.marker(latlng, {icon: L.icon(pollingIcon)})
-					},
-					onEachFeature: function(feature, layer) {
-						layer.bindPopup("testing: " + feature.properties.datesSimplified);
-					}
+		angular.extend($scope.geojson, {
+			election: {
+				data: countyElectionInfo,
+				style: function(feature) {return {};},
+				pointToLayer: function(feature, latlng) {
+					return new L.marker(latlng, {icon: L.icon(pollingIcon)})
+				},
+				onEachFeature: function(feature, layer) {
+					feature.id = pollingPlaceIndex;
+					pollingPlaceIndex++;
+					layer.bindPopup("<a href='#/counties/"+$routeParams.countyName+"/"+feature.id+"' class='popup-link'><span class='popup-text'>" + feature.properties.location + "<br>" + feature.properties.datesSimplified + "</span><i class='popup-icon fa fa-chevron-right fa-2x' aria-label='view polling place details '></i></a>");
 				}
-			});
+			}
 		});
 
-	 //  function makeLink(coords) {
-	 //    var linkAddress = 'http://proximityviz.com/skills/js/leaflet/parks/trails.html' + '?' + coords;
-	 //    return linkAddress;
-	 //  };
-
-	 //  function onEachPollingPlace(feature, layer) {
-	 //    layer.bindPopup("<a href=" + makeLink(feature.geometry.coordinates) + ">" + feature.properties.name + "</a><br>Length of hike: " + feature.properties.distance);
-	 //  };
-
-	 //  function mapPollingPlaces(countyData, map) {
-	 //  	L.geoJson(countyData, {
-	 //  		onEachFeature: onEachPollingPlace,
-	 //  		pointToLayer: function(feature, latlng) {
-	 //  			return L.marker(latlng);
-	 //  		}
-	 //  	}).addTo(map);
-	 //  }
-
-		// leafletData.getMap().then(function(map) {
-		// 	$http.get('data/elections/20151103-locations.json')
-		// 	.then(function(result) {
-		// 		console.log(county);
-		// 		console.log(result.data);
-		// 		console.log(result.data[county]);
-		// 		var geojson = result.data[county];
-		// 		mapPollingPlaces(geojson, map);
-		// 	});
-		// });
-
+		// geolocation
+		console.log(countyElectionInfo[0].features);
+		this.sortedPollingPlaces;
+		navigator.geolocation.getCurrentPosition(function(position) {
+			console.log(position);
+			var pollingPlaces = countyElectionInfo[0].features;
+			this.sortedPollingPlaces = "";
+		});
 
   }]);

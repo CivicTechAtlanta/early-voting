@@ -1,0 +1,23 @@
+<md-content class="md-padding">
+  <md-card>
+    <md-card-content>
+      <h2 class="md-title">{{ place.properties.location }}</h2>
+      <h2>{{ place.properties.address }} [map icon/link]</h2>
+      <h2>{{ place.properties.city }}, GA {{ place.properties.zip }}</h2>
+      <p ng-bind-html="place.properties.datesSimplified"></p>
+      <leaflet defaults="defaults" center="county" markers="markers" height="200px" width="205px"></leaflet>
+      <a ng-href="{{ place.googleMapsLink }}" target="_blank">Get directions</a>
+      <md-list>
+        <md-list-item ng-repeat="date in place.properties.dates">
+          <div class="md-list-item-text" layout="column">
+            <h3>{{ date.date }}</h3>
+            <h4>{{ date.openTime }}</h4>
+          </div>
+        </md-list-item>
+      </md-list>
+    </md-card-content>
+    <div class="md-actions" layout="row" layout-align="end center">
+      <md-button>Share</md-button>
+    </div>
+  </md-card>
+</md-content>

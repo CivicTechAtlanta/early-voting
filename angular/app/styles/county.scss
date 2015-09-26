@@ -1,3 +1,23 @@
+$positive: #3356B7;
+$assertive: #E03D69;
+
 .awesome-marker i {
   margin-left: 2px;
+}
+
+.leaflet-container {
+  .leaflet-popup-content {
+    margin: 13px 13px 13px 19px;
+    .popup-link {
+      text-decoration: none;
+      color: $positive;
+    }
+    .popup-text {
+      display: table-cell;
+    }
+    .popup-icon {
+      display: table-cell;
+      vertical-align: middle;
+    }
+}
 }
