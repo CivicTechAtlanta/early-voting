@@ -1,5 +1,5 @@
-$positive: #3356B7;
-$assertive: #E03D69;
+$primary: #3356B7;
+$secondary: #E03D69;
 
 .awesome-marker i {
   margin-left: 2px;
@@ -10,7 +10,7 @@ $assertive: #E03D69;
     margin: 13px 13px 13px 19px;
     .popup-link {
       text-decoration: none;
-      color: $positive;
+      color: $primary;
     }
     .popup-text {
       display: table-cell;

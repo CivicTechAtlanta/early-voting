@@ -2,11 +2,11 @@
   <md-card>
     <md-card-content>
       <h2 class="md-title">{{ place.properties.location }}</h2>
-      <h2>{{ place.properties.address }} [map icon/link]</h2>
+      <h2>{{ place.properties.address }}</h2>
       <h2>{{ place.properties.city }}, GA {{ place.properties.zip }}</h2>
       <p ng-bind-html="place.properties.datesSimplified"></p>
       <leaflet defaults="defaults" center="county" markers="markers" height="200px" width="205px"></leaflet>
-      <a ng-href="{{ place.googleMapsLink }}" target="_blank">Get directions</a>
+      <md-button class="md-raised md-primary" ng-href="{{ place.googleMapsLink }}" target="_blank">Get directions</md-button>
       <md-list>
         <md-list-item ng-repeat="date in place.properties.dates">
           <div class="md-list-item-text" layout="column">

@@ -2,14 +2,15 @@
 @import "font-awesome/scss/font-awesome.scss";
 // endbower
 
-$positive: #3356B7;
-$assertive: #E03D69;
+$primary: #3356B7;
+$secondary: #E03D69;
 
-@mixin placeholder-text {
-   color: $positive;
-   font-weight: bold;
-   font-size: 1.2em;
-}
+// @mixin placeholder-text {
+//   color: $primary;
+//   font-weight: bold;
+//   font-size: 1.2em;
+//   padding-left: 20px;
+// }
 
 .browsehappy {
   margin: 0.2em 0;
@@ -75,10 +76,38 @@ body {
   }
 }
 
+md-content.has-cards {
+// .container > .ng-scope > md-content {
+  background-color: #ddd;
+}
+
+md-autocomplete {
+  border: 2px solid $primary;
+  text-color: $primary;
+}
+
+#footer {
+  md-toolbar,
+  .md-toolbar-tools {
+    min-height: 36px;
+    height: 36px;
+  }
+}
+
+md-card {
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+.button-container {
+  width: 100%;
+  text-align: right;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    // max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
@@ -96,29 +125,4 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
-}
-
-.ng-scope {
-  background-color: #ddd;
-}
-
-md-autocomplete {
-  border: 2px solid $positive;
-  text-color: $positive;
-}
-
-::-webkit-input-placeholder {
-  @include placeholder-text;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-  @include placeholder-text;
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-  @include placeholder-text;
-}
-
-:-ms-input-placeholder {
-  @include placeholder-text;
 }

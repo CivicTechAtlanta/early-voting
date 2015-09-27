@@ -39,13 +39,26 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/counties', {
+        title: 'Counties | ',
+        templateUrl: 'views/counties.html',
+        controller: 'CountiesCtrl',
+        controllerAs: 'counties'
+      })
       .when('/counties/:countyName', {
         title: 'County | ',
         templateUrl: 'views/county.html',
         controller: 'CountyCtrl',
         controllerAs: 'county',
         resolve: {
-          countyElectionInfo: [ '$http', '$route', function($http, $route) {
+          countyBoundaries: ['$http', '$route', function($http, $route) {
+            var county = $route.current.params.countyName.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+            var fileName = 'data/county-outlines/' + county + '.geojson';
+            return $http.get(fileName).then(function(result) {
+              return result.data.features[0];
+            })
+          }],
+          countyElectionInfo: ['$http', '$route', function($http, $route) {
             var county = $route.current.params.countyName.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
             return $http.get('data/elections/20151103-locations.json').then(function(result) {
               return result.data[county];

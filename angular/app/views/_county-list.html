@@ -3,9 +3,11 @@
   <md-list>
     <md-list-item ng-repeat="place in county.sortedPollingPlaces">
       <div class="md-list-item-text" layout="column">
-        <h3>{{ place.distance }}</h3>
-        <h4>{{ place.properties.location }}</h4>
+        <h3>{{ place.properties.location }}</h3>
+        <h3>{{ place.properties.address }}, {{ place.properties.city }}</h3>
+        <h3 ng-if="place.distance">{{ place.distance | number:1 }} miles</h3>
       </div>
     </md-list-item>
   </md-list>
+  <md-button class="md-primary" href="#/">Not a {{ county.county }} voter? Select your county.</md-button>
 </md-content>

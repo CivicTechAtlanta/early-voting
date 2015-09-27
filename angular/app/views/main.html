@@ -1,4 +1,11 @@
-<md-content class="md-padding">
+<md-content class="md-padding has-cards">
+  <md-card>
+    <md-card-content>
+      <h2 class="md-title">What is Early Voting?</h2>
+      <p>No reason is required to vote early.</p>
+    </md-card-content>
+  </md-card>
+  <br>
   <md-card>
     <md-card-content>
       <h2 class="md-title">Next Election</h2>
@@ -17,19 +24,19 @@
           md-selected-item-change="main.selectedCountyChange(county)"
           md-items="county in main.querySearch(main.searchText)" 
           md-item-text="county.display" 
-          md-min-length="0" 
-          placeholder="County">
+          md-min-length="0"
+          placeholder="Type your county here">
           <span md-highlight-text="main.searchText" md-highlight-flags="^i"> {{county.display}}</span>
           <md-not-found>
             No matches found for "{{main.searchText}}".
           </md-not-found>
         </md-autocomplete>
+        <div class="button-container">
+          <span>County lookup for an address</span>
+          <md-button class="md-raised md-primary" href="/#/counties">Select</md-button>
+        </div>
         <br>
       </form>
-      Or... select from a list [link]
-      <div class="md-actions" layout="row" layout-align="end center">
-        <md-button>Share</md-button>
-      </div>
     </md-card-content>
   </md-card>
   <br>
@@ -40,8 +47,5 @@
         To find your polling place for election day, {{ main.nextElectionDate }}
       </p>
     </md-card-content>
-    <div class="md-actions" layout="row" layout-align="end center">
-      <md-button>Share</md-button>
-    </div>
   </md-card>
 </md-content>
