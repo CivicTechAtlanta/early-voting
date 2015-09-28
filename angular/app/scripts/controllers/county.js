@@ -14,7 +14,7 @@ angular.module('earlyVotingApp')
 	    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 		}
     this.county = toTitleCase($routeParams.countyName);
-    console.log(this.county);
+		this.countyElectionInfo = countyElectionInfo;
     var county = this.county;
     var countyBbox = countyBoundaries.properties.BOUNDS;
     this.bounds = leafletBoundsHelpers.createBoundsFromArray([
@@ -34,71 +34,55 @@ angular.module('earlyVotingApp')
 	  	popupAnchor: [0,-42]
 	  };
 
-  	angular.extend($scope, {
-  		// layers: {
-  		// 	baselayers: {
-    //       googleRoadmap: {
-    //           name: 'Google Streets',
-    //           layerType: 'ROADMAP',
-    //           type: 'google'
-    //       }
-  		// 	}
-  		// },
-  		geojson: {}
-  	});
-
-		angular.extend($scope.geojson, {
-			outline: {
-				data: countyBoundaries,
-				style: {
-					weight: 2,
-					opacity: 1,
-					color: '#E03D69',
-					fillOpacity: 0
+	  if (countyElectionInfo.earlyVoting) {
+	  	angular.extend($scope, {
+	  		geojson: {},
+				// this is the geolocation marker
+				// begins transparent
+				paths: {
+	        circle: {
+	        	weight: 2,
+	        	opacity: 0,
+	        	fillOpacity: 0,
+	        	color: '#399FD3',
+	          type: "circleMarker",
+	          radius: 5,
+	          latlngs: {
+	            lat: 34.8377839,
+	            lng: -84.3792862
+	          }
+	        }
 				}
-			}
-		});
-		// this is the geolocation marker
-		// begins transparent
-		angular.extend($scope, {
-			paths: {
-        circle: {
-        	weight: 2,
-        	opacity: 0,
-        	fillOpacity: 0,
-        	color: '#399FD3',
-          type: "circleMarker",
-          radius: 5,
-          latlngs: {
-            lat: 34.8377839,
-            lng: -84.3792862
-          }
-        }
-			}
-		});
-		angular.extend($scope.geojson, {
-			election: {
-				data: countyElectionInfo,
-				style: function(feature) {return {};},
-				pointToLayer: function(feature, latlng) {
-					return new L.marker(latlng, {icon: L.icon(pollingIcon)})
+			});
+			angular.extend($scope.geojson, {
+				outline: {
+					data: countyBoundaries,
+					style: {
+						weight: 2,
+						opacity: 1,
+						color: '#E03D69',
+						fillOpacity: 0
+					}
 				},
-				onEachFeature: function(feature, layer) {
-					feature.id = pollingPlaceIndex;
-					pollingPlaceIndex++;
-					var pollingPlaceTitle = feature.properties.location !== "" ? feature.properties.location : "Polling Place";
-					layer.bindPopup("<a href='#/counties/"+$routeParams.countyName+"/"+feature.id+"' class='popup-link'><span class='popup-text'>" + pollingPlaceTitle + "<br>" + feature.properties.datesSimplified + "</span><i class='popup-icon fa fa-chevron-right fa-2x' aria-label='view polling place details '></i></a>");
+				election: {
+					data: countyElectionInfo,
+					style: function(feature) {return {};},
+					pointToLayer: function(feature, latlng) {
+						return new L.marker(latlng, {icon: L.icon(pollingIcon)})
+					},
+					onEachFeature: function(feature, layer) {
+						feature.id = pollingPlaceIndex;
+						pollingPlaceIndex++;
+						var pollingPlaceTitle = feature.properties.location !== "" ? feature.properties.location : "Polling Place";
+						layer.bindPopup("<a href='#/counties/"+$routeParams.countyName+"/"+feature.id+"' class='popup-link'><span class='popup-text'>" + pollingPlaceTitle + "<br>" + feature.properties.datesSimplified + "</span><i class='popup-icon fa fa-chevron-right fa-2x' aria-label='view polling place details '></i></a>");
+					}
 				}
-			}
-		});
+			});
+	  }
+
+
 
 		// geolocation
-		var pollingPlaces = countyElectionInfo[0].features;
-		this.sortedPollingPlaces = pollingPlaces.slice(); // copy so as not to mess up IDs of routes for polling places within a county
-		var sortedPollingPlaces = this.sortedPollingPlaces;
-		this.sorted = "Sorting by distance is OFF";
-		var sorted = this.sorted;
-
 		var compare = function(a,b) {
 		  if (a.distance < b.distance)
 		    return -1;
@@ -133,24 +117,25 @@ angular.module('earlyVotingApp')
 			};
 		};
 
-		navigator.geolocation.getCurrentPosition(function(position) {
-			computeDistances(position.coords);
-			sortedPollingPlaces = sortedPollingPlaces.sort(compare);
-			sorted = "Sorting by distance is ON";
-			// mark on map
-			console.log(position);
-				// markers: {
-				// 	location: {
-				// 		lat: position.coords.latitude,
-				// 		lng: position.coords.longitude,
-				// 		message: "You are here.",
-				// 		icon: pollingIcon
-				// 	}
-				// }
+		if (countyElectionInfo.earlyVoting) {
+			var pollingPlaces = countyElectionInfo[0].features;
+			this.sortedPollingPlaces = pollingPlaces.slice(); // copy so as not to mess up IDs of routes for polling places within a county
+			var sortedPollingPlaces = this.sortedPollingPlaces;
+			this.sorted = "Sorting by distance is OFF";
+			var sorted = this.sorted;
+
+			navigator.geolocation.getCurrentPosition(function(position) {
+				if (countyElectionInfo.earlyVoting) {
+					computeDistances(position.coords);
+					sortedPollingPlaces = sortedPollingPlaces.sort(compare);
+					sorted = "Sorting by distance is ON";
+				}
+				// mark on map
 				$scope.paths.circle.latlngs.lat = position.coords.latitude;
 				$scope.paths.circle.latlngs.lng = position.coords.longitude;
 				$scope.paths.circle.opacity = 1;
 				$scope.paths.circle.fillOpacity = 0.5;
-		});
+			});
+		};
 
   }]);

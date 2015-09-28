@@ -1,15 +1,19 @@
 <md-content class="md-padding">
   <h1>{{ county.county }} County Early Voting Locations</h1>
   <h2>for November 3, 2015 General Election</h2>
-  <md-tabs md-dynamic-height md-border-bottom>
+  <md-tabs md-dynamic-height md-border-bottom ng-if="county.countyElectionInfo.earlyVoting">
     <md-tab label="map">
       <md-content class="md-padding">
         <leaflet defaults="defaults" paths="paths" bounds="county.bounds" geojson="geojson" geojson-nested="true" height="480px" width="100%"></leaflet>
       </md-content>
-      <p><a href="#/">Not a {{ county.county }} County voter? Select your county.</a></p>
+      Not a {{ county.county }} County voter? 
+      <md-button href="#/" class="md-raised md-primary">
+        Select your county
+      </md-button>
     </md-tab>
     <md-tab label="list closest">
       <ng-include src="'views/_county-list.html'"></ng-include>
     </md-tab>
   </md-tabs>
+  <p ng-if="!county.countyElectionInfo.earlyVoting" class="warn">No early voting locations found for this county.</p>
 </md-content>

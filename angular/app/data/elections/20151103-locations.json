@@ -1,4 +1,53 @@
 {
+	"Columbia": [{
+		"type": "FeatureCollection",
+		"features": [{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-82.1356588, 33.5454835]
+			},
+			"properties": {
+				"id": 0,
+				"location": "Columbia County Board of Elections",
+				"address": "500 Faircloth Drive, Building E",
+				"city": "Evans",
+				"zip": 30809,
+				"dates": [
+					{"date": "2015-10-12", "startTime": "08:00:00", "endTime": "17:00:00"},
+					{"date": "2015-10-13", "startTime": "08:00:00", "endTime": "17:00:00"},
+					{"date": "2015-10-14", "startTime": "08:00:00", "endTime": "17:00:00"},
+					{"date": "2015-10-15", "startTime": "08:00:00", "endTime": "17:00:00"},
+					{"date": "2015-10-16", "startTime": "08:00:00", "endTime": "17:00:00"},
+					{"date": "2015-10-17", "startTime": null, "endTime": null},
+					{"date": "2015-10-18", "startTime": null, "endTime": null},
+					{"date": "2015-10-19", "startTime": "08:00:00", "endTime": "17:00:00"},
+					{"date": "2015-10-20", "startTime": "08:00:00", "endTime": "17:00:00"},
+					{"date": "2015-10-21", "startTime": "08:00:00", "endTime": "17:00:00"},
+					{"date": "2015-10-22", "startTime": "08:00:00", "endTime": "17:00:00"},
+					{"date": "2015-10-23", "startTime": "08:00:00", "endTime": "17:00:00"},
+					{"date": "2015-10-24", "startTime": null, "endTime": null},
+					{"date": "2015-10-25", "startTime": null, "endTime": null},
+					{"date": "2015-10-26", "startTime": "08:00:00", "endTime": "17:00:00"},
+					{"date": "2015-10-27", "startTime": "08:00:00", "endTime": "17:00:00"},
+					{"date": "2015-10-28", "startTime": "08:00:00", "endTime": "17:00:00"},
+					{"date": "2015-10-29", "startTime": "08:00:00", "endTime": "17:00:00"},
+					{"date": "2015-10-30", "startTime": "08:00:00", "endTime": "17:00:00"}
+				],
+				"datesSimplified": "M-F 8:00AM - 5:00PM<br>10/12-10/30"
+			}
+		}]
+	}],
+	"Fulton": [{
+		"type": "FeatureCollection",
+		"features": [
+		]
+	}],
+	"Henry": [{
+		"type": "FeatureCollection",
+		"features": [
+		]
+	}],
 	"Pickens": [{
 		"type": "FeatureCollection",
 		"features": [{
@@ -8,6 +57,7 @@
 				"coordinates": [-84.427565, 34.4706111]
 			},
 			"properties": {
+				"id": 0,
 				"location": "",
 				"address": "83 Pioneer Rd",
 				"city": "Jasper",
@@ -33,46 +83,14 @@
 					{"date": "2015-10-29", "startTime": "08:00", "endTime": "17:00"},
 					{"date": "2015-10-30", "startTime": "08:00", "endTime": "17:00"}
 				],
-				"datesSimplified": "M-F<br>10/12-10/30<br>8:00AM - 5:00PM"
-			}
-		},{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-84.42, 34.47]
-			},
-			"properties": {
-				"location": "Location",
-				"address": "Address",
-				"city": "Nowhere",
-				"zip": 90210,
-				"dates": [
-					{"date": "2015-10-12", "startTime": "08:00", "endTime": "17:00"},
-					{"date": "2015-10-13", "startTime": "08:00", "endTime": "17:00"},
-					{"date": "2015-10-14", "startTime": "08:00", "endTime": "17:00"},
-					{"date": "2015-10-15", "startTime": "08:00", "endTime": "17:00"},
-					{"date": "2015-10-16", "startTime": "08:00", "endTime": "17:00"},
-					{"date": "2015-10-17", "startTime": null, "endTime": null},
-					{"date": "2015-10-18", "startTime": null, "endTime": null},
-					{"date": "2015-10-19", "startTime": "08:00", "endTime": "17:00"},
-					{"date": "2015-10-20", "startTime": "08:00", "endTime": "17:00"},
-					{"date": "2015-10-21", "startTime": "08:00", "endTime": "17:00"},
-					{"date": "2015-10-22", "startTime": "08:00", "endTime": "17:00"},
-					{"date": "2015-10-23", "startTime": "08:00", "endTime": "17:00"},
-					{"date": "2015-10-24", "startTime": null, "endTime": null},
-					{"date": "2015-10-25", "startTime": null, "endTime": null},
-					{"date": "2015-10-26", "startTime": "08:00", "endTime": "17:00"},
-					{"date": "2015-10-27", "startTime": "08:00", "endTime": "17:00"},
-					{"date": "2015-10-28", "startTime": "08:00", "endTime": "17:00"},
-					{"date": "2015-10-29", "startTime": "08:00", "endTime": "17:00"},
-					{"date": "2015-10-30", "startTime": "08:00", "endTime": "17:00"}
-				],
-				"datesSimplified": "M-F<br>10/12-10/30<br>8:00AM - 5:00PM"
+				"datesSimplified": "M-F 8:00AM - 5:00PM<br>10/12-10/30"
 			}
 		}]
 	}],
-	"Wayne": [
-
-	]
+	"Taliaferro": [{
+		"type": "FeatureCollection",
+		"features": [
+		]
+	}]
 }
 
