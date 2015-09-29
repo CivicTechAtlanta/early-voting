@@ -4,7 +4,7 @@
   <md-tabs md-dynamic-height md-border-bottom ng-if="county.countyElectionInfo.earlyVoting">
     <md-tab label="map">
       <md-content class="md-padding">
-        <leaflet defaults="defaults" paths="paths" bounds="county.bounds" geojson="geojson" geojson-nested="true" height="480px" width="100%"></leaflet>
+        <leaflet defaults="defaults" tiles="tiles" paths="paths" bounds="county.bounds" geojson="geojson" geojson-nested="true" height="480px" width="100%"></leaflet>
       </md-content>
       Not a {{ county.county }} County voter? 
       <md-button href="#/" class="md-raised md-primary">

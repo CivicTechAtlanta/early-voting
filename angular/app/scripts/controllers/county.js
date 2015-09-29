@@ -8,8 +8,8 @@
  * Controller of the earlyVotingApp
  */
 angular.module('earlyVotingApp')
-  .controller('CountyCtrl', ['$scope', '$http', '$routeParams', 'countyElectionInfo', 'countyBoundaries', 'leafletBoundsHelpers', 
-  									function ($scope,   $http,   $routeParams,   countyElectionInfo,   countyBoundaries,   leafletBoundsHelpers) {
+  .controller('CountyCtrl', ['$scope', '$routeParams', 'countyElectionInfo', 'countyBoundaries', 'leafletBoundsHelpers', 
+  									function ($scope,   $routeParams,   countyElectionInfo,   countyBoundaries,   leafletBoundsHelpers) {
   	function toTitleCase(str) {
 	    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 		}
@@ -37,6 +37,12 @@ angular.module('earlyVotingApp')
 	  if (countyElectionInfo.earlyVoting) {
 	  	angular.extend($scope, {
 	  		geojson: {},
+	  		tiles: {
+          url: "http://otile4.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png",
+          options: {
+            attribution: 'Tiles &copy; <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png" />'
+          }
+        },
 				// this is the geolocation marker
 				// begins transparent
 				paths: {
@@ -58,7 +64,7 @@ angular.module('earlyVotingApp')
 				outline: {
 					data: countyBoundaries,
 					style: {
-						weight: 2,
+						weight: 3,
 						opacity: 1,
 						color: '#E03D69',
 						fillOpacity: 0
