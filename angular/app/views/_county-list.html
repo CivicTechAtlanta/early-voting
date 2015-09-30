@@ -1,7 +1,7 @@
 <md-content class="md-padding">
   <p>{{ county.sorted }}</p>
   <md-list>
-    <md-list-item ng-repeat="place in county.sortedPollingPlaces">
+    <md-list-item ng-repeat="place in county.pollingPlaces">
       <div class="md-list-item-text" layout="column">
         <h3>{{ place.properties.location }}</h3>
         <h3>{{ place.properties.address }}, {{ place.properties.city }}</h3>
@@ -9,5 +9,4 @@
       </div>
     </md-list-item>
   </md-list>
-  <md-button class="md-primary" href="#/">Not a {{ county.county }} voter? Select your county.</md-button>
 </md-content>

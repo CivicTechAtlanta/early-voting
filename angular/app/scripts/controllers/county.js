@@ -15,14 +15,12 @@ angular.module('earlyVotingApp')
 		}
     this.county = toTitleCase($routeParams.countyName);
 		this.countyElectionInfo = countyElectionInfo;
-    var county = this.county;
     var countyBbox = countyBoundaries.properties.BOUNDS;
     this.bounds = leafletBoundsHelpers.createBoundsFromArray([
     	[ countyBbox[1], countyBbox[0] ],
     	[ countyBbox[3], countyBbox[2] ]
   	]);
   	// var fileName = 'data/county-outlines/' + this.county + '.geojson';
-  	var pollingPlaceIndex = 0;
 
 	  var pollingIcon = {
 	  	iconUrl: '/images/pink-marker.png',
@@ -72,15 +70,13 @@ angular.module('earlyVotingApp')
 				},
 				election: {
 					data: countyElectionInfo,
-					style: function(feature) {return {};},
+					style: function() {return {};},
 					pointToLayer: function(feature, latlng) {
-						return new L.marker(latlng, {icon: L.icon(pollingIcon)})
+						return new L.marker(latlng, {icon: L.icon(pollingIcon)});
 					},
 					onEachFeature: function(feature, layer) {
-						feature.id = pollingPlaceIndex;
-						pollingPlaceIndex++;
 						var pollingPlaceTitle = feature.properties.location !== "" ? feature.properties.location : "Polling Place";
-						layer.bindPopup("<a href='#/counties/"+$routeParams.countyName+"/"+feature.id+"' class='popup-link'><span class='popup-text'>" + pollingPlaceTitle + "<br>" + feature.properties.datesSimplified + "</span><i class='popup-icon fa fa-chevron-right fa-2x' aria-label='view polling place details '></i></a>");
+						layer.bindPopup("<a href='#/counties/"+$routeParams.countyName+"/"+feature.properties.id+"' class='popup-link'><span class='popup-text'>" + pollingPlaceTitle + "<br>" + feature.properties.datesSimplified + "</span><i class='popup-icon fa fa-chevron-right fa-2x' aria-label='view polling place details '></i></a>");
 					}
 				}
 			});
@@ -90,12 +86,14 @@ angular.module('earlyVotingApp')
 
 		// geolocation
 		var compare = function(a,b) {
-		  if (a.distance < b.distance)
+		  if (a.distance < b.distance) {
 		    return -1;
-		  if (a.distance > b.distance)
+		  }
+		  if (a.distance > b.distance) {
 		    return 1;
+		  }
 		  return 0;
-		}
+		};
 
 		var haversine = function(userLat, userLon, placeLat, placeLon) {
 			function toRad(x) {
@@ -117,23 +115,22 @@ angular.module('earlyVotingApp')
 		};
 
 		var computeDistances = function(userPosition) {
-			for (var i = 0; i < sortedPollingPlaces.length; i++) {
-				var place = sortedPollingPlaces[i];
+			for (var i = 0; i < pollingPlaces.length; i++) {
+				var place = pollingPlaces[i];
 				place.distance = haversine(userPosition.latitude, userPosition.longitude, place.geometry.coordinates[1], place.geometry.coordinates[0]);
-			};
+			}
 		};
 
 		if (countyElectionInfo.earlyVoting) {
 			var pollingPlaces = countyElectionInfo[0].features;
-			this.sortedPollingPlaces = pollingPlaces.slice(); // copy so as not to mess up IDs of routes for polling places within a county
-			var sortedPollingPlaces = this.sortedPollingPlaces;
-			this.sorted = "Sorting by distance is OFF";
-			var sorted = this.sorted;
+			this.pollingPlaces = pollingPlaces;
+			var sorted = "Sorting by distance is OFF";
+			this.sorted = sorted;
 
 			navigator.geolocation.getCurrentPosition(function(position) {
 				if (countyElectionInfo.earlyVoting) {
 					computeDistances(position.coords);
-					sortedPollingPlaces = sortedPollingPlaces.sort(compare);
+					pollingPlaces = pollingPlaces.sort(compare);
 					sorted = "Sorting by distance is ON";
 				}
 				// mark on map
@@ -142,6 +139,6 @@ angular.module('earlyVotingApp')
 				$scope.paths.circle.opacity = 1;
 				$scope.paths.circle.fillOpacity = 0.5;
 			});
-		};
+		}
 
   }]);

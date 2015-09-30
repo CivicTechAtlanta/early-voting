@@ -6,14 +6,14 @@
       <md-content class="md-padding">
         <leaflet defaults="defaults" tiles="tiles" paths="paths" bounds="county.bounds" geojson="geojson" geojson-nested="true" height="480px" width="100%"></leaflet>
       </md-content>
-      Not a {{ county.county }} County voter? 
-      <md-button href="#/" class="md-raised md-primary">
-        Select your county
-      </md-button>
     </md-tab>
     <md-tab label="list closest">
       <ng-include src="'views/_county-list.html'"></ng-include>
     </md-tab>
   </md-tabs>
+  Not a {{ county.county }} County voter? 
+  <md-button href="#/" class="md-raised md-primary">
+    Select your county
+  </md-button>
   <p ng-if="!county.countyElectionInfo.earlyVoting" class="warn">No early voting locations found for this county.</p>
 </md-content>

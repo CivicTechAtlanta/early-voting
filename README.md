@@ -14,4 +14,5 @@ Contributors:
 To run the angular app:
 
         cd angular
+        bower install
         grunt serve
