@@ -13,6 +13,8 @@ angular.module('earlyVotingApp')
   	function toTitleCase(str) {
 	    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 		}
+
+		$scope.loading = false;
     this.county = toTitleCase($routeParams.countyName);
 		this.countyElectionInfo = countyElectionInfo;
     var countyBbox = countyBoundaries.properties.BOUNDS;
@@ -121,24 +123,46 @@ angular.module('earlyVotingApp')
 			}
 		};
 
-		if (countyElectionInfo.earlyVoting) {
-			var pollingPlaces = countyElectionInfo[0].features;
-			this.pollingPlaces = pollingPlaces;
-			var sorted = "Sorting by distance is OFF";
-			this.sorted = sorted;
+		$scope.$on('geolocationComplete', function() {
+			$scope.$apply(function() {
+				pollingPlaces = pollingPlaces.sort(compare);
+				$scope.sorted = true;
+				$scope.loading = false;
+				console.log("geolocationComplete");
+			})
+		});
 
+		var geolocate = function() {
+			$scope.loading = true;
 			navigator.geolocation.getCurrentPosition(function(position) {
 				if (countyElectionInfo.earlyVoting) {
 					computeDistances(position.coords);
-					pollingPlaces = pollingPlaces.sort(compare);
-					sorted = "Sorting by distance is ON";
+					$scope.$emit('geolocationComplete');
 				}
 				// mark on map
 				$scope.paths.circle.latlngs.lat = position.coords.latitude;
 				$scope.paths.circle.latlngs.lng = position.coords.longitude;
 				$scope.paths.circle.opacity = 1;
 				$scope.paths.circle.fillOpacity = 0.5;
+			}, function(error) {
+				console.log(error);
+				$scope.loading = false;
+				$scope.errorText = "";
+				if (error.message === "User denied Geolocation") {
+					$scope.errorText = "Geolocation turned off";
+					console.log($scope.errorText);
+				}
 			});
+		}
+
+		this.geolocate = geolocate;
+
+		if (countyElectionInfo.earlyVoting) {
+			var pollingPlaces = countyElectionInfo[0].features;
+			this.pollingPlaces = pollingPlaces;
+			$scope.sorted = false;
+
+			geolocate();
 		}
 
   }]);

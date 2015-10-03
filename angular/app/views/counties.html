@@ -1,8 +1,8 @@
-<md-content class="md-padding">
+<md-content class="md-padding md-primary md-hue-1 counties">
   <md-card>
     <md-card-content>
       <md-list>
-        <md-list-item ng-repeat="county in counties.gaCounties" ng-click="counties.navigate(county);">
+        <md-list-item class="md-1-line" ng-repeat="county in counties.gaCounties" ng-click="counties.navigate(county);">
           <div class="md-list-item-text" layout="column">
             <h3>{{ county }}</h3>
             <md-icon aria-label="Go" class="md-secondary md-hue-3"><i class="fa fa-chevron-right"></i></md-icon>

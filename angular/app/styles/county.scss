@@ -1,5 +1,14 @@
-$primary: #3356B7;
+$primary: #19557E;
 $secondary: #E03D69;
+
+@mixin list-divider {
+  md-list-item {
+    border-top: 1px solid #e0e0e0;
+  }
+  md-list-item:last-of-type {
+    border-bottom: 1px solid #e0e0e0;
+  }
+}
 
 .awesome-marker i {
   margin-left: 2px;
@@ -19,4 +28,32 @@ $secondary: #E03D69;
       vertical-align: middle;
     }
   }
+}
+.counties,
+.county-list {
+  @include list-divider;
+}
+
+.county-list {
+  .geolocation-button {
+    margin-bottom: 24px;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+    &:hover {
+      color: $secondary;
+    }
+  }
+  .error-text {
+    color: $secondary;
+    display: inline-block;
+  }
+}
+leaflet {
+  height: 480px;
+}
+
+.before-button {
+  vertical-align: 100%;
 }

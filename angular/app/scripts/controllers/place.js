@@ -14,7 +14,8 @@ angular.module('earlyVotingApp')
 	function toTitleCase(str) {
     return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 	}
-  var county = toTitleCase($routeParams.countyName);
+  this.today = moment().format("dddd, MMMM D");
+  this.county = toTitleCase($routeParams.countyName);
   this.properties = pollingPlaceInfo.properties;
   var coordinates = pollingPlaceInfo.geometry.coordinates;
 
@@ -26,9 +27,7 @@ angular.module('earlyVotingApp')
   	} else {
   		date.openTime = "Closed";
   	}
-  };
-
-  console.log(pollingPlaceInfo);
+  }
 
   // map
   var pollingPlaceMarker = {

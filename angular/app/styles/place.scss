@@ -1,0 +1,59 @@
+@mixin list-divider {
+  md-list-item {
+    border-top: 1px solid #e0e0e0;
+  }
+  md-list-item:last-of-type {
+    border-bottom: 1px solid #e0e0e0;
+  }
+}
+$primary: #005480;
+$secondary: #E03D69;
+$tertiary: #399FD3;
+
+
+
+.place {
+  md-card-content {
+    h2 {
+      font-size: 24px;
+    }
+    #address {
+      float: left;
+      padding-right: 16px;
+      width: 477px;
+    }
+    #map {
+      float: left;
+      width: 205px;
+      .directions-link {
+        margin: 12px auto 0 auto;
+        width: 100%;
+      }
+    }
+    .dates {
+      // display: table; // center-align table within card
+      clear: both;
+      @include list-divider;
+      width: auto;
+      margin: 0 auto;
+      .date {
+        display: table-row;
+        .day,
+        .time {
+          display: table-cell;
+          padding: 16px;
+        }
+      }
+    }
+    .today {
+      color: #fff;
+      background-color: $secondary;
+    }
+  }
+  .warning {
+    color: $secondary;
+    a {
+      color: $primary;
+    }
+  }
+}

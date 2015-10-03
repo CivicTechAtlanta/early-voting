@@ -1,20 +1,29 @@
-<md-content class="md-padding md-primary md-hue-1">
+<md-content class="md-padding md-primary md-hue-1 place">
   <md-card>
     <md-card-content>
-      <h2 class="md-title">{{ place.properties.location }}</h2>
-      <h2>{{ place.properties.address }}</h2>
-      <h2>{{ place.properties.city }}, GA {{ place.properties.zip }}</h2>
-      <p ng-bind-html="place.properties.datesSimplified"></p>
-      <leaflet defaults="defaults" center="county" markers="markers" height="200px" width="205px"></leaflet>
-      <md-button class="md-raised md-primary" ng-href="{{ place.googleMapsLink }}" target="_blank">Get directions</md-button>
-      <md-list>
-        <md-list-item ng-repeat="date in place.properties.dates">
-          <div class="md-list-item-text" layout="column">
-            <h3>{{ date.date }}</h3>
-            <h4>{{ date.openTime }}</h4>
+      <div id="address">
+        <h2 class="md-title">{{place.properties.location}}</h2>
+        <h3>{{place.properties.address}}<br>{{place.properties.city}}, GA {{place.properties.zip}}</h3>
+        <p ng-bind-html="place.properties.datesSimplified"></p>
+        <p class="warning">
+          Anyone registered to vote in {{place.county}} County can vote early here.<br>Not a {{ place.county }} County voter? 
+          <a href="#/" class="md-raised md-primary">Select your county here.</a>
+        </p>
+      </div>
+      <div id="map">
+        <leaflet defaults="defaults" center="county" markers="markers" height="200px" width="205px"></leaflet>
+        <md-button class="md-raised md-primary directions-link" ng-href="{{ place.googleMapsLink }}" target="_blank">Get directions</md-button>
+      </div>
+      <div class="dates">
+        <div class="date" ng-repeat="date in place.properties.dates" ng-class="date.date===place.today ? 'today' : ''">
+          <div class="day">
+            {{date.date}}
           </div>
-        </md-list-item>
-      </md-list>
+          <div class="time">
+            {{date.openTime}}
+          </div>
+        </div>
+      </div>
     </md-card-content>
     <div class="md-actions" layout="row" layout-align="end center">
       <md-button>Share</md-button>

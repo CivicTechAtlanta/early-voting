@@ -20,9 +20,10 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
-  .run(['$rootScope', '$route', function($rootScope, $route) {
+  .run(['$rootScope', '$route', '$window', function($rootScope, $route, $window) {
     $rootScope.$on('$routeChangeSuccess', function() {
       document.title = $route.current.title + "Georgia Early Voting | Code for Atlanta";
+      $window.scrollTo(0,0);
     });
   }])
   // .config(function($mdThemingProvider) {
