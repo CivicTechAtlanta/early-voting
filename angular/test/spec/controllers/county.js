@@ -1,23 +1,23 @@
-'use strict';
+// 'use strict';
 
-describe('Controller: CountyCtrl', function () {
+// describe('Controller: CountyCtrl', function () {
 
-  // load the controller's module
-  beforeEach(module('earlyVotingApp'));
+//   // load the controller's module
+//   beforeEach(module('earlyVotingApp'));
 
-  var CountyCtrl,
-    scope;
+//   var CountyCtrl,
+//     scope;
 
-  // Initialize the controller and a mock scope
-  beforeEach(inject(function ($controller, $rootScope) {
-    scope = $rootScope.$new();
-    CountyCtrl = $controller('CountyCtrl', {
-      $scope: scope
-      // place here mocked dependencies
-    });
-  }));
+//   // Initialize the controller and a mock scope
+//   beforeEach(inject(function ($controller, $rootScope) {
+//     scope = $rootScope.$new();
+//     CountyCtrl = $controller('CountyCtrl', {
+//       $scope: scope
+//       // place here mocked dependencies
+//     });
+//   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(CountyCtrl.awesomeThings.length).toBe(3);
-  });
-});
+//   it('should attach a list of awesomeThings to the scope', function () {
+//     expect(CountyCtrl.awesomeThings.length).toBe(3);
+//   });
+// });

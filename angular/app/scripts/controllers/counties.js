@@ -14,6 +14,6 @@ angular.module('earlyVotingApp')
     ];
     this.navigate = function(county) {
       $location.path("/counties/" + county.toLowerCase());
-    }
+    };
 
   }]);

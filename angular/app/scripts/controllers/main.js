@@ -12,8 +12,7 @@ angular.module('earlyVotingApp')
     this.gaCounties = [];
 
     this.querySearch = function(query) {
-      var results = query ? this.counties.filter( createFilterFor(query) ) : this.counties,
-          deferred;
+      var results = query ? this.counties.filter( createFilterFor(query) ) : this.counties;
       return results;
     };
     this.searchTextChange = function(text) {
@@ -46,8 +45,6 @@ angular.module('earlyVotingApp')
       };
     }
 
-
-    var now = moment();
     this.nextElectionDate = moment("20151103", "YYYYMMDD").format('LL');
     this.nextElectionType = "general election";
     this.nextElectionRegistrationDate = moment("20150926", "YYYYMMDD").format('LL');

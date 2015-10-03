@@ -76,7 +76,7 @@ angular
     });
     $mdThemingProvider.theme('default')
       .primaryPalette('codeForATLPrimary')
-      .accentPalette('codeForATLAccent')
+      .accentPalette('codeForATLAccent');
   })
   .config(function ($routeProvider) {
     $routeProvider
@@ -109,7 +109,7 @@ angular
             var fileName = 'data/county-outlines/' + county + '.geojson';
             return $http.get(fileName).then(function(result) {
               return result.data.features[0];
-            })
+            });
           }],
           countyElectionInfo: ['$http', '$route', function($http, $route) {
             var county = $route.current.params.countyName.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
@@ -125,7 +125,7 @@ angular
               }
             }, function(error) {
               console.log(error);
-            })
+            });
           }]
         }
       })
@@ -140,11 +140,11 @@ angular
             return $http.get('data/elections/20151103-locations.json').then(function(result) {
               var pollingPlaces = result.data[county][0].features;
               for (var i = 0; i < pollingPlaces.length; i++) {
-                if (pollingPlaces[i].properties.id == $route.current.params.pollingPlace) {
+                if (parseInt(pollingPlaces[i].properties.id) === parseInt($route.current.params.pollingPlace)) {
                   return pollingPlaces[i];
                 }
-              };
-            })
+              }
+            });
           }]
         }
       })

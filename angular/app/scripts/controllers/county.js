@@ -129,7 +129,7 @@ angular.module('earlyVotingApp')
 				$scope.sorted = true;
 				$scope.loading = false;
 				console.log("geolocationComplete");
-			})
+			});
 		});
 
 		var geolocate = function() {
@@ -153,7 +153,7 @@ angular.module('earlyVotingApp')
 					console.log($scope.errorText);
 				}
 			});
-		}
+		};
 
 		this.geolocate = geolocate;
 
