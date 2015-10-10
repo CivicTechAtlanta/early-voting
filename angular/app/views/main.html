@@ -1,29 +1,21 @@
 <md-content class="md-padding md-primary md-hue-1">
   <md-card>
     <md-card-content>
-      <h2 class="md-title">What is Early Voting?</h2>
-      <p>No reason is required to vote early.</p>
-    </md-card-content>
-  </md-card>
-  <br>
-  <md-card>
-    <md-card-content>
-      <h2 class="md-title">Next Election</h2>
+      <h2 class="md-title">Early Voting Locations & Times</h2>
       <p>
-        The next Georgia {{ main.nextElectionType }} date is {{ main.nextElectionDate }}.<br>
-        Early voting begins {{ main.nextElectionEarlyVotingDate }}.
+        You can start voting early on <strong>{{ main.nextElectionEarlyVotingDate }}</strong> for the upcoming {{ main.nextElectionType }} that's scheduled for {{ main.nextElectionDate }}.
       </p>
       <p>
-        To find times and places where you can vote early, select the county where you are registered to vote:
+        There aren't many early voting locations for each county, so you'll need to use the tool below to find times and places where you can vote early:
       </p>
       <form ng-submit="$event.preventDefault()">
-        <md-autocomplete 
+        <md-autocomplete
           md-selected-item="main.selectedCounty"
-          md-search-text-change="main.searchTextChange(main.searchText)" 
-          md-search-text="main.searchText" 
+          md-search-text-change="main.searchTextChange(main.searchText)"
+          md-search-text="main.searchText"
           md-selected-item-change="main.selectedCountyChange(county)"
-          md-items="county in main.querySearch(main.searchText)" 
-          md-item-text="county.display" 
+          md-items="county in main.querySearch(main.searchText)"
+          md-item-text="county.display"
           md-min-length="0"
           placeholder="Type your county here">
           <span md-highlight-text="main.searchText" md-highlight-flags="^i"> {{county.display}}</span>
@@ -32,19 +24,23 @@
           </md-not-found>
         </md-autocomplete>
         <div class="button-container">
-          <md-button class="md-raised md-primary" href="/#/counties">Select</md-button>
+          <md-button class="md-raised md-primary" href="/#/counties">Submit</md-button>
         </div>
         <br>
       </form>
     </md-card-content>
   </md-card>
   <br>
+
   <md-card>
     <md-card-content>
-      <h2 class="md-title">More Info</h2>
+      <h2 class="md-title">Early Voting Eligibility</h2>
       <p>
-        To find your polling place for election day, {{ main.nextElectionDate }}
-      </p>
+        <img src="/images/ballot-box.png" width="100px" align="left" style="margin-right: 10px;" />
+        If you're a registered voter in Georgia, then <strong>YES</strong>, you can vote early. No reason is required to vote early.</p>
+      <p>You can register to vote at the <a href="https://registertovote.sos.ga.gov/" target="_blank">Secretary of State's website</a>.</p>
     </md-card-content>
   </md-card>
+  <br>
+
 </md-content>
