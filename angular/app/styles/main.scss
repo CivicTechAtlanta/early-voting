@@ -123,6 +123,14 @@ md-card {
   }
 }
 
+@media screen and (max-width: 368px) {
+  .md-toolbar-tools {
+    a.tagline {
+      font-size: 11px;
+    }
+  }
+}
+
 @media screen and (max-width: 400px) {
   .main-menu {
     font-size: 12px;
@@ -133,6 +141,8 @@ md-card {
       font-size: 14px;
     }
     .social-button {
+      padding: 0px;
+      margin: 0px;
       width: 44px;
       max-width: 44px;
       min-width: 44px;
