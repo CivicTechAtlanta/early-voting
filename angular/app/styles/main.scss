@@ -122,3 +122,25 @@ md-card {
     border-bottom: 0;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .main-menu {
+    font-size: 12px;
+  }
+  .md-toolbar-tools {
+    h1, 
+    h2 {
+      font-size: 14px;
+    }
+    .social-button {
+      width: 44px;
+      max-width: 44px;
+      min-width: 44px;
+      // font-size: 12px;
+      .social-text {
+        display: none;
+        width: 0;
+      }
+    }
+  }
+}

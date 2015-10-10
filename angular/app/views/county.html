@@ -14,6 +14,7 @@
         </md-tab>
       </md-tabs>
       <p ng-if="!county.countyElectionInfo.earlyVoting" class="md-warn">No early voting locations found for this county.</p>
+      <p ng-if="!county.countyElectionInfo.earlyVoting" class="md-warn">Want to double-check? <a href="http://sos.ga.gov/elections/CountyContacts/AdvanceVotingDisplay.aspx">Check the Secretary of State's website</a>. And please <a href="mailto:yall@codeforatlanta.org">let us know</a> if we missed a location so we can add it. Thanks!</p>
       <span class="before-button">Not a {{ county.county }} County voter?</span>
       <md-button href="#/" class="md-raised md-primary">
         Select your county

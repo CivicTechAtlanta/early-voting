@@ -78,7 +78,7 @@ angular.module('earlyVotingApp')
 					},
 					onEachFeature: function(feature, layer) {
 						var pollingPlaceTitle = feature.properties.location !== "" ? feature.properties.location : "Polling Place";
-						layer.bindPopup("<a href='#/counties/"+$routeParams.countyName+"/"+feature.properties.id+"' class='popup-link'><span class='popup-text'>" + pollingPlaceTitle + "<br>" + feature.properties.datesSimplified + "</span><i class='popup-icon fa fa-chevron-right fa-2x' aria-label='view polling place details '></i></a>");
+						layer.bindPopup("<a href='#/counties/"+$routeParams.countyName+"/"+feature.properties.id+"' class='popup-link'><span class='popup-text'>" + pollingPlaceTitle + "<br><br>" + feature.properties.datesSimplified + "</span><i class='popup-icon fa fa-chevron-right fa-2x' aria-label='view polling place details '></i></a>");
 					}
 				}
 			});
