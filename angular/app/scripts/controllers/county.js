@@ -10,9 +10,6 @@
 angular.module('earlyVotingApp')
   .controller('CountyCtrl', ['$scope', '$routeParams', 'countyElectionInfo', 'countyBoundaries', 'leafletBoundsHelpers', 
   									function ($scope,   $routeParams,   countyElectionInfo,   countyBoundaries,   leafletBoundsHelpers) {
-  	function toTitleCase(str) {
-	    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
-		}
 
 		$scope.loading = false;
     this.county = $routeParams.countyName;
