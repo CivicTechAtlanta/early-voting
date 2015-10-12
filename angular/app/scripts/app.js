@@ -105,14 +105,14 @@ angular
         controllerAs: 'county',
         resolve: {
           countyBoundaries: ['$http', '$route', function($http, $route) {
-            var county = $route.current.params.countyName.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+            var county = $route.current.params.countyName;
             var fileName = 'data/county-outlines/' + county + '.geojson';
             return $http.get(fileName).then(function(result) {
               return result.data.features[0];
             });
           }],
           countyElectionInfo: ['$http', '$route', function($http, $route) {
-            var county = $route.current.params.countyName.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+            var county = $route.current.params.countyName;
             return $http.get('data/elections/20151103-locations.json').then(function(result) {
               if (typeof(result.data[county]) === "undefined") {
                 console.log("undefined");
@@ -120,7 +120,6 @@ angular
                 return {earlyVoting: false};
               } else {
                 result.data[county].earlyVoting = true;
-                console.log(result.data[county]);
                 return result.data[county];
               }
             }, function(error) {
@@ -136,7 +135,7 @@ angular
         controllerAs: 'place',
         resolve: {
           pollingPlaceInfo: [ '$http', '$route', function($http, $route) {
-            var county = $route.current.params.countyName.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+            var county = $route.current.params.countyName;
             return $http.get('data/elections/20151103-locations.json').then(function(result) {
               var pollingPlaces = result.data[county][0].features;
               for (var i = 0; i < pollingPlaces.length; i++) {

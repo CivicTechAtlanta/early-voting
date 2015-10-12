@@ -20,7 +20,7 @@ angular.module('earlyVotingApp')
     };
     this.selectedCountyChange = function(county) {
       $log.info('County changed to ' + JSON.stringify(county));
-      $location.path("/counties/" + county.value);
+      $location.path("/counties/" + county.display);
     };
     /**
      * Build `counties` list of key/value pairs
@@ -39,9 +39,8 @@ angular.module('earlyVotingApp')
      * Create filter function for a query string
      */
     function createFilterFor(query) {
-      var lowercaseQuery = angular.lowercase(query);
       return function filterFn(county) {
-        return (county.value.indexOf(lowercaseQuery) === 0);
+        return (county.value.indexOf(query) === 0);
       };
     }
 

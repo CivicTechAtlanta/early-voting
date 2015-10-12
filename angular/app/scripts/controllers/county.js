@@ -15,7 +15,7 @@ angular.module('earlyVotingApp')
 		}
 
 		$scope.loading = false;
-    this.county = toTitleCase($routeParams.countyName);
+    this.county = $routeParams.countyName;
 		this.countyElectionInfo = countyElectionInfo;
     var countyBbox = countyBoundaries.properties.BOUNDS;
     this.bounds = leafletBoundsHelpers.createBoundsFromArray([
