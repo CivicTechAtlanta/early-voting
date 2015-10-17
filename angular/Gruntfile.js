@@ -19,6 +19,8 @@ module.exports = function (grunt) {
     cdnify: 'grunt-google-cdn'
   });
 
+  grunt.loadNpmTasks("grunt-aws");
+
   // Configurable paths for the application
   var appConfig = {
     app: require('./bower.json').appPath || 'app',
@@ -434,6 +436,21 @@ module.exports = function (grunt) {
         configFile: 'test/karma.conf.js',
         singleRun: true
       }
+    },
+
+
+    aws: grunt.file.readJSON("credentials.json"),
+    // Upload to S3
+    s3: {
+      options: {
+        accessKeyId: "<%= aws.accessKeyId %>",
+        secretAccessKey: "<%= aws.secretAccessKey %>",
+        bucket: "earlyvoting.codeforatlanta.org"
+      },
+      build: {
+        cwd: "dist/",
+        src: "**"
+      }
     }
   });
 
@@ -482,6 +499,10 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin'
+  ]);
+
+  grunt.registerTask('upload', [
+    's3'
   ]);
 
   grunt.registerTask('default', [
