@@ -1,0 +1,2918 @@
+[
+  {
+    "name": "Appling",
+    "value": "1",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Appling County Board of Registration 69 Tippins Street, Suite 205 912-367-8113 Baxley, GA 31513"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Appling County Board of Registration 69 Tippins Street, Suite 205 912-367-8113 Baxley, GA 31513"
+      }
+    ]
+  },
+  {
+    "name": "Atkinson",
+    "value": "2",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Atkinson County Voting Precinct 636 Austin Avenue East Pearson, GA 31642"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Atkinson County Voting Precinct 636 Austin Avenue East Pearson, GA 31642"
+      }
+    ]
+  },
+  {
+    "name": "Bacon",
+    "value": "3",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F 232 West 12th Street Alma, GA 31510"
+      },
+      {
+        "text": "02/15/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: Tu,W,Th,F 232 West 12th Street Alma, GA 31510"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 232 West 12th Street Alma, GA 31510"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F 232 West 12th Street Alma, GA 31510"
+      }
+    ]
+  },
+  {
+    "name": "Baker",
+    "value": "4",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F Baker County Courthouse 167 Baker Place,Baker Co. Elections Office Newton, GA 39870"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Baker County Courthouse 167 Baker Place,Baker Co. Elections Office Newton, GA 39870"
+      }
+    ]
+  },
+  {
+    "name": "Baldwin",
+    "value": "5",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F 121 N Wilkinson St Ste 104 Milledgeville, GA 31061"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 121 N Wilkinson St Ste 104 Milledgeville, GA 31061"
+      }
+    ]
+  },
+  {
+    "name": "Banks",
+    "value": "6",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Banks County Registrar's Office 226 Candler Street Homer, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Banks County Registrar's Office 226 Candler Street Homer, GA"
+      }
+    ]
+  },
+  {
+    "name": "Barrow",
+    "value": "7",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Barrow County Elections Office 233 East Broad Street Ground Floor Winder, GA 30680"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Barrow County Elections Office 233 East Broad Street Ground Floor Winder, GA 30680"
+      }
+    ]
+  },
+  {
+    "name": "Bartow",
+    "value": "8",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Bartow County Voter Registration Office 1300 Joe Frank Harris Pkwy Cartersville, GA 30120"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Bartow County Voter Registration Office 1300 Joe Frank Harris Pkwy Cartersville, GA 30120"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Cartersville Civic Center 435 West Main Street Cartersville, GA"
+      }
+    ]
+  },
+  {
+    "name": "Ben Hill",
+    "value": "9",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 7:30 AM - 3:45 PM, Days: M,Tu,W,Th,F Ben Hill Elections Office 115 W Pine Street Fitzgerald, GA 31750"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Ben Hill Elections Office 115 W Pine Street Fitzgerald, GA 31750"
+      }
+    ]
+  },
+  {
+    "name": "Berrien",
+    "value": "10",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 4:30 PM, Days: M,Tu,W,Th,F Berrien County Board of Elections and Registration 201 N. Davis Street Nashville, GA 31639"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Berrien County Board of Elections and Registration 201 N. Davis Street Nashville, GA 31639"
+      }
+    ]
+  },
+  {
+    "name": "Bibb",
+    "value": "11",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:30 PM, Days: M,Tu,W,Th,F Macon-Bibb County Board of Elections 2445 Pio Nono Avenue Macon, GA 31206"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Macon-Bibb County Board of Elections 2445 Pio Nono Avenue Macon, GA 31206"
+      }
+    ]
+  },
+  {
+    "name": "Bleckley",
+    "value": "12",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Voter Registrar's Office 112 North Second Street, 2nd floor Cochran, GA 31014"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Voter Registrar's Office 112 North Second Street, 2nd floor Cochran, GA 31014"
+      }
+    ]
+  },
+  {
+    "name": "Brantley",
+    "value": "13",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections and Registration Office 10305 N. Main St. Suite 400 Nahunta, GA 31553"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Board of Elections and Registration Office 10305 N. Main St. Suite 400 Nahunta, GA 31553"
+      }
+    ]
+  },
+  {
+    "name": "Brooks",
+    "value": "14",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F elections office 610 S Highland Rd Quitman, GA 31643"
+      },
+      {
+        "text": "02/15/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F elections office 610 S Highland Rd Quitman, GA 31643"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:30 AM - 4:00 PM, Days: Sa elections office 610 S Highland Rd Quitman, GA 31643"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F elections office 610 S Highland Rd Quitman, GA 31643"
+      }
+    ]
+  },
+  {
+    "name": "Bryan",
+    "value": "15",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Bryan County Administration Bldg 66 Capt. Matthew Freeman Dr. Richmond Hill, GA 31324"
+      },
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Bryan County Courthouse Commissioners Meeting Room 42 N. Courthouse St Pembroke, GA 31321"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Bryan County Administration Bldg 66 Capt. Matthew Freeman Dr. Richmond Hill, GA 31324"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Bryan County Courthouse Commissioners Meeting Room 42 N. Courthouse St Pembroke, GA 31321"
+      }
+    ]
+  },
+  {
+    "name": "Bulloch",
+    "value": "16",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Bulloch County Annex 113 North Main Street, Ste 201 Statesboro, GA 30458"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Bulloch County Annex 113 North Main Street, Ste 201 Statesboro, GA 30458"
+      }
+    ]
+  },
+  {
+    "name": "Burke",
+    "value": "17",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Burke County Courthouse 602 North Liberty Street, Room 104 Waynesboro, GA 30830-1417"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:30 PM, Days: Sa Burke County Courthouse 602 North Liberty Street, Room 104 Waynesboro, GA 30830-1417"
+      }
+    ]
+  },
+  {
+    "name": "Butts",
+    "value": "18",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Butts County Board of Elections 625 West 3rd Street, Suite 5 Jackson, GA 30233"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Butts County Board of Elections 625 West 3rd Street, Suite 5 Jackson, GA 30233"
+      }
+    ]
+  },
+  {
+    "name": "Calhoun",
+    "value": "19",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Calhoun Co Courthouse Voter Registration Office 31 Court St. Suite E Morgan, GA 39866"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Calhoun Co Courthouse Voter Registration Office 31 Court St. Suite E Morgan, GA 39866"
+      }
+    ]
+  },
+  {
+    "name": "Camden",
+    "value": "20",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Voter Registration 200 E 4th St Woodbine, GA 31569"
+      },
+      {
+        "text": "02/16/2016 - 02/19/2016 8:30 AM - 5:00 PM, Days: Tu,W,Th,F Voter Registration 200 E 4th St Woodbine, GA 31569"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Voter Registration 200 E 4th St Woodbine, GA 31569"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Dept. of Motor Vehicles 333 S Ashley St Kingsland, GA 31548"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Salvation Army Resource Center 1915 Osborne St Saint Marys, GA 31558"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Voter Registration 200 E 4th St Woodbine, GA 31569"
+      }
+    ]
+  },
+  {
+    "name": "Candler",
+    "value": "21",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Jack Strickland Building 621 West Pine Street Metter, GA 30439"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Jack Strickland Building 621 West Pine Street Metter, GA 30439"
+      }
+    ]
+  },
+  {
+    "name": "Carroll",
+    "value": "22",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Carroll County Board of Elections and Registration, Lower Level 423 College Street Carrollton, GA 30117"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Carroll County Board of Elections and Registration, Lower Level 423 College Street Carrollton, GA 30117"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Carroll County Board of Elections and Registration, Lower Level 423 College Street Carrollton, GA 30117"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Powell Park Arts Center 424 Leslie Dr Villa Rica, GA 30180"
+      }
+    ]
+  },
+  {
+    "name": "Catoosa",
+    "value": "23",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Catoosa Hall 7658 Nashville Street Ringgold, GA"
+      },
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Westside Voting Precinct 3319 Lakeview Dr Rossville, GA 30741"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Catoosa Hall 7658 Nashville Street Ringgold, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Westside Voting Precinct 3319 Lakeview Dr Rossville, GA 30741"
+      },
+      {
+        "text": "02/25/2016 - 02/25/2016 8:00 AM - 7:00 PM, Days: Th Catoosa Hall 7658 Nashville Street Ringgold, GA"
+      },
+      {
+        "text": "02/25/2016 - 02/25/2016 8:00 AM - 7:00 PM, Days: Th Westside Voting Precinct 3319 Lakeview Dr Rossville, GA 30741"
+      }
+    ]
+  },
+  {
+    "name": "Charlton",
+    "value": "24",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Charlton County Board of Elections & Registration Courthouse 1520 Third St, Suite C Folkston, GA 31537"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 10:00 AM - 3:00 PM, Days: Sa Saint George Community Center 13063 Florida Ave Saint George, GA 31562"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Charlton County Board of Elections & Registration Courthouse 1520 Third St, Suite C Folkston, GA 31537"
+      }
+    ]
+  },
+  {
+    "name": "Chatham",
+    "value": "25",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Voter Registration Office 1117 Eisenhower Drive, Suite E Savannah, GA 31401"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Voter Registration Office 1117 Eisenhower Drive, Suite E Savannah, GA 31401"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 4:00 PM, Days: M,Tu,W,Th,F Civic Center 301 W Oglethorpe Ave Savannah, GA 31401"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 10:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Islands Library 50 Johnny Mercer Blvd Savannah, GA 31410"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 4:00 PM, Days: M,Tu,W,Th,F Mosquito Control 65 Billy B Hair Dr Savannah, GA 31408"
+      },
+      {
+        "text": "02/22/2016 - 02/22/2016 8:00 AM - 5:00 PM, Days: M Voter Registration Office 1117 Eisenhower Drive, Suite E Savannah, GA 31401"
+      },
+      {
+        "text": "02/23/2016 - 02/26/2016 10:00 AM - 5:00 PM, Days: Tu,W,Th,F Southwest Library 14097 Abercorn St Savannah, GA 31419"
+      },
+      {
+        "text": "02/23/2016 - 02/23/2016 8:00 AM - 7:00 PM, Days: Tu Voter Registration Office 1117 Eisenhower Drive, Suite E Savannah, GA 31401"
+      },
+      {
+        "text": "02/24/2016 - 02/24/2016 8:00 AM - 5:00 PM, Days: W Voter Registration Office 1117 Eisenhower Drive, Suite E Savannah, GA 31401"
+      },
+      {
+        "text": "02/25/2016 - 02/25/2016 8:00 AM - 7:00 PM, Days: Th Voter Registration Office 1117 Eisenhower Drive, Suite E Savannah, GA 31401"
+      },
+      {
+        "text": "02/26/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: F Voter Registration Office 1117 Eisenhower Drive, Suite E Savannah, GA 31401"
+      }
+    ]
+  },
+  {
+    "name": "Chattahoochee",
+    "value": "26",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 4:30 PM, Days: M,Tu,W,Th,F Unified Gov't Offices of Cusseta-Chattahoochee Co 215 McNaughton St. Cusseta, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Unified Gov't Offices of Cusseta-Chattahoochee Co 215 McNaughton St. Cusseta, GA"
+      }
+    ]
+  },
+  {
+    "name": "Chattooga",
+    "value": "27",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Chattooga County Registrar Office 10017 Commerce Street Summerville, GA 30747"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Chattooga County Registrar Office 10017 Commerce Street Summerville, GA 30747"
+      }
+    ]
+  },
+  {
+    "name": "Cherokee",
+    "value": "28",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Cherokee County Elections & Registration 400 East Main Street Canton, GA 30114"
+      },
+      {
+        "text": "02/15/2016 - 02/19/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Cherokee County Elections & Registration 400 East Main Street Canton, GA 30114"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Ball Ground Public Library 435 Old Canton Road Ball Ground, GA 30107"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Cherokee County Elections & Registration 400 East Main Street Canton, GA 30114"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Hickory Flat Public Library 2740 East Cherokee Drive Canton, GA 30115"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Rose Creek Public Library 4476 Towne Lake Parkway Woodstock, GA 30189"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Woodstock Public Library 7735 Main Street Woodstock, GA 30188"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 7:00 PM, Days: M,Tu,W,Th,F Ball Ground Public Library 435 Old Canton Road Ball Ground, GA 30107"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 7:00 PM, Days: M,Tu,W,Th,F Cherokee County Elections & Registration 400 East Main Street Canton, GA 30114"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 7:00 PM, Days: M,Tu,W,Th,F Hickory Flat Public Library 2740 East Cherokee Drive Canton, GA 30115"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 7:00 PM, Days: M,Tu,W,Th,F Rose Creek Public Library 4476 Towne Lake Parkway Woodstock, GA 30189"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 7:00 PM, Days: M,Tu,W,Th,F Woodstock Public Library 7735 Main Street Woodstock, GA 30188"
+      }
+    ]
+  },
+  {
+    "name": "Clarke",
+    "value": "29",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Athens-Clarke County Board of Elections 155 East Washington Street Athens, GA 30601"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Athens-Clarke County Board of Elections 155 East Washington Street Athens, GA 30601"
+      }
+    ]
+  },
+  {
+    "name": "Clay",
+    "value": "30",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 4:30 PM, Days: M,Tu,W,Th,F Clay County Courthouse 210 South Washington Street Fort Gaines, GA"
+      }
+    ]
+  },
+  {
+    "name": "Clayton",
+    "value": "31",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Clayton County Elections and Registration 121 S. McDonough Street Jonesboro, GA 30236"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Carl Rhodenizer Recreation Center 3499 Rex Road Rex, GA 30273"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Clayton County Elections and Registration 121 S. McDonough Street Jonesboro, GA 30236"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Lee Headquarters Library 865 Battle Creek Road Jonesboro, GA 30236"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Morrow Municipal Complex Community Room 1500 Morrow Road Morrow, GA 30260"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa South Clayton Recreation Center 1837 McDonough Road Hampton, GA 30228"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Virginia Burton Gray Recreation Center 1475 East Fayetteville Road Riverdale, GA 30274"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Carl Rhodenizer Recreation Center 3499 Rex Road Rex, GA 30273"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Clayton County Elections and Registration 121 S. McDonough Street Jonesboro, GA 30236"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Lee Headquarters Library 865 Battle Creek Road Jonesboro, GA 30236"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Morrow Municipal Complex Community Room 1500 Morrow Road Morrow, GA 30260"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 7:00 PM, Days: M,Tu,W,Th,F South Clayton Recreation Center 1837 McDonough Road Hampton, GA 30228"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Virginia Burton Gray Recreation Center 1475 East Fayetteville Road Riverdale, GA 30274"
+      }
+    ]
+  },
+  {
+    "name": "Clinch",
+    "value": "32",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F 25 Court Square Suite A Homerville, GA 31634"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 25 Court Square Suite A Homerville, GA 31634"
+      }
+    ]
+  },
+  {
+    "name": "Cobb",
+    "value": "33",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 7:00 PM, Days: M,Tu,W,Th,F CENTRAL 2: Switzer Central Library 266 Roswell St. Marietta, GA 30060-2005"
+      },
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 7:00 PM, Days: M,Tu,W,Th,F CENTRAL 3: Senior Wellness Center Powder Springs Station 1150 Powder Springs St. Marietta, GA 30064-5287"
+      },
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F MAIN OFFICE 736 Whitlock Ave. Marietta, GA 30064"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa CENTRAL 2: Switzer Central Library 266 Roswell St. Marietta, GA 30060-2005"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa CENTRAL 3: Senior Wellness Center Powder Springs Station 1150 Powder Springs St. Marietta, GA 30064-5287"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa MAIN OFFICE 736 Whitlock Ave. Marietta, GA 30064"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 7:00 PM, Days: M,Tu,W,Th,F EAST, East Cobb Government Svcs. Center 4400 Lower Roswell Rd. Marietta, GA 30068-4233"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 7:00 PM, Days: M,Tu,W,Th,F NORTH, NorthStar Church 3413 Blue Springs Rd., NW Kennesaw, GA 30144-1082"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 7:00 PM, Days: M,Tu,W,Th,F SOUTH, South Cobb Community Center 620 Lions Club Dr. Mableton, GA 30126-2438"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 7:00 PM, Days: M,Tu,W,Th,F WEST, Boots Ward Recreation Center (Lost Mountain Park) 4845 Dallas Hwy. Powder Springs, GA 30127-4486"
+      }
+    ]
+  },
+  {
+    "name": "Coffee",
+    "value": "34",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F,Sa Elections & Registation 224 West Ashley Street Douglas, GA 31533"
+      }
+    ]
+  },
+  {
+    "name": "Colquitt",
+    "value": "35",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 4:30 PM, Days: M,Tu,W,Th,F Courthouse Annex 101 East Central Avenue, Room 221 Moultrie, GA 31768"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Courthouse Annex 101 East Central Avenue, Room 221 Moultrie, GA 31768"
+      }
+    ]
+  },
+  {
+    "name": "Columbia",
+    "value": "36",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Columbia County Board of Elections 500 Faircloth Drive, Building E Evans, GA 30809"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Columbia County Board of Elections 500 Faircloth Drive, Building E Evans, GA 30809"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Patriots Park 5445 Columbia Road Grovetown, GA 30813"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Stevens Creek Community Church 600 Stevens Creek Road Augusta, GA 30907"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Patriots Park 5445 Columbia Road Grovetown, GA 30813"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Stevens Creek Community Church 600 Stevens Creek Road Augusta, GA 30907"
+      }
+    ]
+  },
+  {
+    "name": "Cook",
+    "value": "37",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F Cook County Administration Building 1200 S Hutchinson Ave Adel, GA 31620"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Cook County Administration Building 1200 S Hutchinson Ave Adel, GA 31620"
+      }
+    ]
+  },
+  {
+    "name": "Coweta",
+    "value": "38",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F Coweta County Voter Registration Office 22 East Broad Street Room 128 Newnan, GA 30263"
+      },
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F East Side Central Community Center 65 Literary Lane Newnan, GA 30265"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 9:00 AM - 12:00 PM, Days: Sa Coweta County Voter Registration Office 22 East Broad Street Room 128 Newnan, GA 30263"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 9:00 AM - 12:00 PM, Days: Sa East Side Central Community Center 65 Literary Lane Newnan, GA 30265"
+      },
+      {
+        "text": "02/20/2016 - 02/16/2016 9:00 AM - 4:00 PM, Days: Sa Coweta County Voter Registration Office 22 East Broad Street Room 128 Newnan, GA 30263"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa East Side Central Community Center 65 Literary Lane Newnan, GA 30265"
+      }
+    ]
+  },
+  {
+    "name": "Crawford",
+    "value": "39",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Development Center 1011 US Highway 341 North, Room 9 Roberta, GA 31078"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Development Center 1011 US Highway 341 North, Room 9 Roberta, GA 31078"
+      }
+    ]
+  },
+  {
+    "name": "Crisp",
+    "value": "40",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Government Center 210 S 7th St. Room 103 Cordele, GA 31015"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Government Center 210 S 7th St. Room 103 Cordele, GA 31015"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F Government Center Annex (Ag Bldg) 110 W 13th Ave. Cordele, GA 31015"
+      }
+    ]
+  },
+  {
+    "name": "Dade",
+    "value": "41",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th Administration Building 71 Case Avenue Trenton, GA 30752"
+      },
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 2:00 PM, Days: Th Administration Building 71 Case Avenue Trenton, GA 30752"
+      }
+    ]
+  },
+  {
+    "name": "Dawson",
+    "value": "42",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Dawson County Board of Elections and Registration 96 Academy Avenue Dawsonville, GA 30534"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Dawson County Board of Elections and Registration 96 Academy Avenue Dawsonville, GA 30534"
+      }
+    ]
+  },
+  {
+    "name": "Decatur",
+    "value": "43",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Courthouse Annex 122 West Water Street Bainbridge, GA 39817"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Fairgrounds, Chamber 1 1211 Vada Road Bainbridge, GA 39817"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Courthouse Annex 122 West Water Street Bainbridge, GA 39817"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Fairgrounds, Chamber 1 1211 Vada Road Bainbridge, GA 39817"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Courthouse Annex 122 West Water Street Bainbridge, GA 39817"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Fairgrounds, Chamber 1 1211 Vada Road Bainbridge, GA 39817"
+      }
+    ]
+  },
+  {
+    "name": "DeKalb",
+    "value": "44",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Memorial Drive Complex, Suite 300 4380 Memorial Drive Decatur, GA 30032"
+      },
+      {
+        "text": "02/08/2016 - 02/12/2016 9:00 AM - 8:00 PM, Days: M,Tu,W,Th,F The Gallery at South DeKalb Mall 2801 Candler Road Decatur, GA 30034"
+      },
+      {
+        "text": "02/08/2016 - 02/12/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Tucker Recreation Center 4898 LaVista Road Tucker, GA 30084"
+      },
+      {
+        "text": "02/16/2016 - 02/19/2016 7:00 AM - 7:00 PM, Days: Tu,W,Th,F Memorial Drive Complex, Suite 300 4380 Memorial Drive Decatur, GA 30032"
+      },
+      {
+        "text": "02/16/2016 - 02/19/2016 9:00 AM - 8:00 PM, Days: Tu,W,Th,F The Gallery at South DeKalb Mall 2801 Candler Road Decatur, GA 30034"
+      },
+      {
+        "text": "02/16/2016 - 02/19/2016 7:00 AM - 7:00 PM, Days: Tu,W,Th,F Tucker Recreation Center 4898 LaVista Road Tucker, GA 30084"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Memorial Drive Complex, Suite 300 4380 Memorial Drive Decatur, GA 30032"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa The Gallery at South DeKalb Mall 2801 Candler Road Decatur, GA 30034"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Tucker Recreation Center 4898 LaVista Road Tucker, GA 30084"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Berean Christian Church Community Center 2440 Young Road Stone Mountain, GA 30088"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Brookhaven City Hall 4362 Peachtree Road NE Brookhaven, GA 30319"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Chamblee Civic Center 3540 Broad Street Chamblee, GA 30341"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Clark Harrison Center - Decatur 330 West Ponce de Leon Ave., Room A Decatur, GA 30030"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Dunwoody Library 5339 Chamblee Dunwoody Road Dunwoody, GA 30338"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Memorial Drive Complex, Suite 300 4380 Memorial Drive Decatur, GA 30032"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Stonecrest Library 3123 Klondike Road Lithonia, GA 30038"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 8:00 PM, Days: M,Tu,W,Th,F The Gallery at South DeKalb Mall 2801 Candler Road Decatur, GA 30034"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Tucker Recreation Center 4898 LaVista Road Tucker, GA 30084"
+      }
+    ]
+  },
+  {
+    "name": "Dodge",
+    "value": "45",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 12:00 PM, Days: M,Tu,W,Th,F Dodge County Registrar Office 5401 Anson Avenue Courthouse Circle Eastman, GA 31023"
+      },
+      {
+        "text": "02/08/2016 - 02/26/2016 1:00 PM - 5:00 PM, Days: M,Tu,W,Th,F Dodge County Registrar Office 5401 Anson Avenue Courthouse Circle Eastman, GA 31023"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Dodge County Registrar Office 5401 Anson Avenue Courthouse Circle Eastman, GA 31023"
+      }
+    ]
+  },
+  {
+    "name": "Dooly",
+    "value": "46",
+    "locations": [
+      {
+        "text": "01/20/2016 - 01/20/2016 9:00 AM - 4:00 PM, Days: Sa Vienna Voting Precinct 402 Hawkinsville Road Vienna, GA 31092"
+      },
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Vienna Voting Precinct 402 Hawkinsville Road Vienna, GA 31092"
+      }
+    ]
+  },
+  {
+    "name": "Dougherty",
+    "value": "47",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F 222 Pine Avenue, Room 220 Albany, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 125 Pine Ave Albany, GA 31701"
+      }
+    ]
+  },
+  {
+    "name": "Douglas",
+    "value": "48",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections and Registration 8700 Hospital Drive Douglasville, GA 30134"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Board of Elections and Registration 8700 Hospital Drive Douglasville, GA 30134"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Boundary Waters Aquatic Center 5000 Ga. Hwy 92 Douglasville, GA 30135"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Boundary Waters Aquatic Center 5000 Ga. Hwy 92 Douglasville, GA 30135"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Deer Lick Park Recreation Center 2105 Mack Road Douglasville, GA 30135"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Dog River Library 6100 Ga. Hwy 5 Douglasville, GA 30135"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Old Douglas County Courthouse 6745 Church Street Douglasville, GA 30134"
+      }
+    ]
+  },
+  {
+    "name": "Early",
+    "value": "49",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F Elections and Registration Office 17 McDonald Ave. Blakely, GA 39823"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Elections and Registration Office 17 McDonald Ave. Blakely, GA 39823"
+      }
+    ]
+  },
+  {
+    "name": "Echols",
+    "value": "50",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F County Courthouse Grand Jury Room 110 hwy 94 east Statenville, GA 31648"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa County Courthouse Grand Jury Room 110 hwy 94 east Statenville, GA 31648"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F County Courthouse Grand Jury Room 110 hwy 94 east Statenville, GA 31648"
+      }
+    ]
+  },
+  {
+    "name": "Effingham",
+    "value": "51",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections and Registration 284 Highway 119 South Springfield, GA 31329"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Board of Elections and Registration 284 Highway 119 South Springfield, GA 31329"
+      }
+    ]
+  },
+  {
+    "name": "Elbert",
+    "value": "52",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Registrar's Office 45 Forest Avenue Elberton, GA 30635"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Registrar's Office 45 Forest Avenue Elberton, GA 30635"
+      }
+    ]
+  },
+  {
+    "name": "Emanuel",
+    "value": "53",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Emanuel County Office of Elections & Registration 105 South Main Street Swainsboro, GA 30401"
+      }
+    ]
+  },
+  {
+    "name": "Evans",
+    "value": "54",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Evan's County Registrar's Office Courthouse Annex 201 Freeman Street Claxton, GA 30417"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Evan's County Registrar's Office Courthouse Annex 201 Freeman Street Claxton, GA 30417"
+      }
+    ]
+  },
+  {
+    "name": "Fannin",
+    "value": "55",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Fannin County Board of Elections and Registration 400 West Main Street, Suite 301 Blue Ridge, GA 30513"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Fannin County Board of Elections and Registration 400 West Main Street, Suite 301 Blue Ridge, GA 30513"
+      }
+    ]
+  },
+  {
+    "name": "Fayette",
+    "value": "56",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Fayette County Elections Office 140 Stonewall Avenue West, Suite 209 Fayetteville, GA 30214"
+      },
+      {
+        "text": "02/15/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Fayette County Elections Office 140 Stonewall Avenue West, Suite 209 Fayetteville, GA 30214"
+      },
+      {
+        "text": "02/15/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Fayette County Elections Office 140 Stonewall Avenue West, Suite 209 Fayetteville, GA 30214"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Fayette County Elections Office 140 Stonewall Avenue West, Suite 209 Fayetteville, GA 30214"
+      }
+    ]
+  },
+  {
+    "name": "Floyd",
+    "value": "57",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Elections and Registration Office 12 East 4th Avenue 2nd Floor/County Administrative Bldg. Rome, GA 30161"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Elections and Registration Office 12 East 4th Avenue 2nd Floor/County Administrative Bldg. Rome, GA 30161"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Rome Civic Center 400 Civic Center Dr Rome, GA 30161"
+      }
+    ]
+  },
+  {
+    "name": "Forsyth",
+    "value": "58",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Cumming City Hall 100 Main Street Cumming, GA 30040"
+      },
+      {
+        "text": "02/08/2016 - 02/12/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Hampton Park Library 5345 Settingdown Rd Cumming, GA 30041"
+      },
+      {
+        "text": "02/08/2016 - 02/12/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Midway Park Community Building 5100 Post Road Cumming, GA 30040"
+      },
+      {
+        "text": "02/08/2016 - 02/12/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Sharon Springs Park Community Building 1950 Sharon Road Cumming, GA 30041"
+      },
+      {
+        "text": "02/08/2016 - 02/12/2016 8:00 AM - 4:30 PM, Days: M,Tu,W,Th,F Voter Registrations & Elections Office Forsyth County Administration Bldg 110 East Main Street Cumming, GA 30040"
+      },
+      {
+        "text": "02/15/2016 - 02/19/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Cumming City Hall 100 Main Street Cumming, GA 30040"
+      },
+      {
+        "text": "02/15/2016 - 02/19/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Hampton Park Library 5345 Settingdown Rd Cumming, GA 30041"
+      },
+      {
+        "text": "02/15/2016 - 02/19/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Midway Park Community Building 5100 Post Road Cumming, GA 30040"
+      },
+      {
+        "text": "02/15/2016 - 02/19/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Sharon Springs Park Community Building 1950 Sharon Road Cumming, GA 30041"
+      },
+      {
+        "text": "02/15/2016 - 02/19/2016 8:00 AM - 4:30 PM, Days: M,Tu,W,Th,F Voter Registrations & Elections Office Forsyth County Administration Bldg 110 East Main Street Cumming, GA 30040"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 7:00 AM - 7:00 PM, Days: Sa Cumming City Hall 100 Main Street Cumming, GA 30040"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 7:00 AM - 7:00 PM, Days: Sa Hampton Park Library 5345 Settingdown Rd Cumming, GA 30041"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 7:00 AM - 7:00 PM, Days: Sa Midway Park Community Building 5100 Post Road Cumming, GA 30040"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 7:00 AM - 7:00 PM, Days: Sa Sharon Springs Park Community Building 1950 Sharon Road Cumming, GA 30041"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 4:30 PM, Days: Sa Voter Registrations & Elections Office Forsyth County Administration Bldg 110 East Main Street Cumming, GA 30040"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Cumming City Hall 100 Main Street Cumming, GA 30040"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Hampton Park Library 5345 Settingdown Rd Cumming, GA 30041"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Midway Park Community Building 5100 Post Road Cumming, GA 30040"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Sharon Springs Park Community Building 1950 Sharon Road Cumming, GA 30041"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 4:30 PM, Days: M,Tu,W,Th,F Voter Registrations & Elections Office Forsyth County Administration Bldg 110 East Main Street Cumming, GA 30040"
+      }
+    ]
+  },
+  {
+    "name": "Franklin",
+    "value": "59",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 4:30 PM, Days: M,Tu,W,Th,F Elections & Registration Office 211 Athens Street Carnesville, GA 30521"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Elections & Registration Office 211 Athens Street Carnesville, GA 30521"
+      }
+    ]
+  },
+  {
+    "name": "Fulton",
+    "value": "60",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Adamsville Recreation Center 3201 Martin Luther King, Jr. Dr,, SW Atlanta, GA 30311"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Adamsville-Collier Heights Branch Library 3424 Martin Luther King, Dr, Atlanta, GA 30331"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Alpharetta Library 10 Park Plaza Alpharetta, GA 30009"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Buckhead Library 269 Buckhead Avenue NE Atlanta, GA 30305"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Chastain Park Gymnasium 140 West Wieuca, Road NW Atlanta, GA 30342"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F College Park Historical Building 3675 Auditorium Way College Park, GA 30337"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F East Point Library 2757 Main Street East Point, GA 30344"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F East Roswell Library 2301 Holcomb Bridge Road Roswell, GA 30076"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Fairburn Library 60 Valley View Drive Fairburn, GA 30075"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Fulton County Government Center 130 Peachtree Street SW Atlanta, GA 30303"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Georgia Hills Neighborhood Facility 250 Georgia Avenue SE Atlanta, GA 30312"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Johns Creek Environmental Campus 8100 Holcomb Bridge Road Alpharetta, GA 30022"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Milton Library 855 Mayfield Road Milton, GA 30009"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F North Fulton Service Center 7741 Roswell Road, Suite 232 Sandy Springs, GA 30350"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Northeast/Spruill Oaks Library 9560 Spruill Road Johns Creek, GA 30022"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Northside Library 3295 Northside Parkway, NW Atlanta, GA 30327"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Northwest Branch at Scotts Crossing Library 2489 Perry Boulevard NW Atlanta, GA 30318"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Palmetto Library 9111 Cascade Palmetto Hwy Atlanta, GA 30268"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Robert F. Fulton Ocee Library 5090 Abbotts Bridge Road Alpharetta, GA 30075"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Roswell Branch Library 115 Norcross Street Roswell , GA 30075"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Sandy Springs Library 395 Mount Vernon HWY, NE Sandy Springs, GA 30328"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F South Fulton Service Center 5600 Stonewall Tell Road Room 108 College Park, GA 30349"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Southwest Arts Center 915 New Hope Road, SW Atlanta, GA 30331"
+      },
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Welcome All Recreation Center 4255 Will Lee Road College Park, GA 30349"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Adamsville Recreation Center 3201 Martin Luther King, Jr. Dr,, SW Atlanta, GA 30311"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Adamsville-Collier Heights Branch Library 3424 Martin Luther King, Dr, Atlanta, GA 30331"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Alpharetta Library 10 Park Plaza Alpharetta, GA 30009"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Buckhead Library 269 Buckhead Avenue NE Atlanta, GA 30305"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Chastain Park Gymnasium 140 West Wieuca, Road NW Atlanta, GA 30342"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa College Park Historical Building 3675 Auditorium Way College Park, GA 30337"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa East Point Library 2757 Main Street East Point, GA 30344"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa East Roswell Library 2301 Holcomb Bridge Road Roswell, GA 30076"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Fairburn Library 60 Valley View Drive Fairburn, GA 30075"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Fulton County Government Center 130 Peachtree Street SW Atlanta, GA 30303"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Georgia Hills Neighborhood Facility 250 Georgia Avenue SE Atlanta, GA 30312"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Johns Creek Environmental Campus 8100 Holcomb Bridge Road Alpharetta, GA 30022"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Milton Library 855 Mayfield Road Milton, GA 30009"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa North Fulton Service Center 7741 Roswell Road, Suite 232 Sandy Springs, GA 30350"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Northeast/Spruill Oaks Library 9560 Spruill Road Johns Creek, GA 30022"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Northside Library 3295 Northside Parkway, NW Atlanta, GA 30327"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Northwest Branch at Scotts Crossing Library 2489 Perry Boulevard NW Atlanta, GA 30318"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Palmetto Library 9111 Cascade Palmetto Hwy Atlanta, GA 30268"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Robert F. Fulton Ocee Library 5090 Abbotts Bridge Road Alpharetta, GA 30075"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Roswell Branch Library 115 Norcross Street Roswell , GA 30075"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Sandy Springs Library 395 Mount Vernon HWY, NE Sandy Springs, GA 30328"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa South Fulton Service Center 5600 Stonewall Tell Road Room 108 College Park, GA 30349"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Southwest Arts Center 915 New Hope Road, SW Atlanta, GA 30331"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Welcome All Recreation Center 4255 Will Lee Road College Park, GA 30349"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Adamsville Recreation Center 3201 Martin Luther King, Jr. Dr,, SW Atlanta, GA 30311"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Adamsville-Collier Heights Branch Library 3424 Martin Luther King, Dr, Atlanta, GA 30331"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Alpharetta Library 10 Park Plaza Alpharetta, GA 30009"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Buckhead Library 269 Buckhead Avenue NE Atlanta, GA 30305"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Chastain Park Gymnasium 140 West Wieuca, Road NW Atlanta, GA 30342"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su College Park Historical Building 3675 Auditorium Way College Park, GA 30337"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su East Point Library 2757 Main Street East Point, GA 30344"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su East Roswell Library 2301 Holcomb Bridge Road Roswell, GA 30076"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Fairburn Library 60 Valley View Drive Fairburn, GA 30075"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Fulton County Government Center 130 Peachtree Street SW Atlanta, GA 30303"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Georgia Hills Neighborhood Facility 250 Georgia Avenue SE Atlanta, GA 30312"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Johns Creek Environmental Campus 8100 Holcomb Bridge Road Alpharetta, GA 30022"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Milton Library 855 Mayfield Road Milton, GA 30009"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su North Fulton Service Center 7741 Roswell Road, Suite 232 Sandy Springs, GA 30350"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Northeast/Spruill Oaks Library 9560 Spruill Road Johns Creek, GA 30022"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Northside Library 3295 Northside Parkway, NW Atlanta, GA 30327"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Northwest Branch at Scotts Crossing Library 2489 Perry Boulevard NW Atlanta, GA 30318"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Palmetto Library 9111 Cascade Palmetto Hwy Atlanta, GA 30268"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Robert F. Fulton Ocee Library 5090 Abbotts Bridge Road Alpharetta, GA 30075"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Roswell Branch Library 115 Norcross Street Roswell , GA 30075"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Sandy Springs Library 395 Mount Vernon HWY, NE Sandy Springs, GA 30328"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su South Fulton Service Center 5600 Stonewall Tell Road Room 108 College Park, GA 30349"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Southwest Arts Center 915 New Hope Road, SW Atlanta, GA 30331"
+      },
+      {
+        "text": "02/14/2016 - 02/14/2016 12:00 PM - 5:00 PM, Days: Su Welcome All Recreation Center 4255 Will Lee Road College Park, GA 30349"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Adamsville Recreation Center 3201 Martin Luther King, Jr. Dr,, SW Atlanta, GA 30311"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Adamsville-Collier Heights Branch Library 3424 Martin Luther King, Dr, Atlanta, GA 30331"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Alpharetta Library 10 Park Plaza Alpharetta, GA 30009"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Buckhead Library 269 Buckhead Avenue NE Atlanta, GA 30305"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Chastain Park Gymnasium 140 West Wieuca, Road NW Atlanta, GA 30342"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa College Park Historical Building 3675 Auditorium Way College Park, GA 30337"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa East Point Library 2757 Main Street East Point, GA 30344"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa East Roswell Library 2301 Holcomb Bridge Road Roswell, GA 30076"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Fairburn Library 60 Valley View Drive Fairburn, GA 30075"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Fulton County Government Center 130 Peachtree Street SW Atlanta, GA 30303"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Georgia Hills Neighborhood Facility 250 Georgia Avenue SE Atlanta, GA 30312"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Johns Creek Environmental Campus 8100 Holcomb Bridge Road Alpharetta, GA 30022"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Milton Library 855 Mayfield Road Milton, GA 30009"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa North Fulton Service Center 7741 Roswell Road, Suite 232 Sandy Springs, GA 30350"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Northeast/Spruill Oaks Library 9560 Spruill Road Johns Creek, GA 30022"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Northside Library 3295 Northside Parkway, NW Atlanta, GA 30327"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Northwest Branch at Scotts Crossing Library 2489 Perry Boulevard NW Atlanta, GA 30318"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Palmetto Library 9111 Cascade Palmetto Hwy Atlanta, GA 30268"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Robert F. Fulton Ocee Library 5090 Abbotts Bridge Road Alpharetta, GA 30075"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Roswell Branch Library 115 Norcross Street Roswell , GA 30075"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Sandy Springs Library 395 Mount Vernon HWY, NE Sandy Springs, GA 30328"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa South Fulton Service Center 5600 Stonewall Tell Road Room 108 College Park, GA 30349"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Southwest Arts Center 915 New Hope Road, SW Atlanta, GA 30331"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Welcome All Recreation Center 4255 Will Lee Road College Park, GA 30349"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Adamsville Recreation Center 3201 Martin Luther King, Jr. Dr,, SW Atlanta, GA 30311"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Adamsville-Collier Heights Branch Library 3424 Martin Luther King, Dr, Atlanta, GA 30331"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Alpharetta Library 10 Park Plaza Alpharetta, GA 30009"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Buckhead Library 269 Buckhead Avenue NE Atlanta, GA 30305"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Chastain Park Gymnasium 140 West Wieuca, Road NW Atlanta, GA 30342"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su College Park Historical Building 3675 Auditorium Way College Park, GA 30337"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su East Point Library 2757 Main Street East Point, GA 30344"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su East Roswell Library 2301 Holcomb Bridge Road Roswell, GA 30076"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Fairburn Library 60 Valley View Drive Fairburn, GA 30075"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Fulton County Government Center 130 Peachtree Street SW Atlanta, GA 30303"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Georgia Hills Neighborhood Facility 250 Georgia Avenue SE Atlanta, GA 30312"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Johns Creek Environmental Campus 8100 Holcomb Bridge Road Alpharetta, GA 30022"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Milton Library 855 Mayfield Road Milton, GA 30009"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su North Fulton Service Center 7741 Roswell Road, Suite 232 Sandy Springs, GA 30350"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Northeast/Spruill Oaks Library 9560 Spruill Road Johns Creek, GA 30022"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Northside Library 3295 Northside Parkway, NW Atlanta, GA 30327"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Northwest Branch at Scotts Crossing Library 2489 Perry Boulevard NW Atlanta, GA 30318"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Palmetto Library 9111 Cascade Palmetto Hwy Atlanta, GA 30268"
+      },
+      {
+        "text": "02/21/2016 - 02/02/2016 12:00 PM - 5:00 PM, Days: Su Robert F. Fulton Ocee Library 5090 Abbotts Bridge Road Alpharetta, GA 30075"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Roswell Branch Library 115 Norcross Street Roswell , GA 30075"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Sandy Springs Library 395 Mount Vernon HWY, NE Sandy Springs, GA 30328"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su South Fulton Service Center 5600 Stonewall Tell Road Room 108 College Park, GA 30349"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Southwest Arts Center 915 New Hope Road, SW Atlanta, GA 30331"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su Welcome All Recreation Center 4255 Will Lee Road College Park, GA 30349"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Adamsville Recreation Center 3201 Martin Luther King, Jr. Dr,, SW Atlanta, GA 30311"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Adamsville-Collier Heights Branch Library 3424 Martin Luther King, Dr, Atlanta, GA 30331"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,Th,F Alpharetta Library 10 Park Plaza Alpharetta, GA 30009"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Buckhead Library 269 Buckhead Avenue NE Atlanta, GA 30305"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Chastain Park Gymnasium 140 West Wieuca, Road NW Atlanta, GA 30342"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F College Park Historical Building 3675 Auditorium Way College Park, GA 30337"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F East Point Library 2757 Main Street East Point, GA 30344"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F East Roswell Library 2301 Holcomb Bridge Road Roswell, GA 30076"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Fairburn Library 60 Valley View Drive Fairburn, GA 30075"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Fulton County Government Center 130 Peachtree Street SW Atlanta, GA 30303"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Georgia Hills Neighborhood Facility 250 Georgia Avenue SE Atlanta, GA 30312"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Johns Creek Environmental Campus 8100 Holcomb Bridge Road Alpharetta, GA 30022"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Milton Library 855 Mayfield Road Milton, GA 30009"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F North Fulton Service Center 7741 Roswell Road, Suite 232 Sandy Springs, GA 30350"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Northeast/Spruill Oaks Library 9560 Spruill Road Johns Creek, GA 30022"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Northside Library 3295 Northside Parkway, NW Atlanta, GA 30327"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Northwest Branch at Scotts Crossing Library 2489 Perry Boulevard NW Atlanta, GA 30318"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Palmetto Library 9111 Cascade Palmetto Hwy Atlanta, GA 30268"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Robert F. Fulton Ocee Library 5090 Abbotts Bridge Road Alpharetta, GA 30075"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Roswell Branch Library 115 Norcross Street Roswell , GA 30075"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Sandy Springs Library 395 Mount Vernon HWY, NE Sandy Springs, GA 30328"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F South Fulton Service Center 5600 Stonewall Tell Road Room 108 College Park, GA 30349"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Southwest Arts Center 915 New Hope Road, SW Atlanta, GA 30331"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Welcome All Recreation Center 4255 Will Lee Road College Park, GA 30349"
+      }
+    ]
+  },
+  {
+    "name": "Gilmer",
+    "value": "61",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Gilmer County Registrar's Office 1 Broad St., Suite 107 Ellijay, GA 30540"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Gilmer County Registrar's Office 1 Broad St., Suite 107 Ellijay, GA 30540"
+      }
+    ]
+  },
+  {
+    "name": "Glascock",
+    "value": "62",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Glascock County Registrars Office 676 West Main Street Gibson, GA 30810"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Glascock County Registrars Office 676 West Main Street Gibson, GA 30810"
+      }
+    ]
+  },
+  {
+    "name": "Glynn",
+    "value": "63",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections 1815 Gloucester Street Second Floor Office Park Building Brunswick, GA 31520"
+      },
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F St. Simons Fire Station #2 1929 Demere Road St. Simons Island, GA 31522"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Board of Elections 1815 Gloucester Street Second Floor Office Park Building Brunswick, GA 31520"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa St. Simons Fire Station #2 1929 Demere Road St. Simons Island, GA 31522"
+      }
+    ]
+  },
+  {
+    "name": "Gordon",
+    "value": "64",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Gordon County Elections and Voter Registration Off 101 S. Piedmont Street Calhoun, GA 30701"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Gordon County Elections and Voter Registration Off 101 S. Piedmont Street Calhoun, GA 30701"
+      }
+    ]
+  },
+  {
+    "name": "Grady",
+    "value": "65",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Grady County Registrar's Office 24 3rd Ave NE Cairo, GA 39828"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Grady County Registrar's Office 24 3rd Ave NE Cairo, GA 39828"
+      }
+    ]
+  },
+  {
+    "name": "Greene",
+    "value": "66",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Greene County Annex 1180 C. Weldon Smith Drive Greensboro, GA 30642"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Greene County Annex 1180 C. Weldon Smith Drive Greensboro, GA 30642"
+      }
+    ]
+  },
+  {
+    "name": "Gwinnett",
+    "value": "67",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Voter Registration and Elections Main Office 455 Grayson Highway, Suite 200 Lawrenceville, GA 30046"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 8:00 AM - 5:00 PM, Days: Sa Voter Registration and Elections Main Office 455 Grayson Highway, Suite 200 Lawrenceville, GA 30046"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Bogan Park Community Recreation Center 2723 North Bogan Road Buford, GA 30518"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Dacula Activity Building 2735 Old Auburn Road Dacula, GA 30019"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa George Pierce Park Community Recreation Center 55 Buford Highway Suwanee, GA 30024"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Lenora Park Activity Room * Not the Gym 4515 Lenora Church Road Snellville, GA 30078"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Lucky Shoals Park Community Recreation Center 4651 Britt Road Norcross, GA 30039"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Mountain Park Activity Building *Adjacent to the Aquatic Ctr 1063 Rockbridge Road Stone Mountain, GA 30087"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Shorty Howell Park Activity Building 2750 Pleasant Hill Road Duluth, GA 30096"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 5:00 PM, Days: Sa Voter Registration and Elections Main Office 455 Grayson Highway, Suite 200 Lawrenceville, GA 30046"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Bogan Park Community Recreation Center 2723 North Bogan Road Buford, GA 30518"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Dacula Activity Building 2735 Old Auburn Road Dacula, GA 30019"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 7:00 PM, Days: M,Tu,W,Th,F George Pierce Park Community Recreation Center 55 Buford Highway Suwanee, GA 30024"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Lenora Park Activity Room * Not the Gym 4515 Lenora Church Road Snellville, GA 30078"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Lucky Shoals Park Community Recreation Center 4651 Britt Road Norcross, GA 30039"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Mountain Park Activity Building *Adjacent to the Aquatic Ctr 1063 Rockbridge Road Stone Mountain, GA 30087"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Shorty Howell Park Activity Building 2750 Pleasant Hill Road Duluth, GA 30096"
+      }
+    ]
+  },
+  {
+    "name": "Habersham",
+    "value": "68",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Office of Elections & Registration 555 Monroe Street Basement Clarkesville, GA 30523"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa First Baptist Church of Cornelia 325 Oak Street Cornelia, GA 30531"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Ruby Fulbright Aquatic Center 120 Paul Franklin Road Clarkesville, GA 30523"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 7:00 PM, Days: M,Tu,W,Th,F First Baptist Church of Cornelia 325 Oak Street Cornelia, GA 30531"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Ruby Fulbright Aquatic Center 120 Paul Franklin Road Clarkesville, GA 30523"
+      }
+    ]
+  },
+  {
+    "name": "Hall",
+    "value": "69",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Hall County Government Center 2875 Browns Bridge Road Gainesville, GA 30501"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Hall County Government Center 2875 Browns Bridge Road Gainesville, GA 30501"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa North Hall Community Center 4175 Nopone Road Gainesville, GA 30506"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Spout Springs Library 6488 Spout Springs Road Flowery Branch, GA 30542"
+      }
+    ]
+  },
+  {
+    "name": "Hancock",
+    "value": "70",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F Board of Elections Office Temporary Courthouse 10571 Highway 15 North, Room 106 Sparta, GA 31087"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Board of Elections Office Temporary Courthouse 10571 Highway 15 North, Room 106 Sparta, GA 31087"
+      }
+    ]
+  },
+  {
+    "name": "Haralson",
+    "value": "71",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Haralson County Courthouse 4485 Highway 120 Buchanan, GA 30113"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Haralson County Courthouse 4485 Highway 120 Buchanan, GA 30113"
+      }
+    ]
+  },
+  {
+    "name": "Harris",
+    "value": "72",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Courthouse Annex 104 North College Street Hamilton, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Courthouse Annex 104 North College Street Hamilton, GA"
+      }
+    ]
+  },
+  {
+    "name": "Hart",
+    "value": "73",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Hart County Board of Elections and Registration 182 Cade Street Suite C Hartwell, GA 30643"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Hart County Board of Elections and Registration 182 Cade Street Suite C Hartwell, GA 30643"
+      }
+    ]
+  },
+  {
+    "name": "Heard",
+    "value": "74",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Heard County Courthouse 215 East Court Square Room #14 Franklin, GA 30217"
+      },
+      {
+        "text": "02/15/2016 - 02/19/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Heard County Courthouse 215 East Court Square Room #14 Franklin, GA 30217"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Heard County Courthouse 215 East Court Square Room #14 Franklin, GA 30217"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Heard County Courthouse 215 East Court Square Room #14 Franklin, GA 30217"
+      }
+    ]
+  },
+  {
+    "name": "Henry",
+    "value": "75",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Elections and Registration 40 Atlanta St McDonough, GA 30253"
+      },
+      {
+        "text": "02/15/2016 - 02/19/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Elections and Registration 40 Atlanta St McDonough, GA 30253"
+      },
+      {
+        "text": "02/15/2016 - 02/19/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Merle Manders Conference Center 111 Davis Rd Stockbridge, GA 30281"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Elections and Registration 40 Atlanta St McDonough, GA 30253"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Merle Manders Conference Center 111 Davis Rd Stockbridge, GA 30281"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 1:00 PM - 5:00 PM, Days: Su Elections and Registration 40 Atlanta St McDonough, GA 30253"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 1:00 PM - 5:00 PM, Days: Su Merle Manders Conference Center 111 Davis Rd Stockbridge, GA 30281"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Elections and Registration 40 Atlanta St McDonough, GA 30253"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Fairview Library 28 Austin Rd Stockbridge, GA 30281"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Fortson Library 61 McDonough St Hampton, GA 30228"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Locust Grove Library 115 LG Griffin Rd Locust Grove, GA 30248"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F Merle Manders Conference Center 111 Davis Rd Stockbridge, GA 30281"
+      }
+    ]
+  },
+  {
+    "name": "Houston",
+    "value": "76",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections 801 Main Street, Perry, GA 31069"
+      },
+      {
+        "text": "02/16/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: Tu,W,Th,F Board of Elections 801 Main Street, Perry, GA 31069"
+      },
+      {
+        "text": "02/16/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: Tu,W,Th,F Central Georgia Technical College 80 Cohen Walker Dr. Warner Robins, GA 31088"
+      },
+      {
+        "text": "02/16/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: Tu,W,Th,F Houston Health Pavilion Conference Center 233 N. Houston Rd. BACK OF BUILDING Warner Robins, GA 31093"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Board of Elections 801 Main Street, Perry, GA 31069"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections 801 Main Street, Perry, GA 31069"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Central Georgia Technical College 80 Cohen Walker Dr. Warner Robins, GA 31088"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Houston Health Pavilion Conference Center 233 N. Houston Rd. BACK OF BUILDING Warner Robins, GA 31093"
+      }
+    ]
+  },
+  {
+    "name": "Irwin",
+    "value": "77",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 4:45 PM, Days: M,Tu,W,Th,F Irwin County Annex 207 South Irwin Ave. Ocilla, GA 31774"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Irwin County Annex 207 South Irwin Ave. Ocilla, GA 31774"
+      }
+    ]
+  },
+  {
+    "name": "Jackson",
+    "value": "78",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Administration Building 67 Athens Street Jefferson, GA 30549"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Administration Building 67 Athens Street Jefferson, GA 30549"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Commerce Parks & Rec 204 Carson Street Commerce, GA 30529"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Police Court Building 5040 Highway 53 Braselton , GA 30517"
+      }
+    ]
+  },
+  {
+    "name": "Jasper",
+    "value": "79",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F Registrar's Office 126 West Greene St Suite 3 Monticello, GA 31064"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Registrar's Office 126 West Greene St Suite 3 Monticello, GA 31064"
+      }
+    ]
+  },
+  {
+    "name": "Jeff Davis",
+    "value": "80",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Jeff Davis County Courthouse 14 Jeff Davis Street, Room 106 Hazelhurst, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Jeff Davis County Courthouse 14 Jeff Davis Street, Room 106 Hazelhurst, GA"
+      }
+    ]
+  },
+  {
+    "name": "Jefferson",
+    "value": "81",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Jefferson County Elections Office 415 Green Street Louisville, GA 30434"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Jefferson County Elections Office 415 Green Street Louisville, GA 30434"
+      }
+    ]
+  },
+  {
+    "name": "Jenkins",
+    "value": "82",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Jenkins County Courthouse 611 East Winthrop Avenue Millen, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Jenkins County Courthouse 611 East Winthrop Avenue Millen, GA"
+      }
+    ]
+  },
+  {
+    "name": "Johnson",
+    "value": "83",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 4:30 PM, Days: M,Tu,W,Th,F 2484 West Elm Street Wrightsville, GA 31096"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 2484 West Elm Street Wrightsville, GA 31096"
+      }
+    ]
+  },
+  {
+    "name": "Jones",
+    "value": "84",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Jones County Government Center 166 Industrial Boulevard, Suite 102 Gray, GA 31032"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Jones County Government Center 166 Industrial Boulevard, Suite 102 Gray, GA 31032"
+      }
+    ]
+  },
+  {
+    "name": "Lamar",
+    "value": "85",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 12:30 PM, Days: M,Tu,W,Th,F Registrar's Office 408 Thomaston Street Barnesville, GA 30204"
+      },
+      {
+        "text": "02/08/2016 - 02/26/2016 1:30 PM - 5:00 PM, Days: M,Tu,W,Th,F Registrar's Office 408 Thomaston Street Barnesville, GA 30204"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Registrar's Office 408 Thomaston Street Barnesville, GA 30204"
+      }
+    ]
+  },
+  {
+    "name": "Lanier",
+    "value": "86",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 1:00 PM - 5:00 PM, Days: M,Tu,W,Th,F Registrar's Office 56 W Main Street, Suite 8 Lakeland, GA 31635"
+      },
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 12:00 PM, Days: M,Tu,W,Th,F Registrar's Office 56 W Main Street, Suite 8 Lakeland, GA 31635"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Registrar's Office 56 W Main Street, Suite 8 Lakeland, GA 31635"
+      }
+    ]
+  },
+  {
+    "name": "Laurens",
+    "value": "87",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Courthouse Annex Building 117 East Jackson Street Suite A Dublin, GA 31021"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Courthouse Annex Building 117 East Jackson Street Suite A Dublin, GA 31021"
+      }
+    ]
+  },
+  {
+    "name": "Lee",
+    "value": "88",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:15 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections and Registraion Office 100 Starksville Ave., North, Suite C Leesburg, GA 31763"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Board of Elections and Registraion Office 100 Starksville Ave., North, Suite C Leesburg, GA 31763"
+      }
+    ]
+  },
+  {
+    "name": "Liberty",
+    "value": "89",
+    "locations": [
+      {
+        "text": "02/08/2016 - 01/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F 100 N. Main St. Suite 1600 Historical Courthouse Hinesville, GA 31313"
+      },
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F liberty County Complex 9397 E. Oglethorpe Hwy Midway, GA 31320"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 100 N. Main St. Suite 1600 Historical Courthouse Hinesville, GA 31313"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa liberty County Complex 9397 E. Oglethorpe Hwy Midway, GA 31320"
+      }
+    ]
+  },
+  {
+    "name": "Lincoln",
+    "value": "90",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F The Lincoln Center 160 May Avenue Lincolnton, GA"
+      },
+      {
+        "text": "02/15/2016 - 02/18/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F The Lincoln Center 160 May Avenue Lincolnton, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa The Lincoln Center 160 May Avenue Lincolnton, GA"
+      },
+      {
+        "text": "02/22/2016 - 02/23/2016 8:00 AM - 5:00 PM, Days: M,Tu The Lincoln Center 160 May Avenue Lincolnton, GA"
+      },
+      {
+        "text": "02/24/2016 - 02/26/2016 8:00 AM - 7:00 PM, Days: W,Th,F The Lincoln Center 160 May Avenue Lincolnton, GA"
+      }
+    ]
+  },
+  {
+    "name": "Long",
+    "value": "91",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Long County Courthouse 459 S Mcdonald St Ludowici, GA 31316"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Long County Courthouse 459 S Mcdonald St Ludowici, GA 31316"
+      }
+    ]
+  },
+  {
+    "name": "Lowndes",
+    "value": "92",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 6:00 AM - 9:00 PM, Days: M,Tu,W,Th,F 2808 N. Oak Street Valdosta, GA 31602"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 9:00 AM - 4:00 PM, Days: Sa 2808 N. Oak Street Valdosta, GA 31602"
+      },
+      {
+        "text": "02/15/2016 - 02/19/2016 6:00 AM - 9:00 PM, Days: M,Tu,W,Th,F 2808 N. Oak Street Valdosta, GA 31602"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 2808 N. Oak Street Valdosta, GA 31602"
+      },
+      {
+        "text": "02/21/2016 - 02/21/2016 12:00 PM - 5:00 PM, Days: Su 2808 N. Oak Street Valdosta, GA 31602"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 6:00 AM - 9:00 PM, Days: M,Tu,W,Th,F 2808 N. Oak Street Valdosta, GA 31602"
+      }
+    ]
+  },
+  {
+    "name": "Lumpkin",
+    "value": "93",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Lumpkin County Elections Office 56 Short Street Dahlonega, GA 30533"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:30 PM, Days: Sa Lumpkin County Elections Office 56 Short Street Dahlonega, GA 30533"
+      }
+    ]
+  },
+  {
+    "name": "Macon",
+    "value": "94",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Macon County Annex Building 100 Macon St Oglethorpe, GA 31068"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Macon County Annex Building 100 Macon St Oglethorpe, GA 31068"
+      }
+    ]
+  },
+  {
+    "name": "Madison",
+    "value": "95",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections' Office 91 Albany Avenue Danielsville, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Board of Elections' Office 91 Albany Avenue Danielsville, GA"
+      }
+    ]
+  },
+  {
+    "name": "Marion",
+    "value": "96",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections & Registration 100 E Burkhalter Av Buena Vista, GA 31803"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Board of Elections & Registration 100 E Burkhalter Av Buena Vista, GA 31803"
+      }
+    ]
+  },
+  {
+    "name": "McDuffie",
+    "value": "97",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F Board of Elections Office Old Historic Courthouse 337 Main Street, Suite 101 Thomson, GA 30824"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Board of Elections Office Old Historic Courthouse 337 Main Street, Suite 101 Thomson, GA 30824"
+      }
+    ]
+  },
+  {
+    "name": "McIntosh",
+    "value": "98",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F 103 Jefferson Street Darien, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 103 Jefferson Street Darien, GA"
+      }
+    ]
+  },
+  {
+    "name": "Meriwether",
+    "value": "99",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F 137 S. Court Square Greenville, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 137 S. Court Square Greenville, GA"
+      }
+    ]
+  },
+  {
+    "name": "Miller",
+    "value": "100",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Miller County Courthouse Registrar's Office, Room 113 155 S. First Street Colquitt, GA 39837"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Miller County Courthouse Registrar's Office, Room 113 155 S. First Street Colquitt, GA 39837"
+      }
+    ]
+  },
+  {
+    "name": "Mitchell",
+    "value": "101",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Mitchell County Courthouse 11 W. Broad Street, Room 101 Camilla, GA 31730"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Mitchell County Courthouse 11 W. Broad Street, Room 101 Camilla, GA 31730"
+      }
+    ]
+  },
+  {
+    "name": "Monroe",
+    "value": "102",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F Monroe County Board of Registration 38 West Main Street P.O. Box 1245 Forsyth, GA 31029"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 3:00 PM, Days: Sa Monroe County Board of Registration 38 West Main Street P.O. Box 1245 Forsyth, GA 31029"
+      }
+    ]
+  },
+  {
+    "name": "Montgomery",
+    "value": "103",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Montgomery County Courthouse 400 S. Railroad Ave Mount Vernon, GA 30445"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Montgomery County Courthouse 400 S. Railroad Ave Mount Vernon, GA 30445"
+      }
+    ]
+  },
+  {
+    "name": "Morgan",
+    "value": "104",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F 434 Hancock Street Madison, GA"
+      },
+      {
+        "text": "02/15/2016 - 02/19/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F 434 Hancock Street Madison, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 434 Hancock Street Madison, GA"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F 434 Hancock Street Madison, GA"
+      }
+    ]
+  },
+  {
+    "name": "Murray",
+    "value": "105",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F Courthouse Annex 121 N 4th Ave Chatsworth, GA 30705"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Courthouse Annex 121 N 4th Ave Chatsworth, GA 30705"
+      }
+    ]
+  },
+  {
+    "name": "Muscogee",
+    "value": "106",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 7:00 AM - 7:00 PM, Days: M,Tu,W,Th,F City Services Center 3111 Citizens Way Columbus, GA 31906"
+      },
+      {
+        "text": "02/13/2016 - 02/13/2016 9:00 AM - 4:00 PM, Days: Sa City Services Center 3111 Citizens Way Columbus, GA 31906"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa City Services Center 3111 Citizens Way Columbus, GA 31906"
+      }
+    ]
+  },
+  {
+    "name": "Newton",
+    "value": "107",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Newton County Administration Building 1113 Usher Street Covington, GA 30014"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Newton County Administration Building 1113 Usher Street Covington, GA 30014"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 4:00 PM, Days: M,Tu,W,Th,F Porter Memorial Branch Library 6191 Highway 212 Covington, GA 30016"
+      }
+    ]
+  },
+  {
+    "name": "Oconee",
+    "value": "108",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Oconee County Elections Office 10 Court Street Watkinsville, GA 30677"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Oconee County Elections Office 10 Court Street Watkinsville, GA 30677"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Oconee County Civic Center 2661 Hog Mountain Road Watkinsville, GA 30677"
+      }
+    ]
+  },
+  {
+    "name": "Oglethorpe",
+    "value": "109",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Multi-Purpose Building (Lower Level) 109 East Boggs Street Lexington, GA 30648"
+      },
+      {
+        "text": "02/16/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: Tu,W,Th,F Multi-Purpose Building (Lower Level) 109 East Boggs Street Lexington, GA 30648"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Multi-Purpose Building (Lower Level) 109 East Boggs Street Lexington, GA 30648"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Multi-Purpose Building (Lower Level) 109 East Boggs Street Lexington, GA 30648"
+      }
+    ]
+  },
+  {
+    "name": "Paulding",
+    "value": "110",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections and Registration Watson Government Complex, First Floor 240 Constitution Blvd. Dallas, GA 30132"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Board of Elections and Registration Watson Government Complex, First Floor 240 Constitution Blvd. Dallas, GA 30132"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Burnt Hickory Park 8650 Cartersville Hwy Dallas, GA 30132"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Mt. Tabor Park 1550 East Paulding Dr Dallas, GA 30157"
+      },
+      {
+        "text": "02/22/2016 - 02/22/2016 8:00 AM - 6:00 PM, Days: M,Tu,W,Th,F Poplar Springs Baptist Church 2056 Hiram Douglasville Hwy Hiram, GA 30141"
+      }
+    ]
+  },
+  {
+    "name": "Peach",
+    "value": "111",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Byron Municipal Complex 401 Main St Byron, GA 31008"
+      },
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Peach County Courthouse Annex 205 West Church Street, Suite 102 Fort Valley, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Byron Municipal Complex 401 Main St Byron, GA 31008"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Peach County Courthouse Annex 205 West Church Street, Suite 102 Fort Valley, GA"
+      }
+    ]
+  },
+  {
+    "name": "Pickens",
+    "value": "112",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F 83 Pioneer Rd Jasper, GA 30143"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 83 Pioneer Rd Jasper, GA 30143"
+      }
+    ]
+  },
+  {
+    "name": "Pierce",
+    "value": "113",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F 312 Nichols Street, Suite 2 Blackshear, GA 31516"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 312 Nichols Street, Suite 2 Blackshear, GA 31516"
+      }
+    ]
+  },
+  {
+    "name": "Pike",
+    "value": "114",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Pike County Courthouse 16001 Barnesville Street Zebulon, GA 30295"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Pike County Courthouse 16001 Barnesville Street Zebulon, GA 30295"
+      }
+    ]
+  },
+  {
+    "name": "Polk",
+    "value": "115",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections and Registration 144 West Avenue, Suite D Cedartown, GA 30125"
+      },
+      {
+        "text": "02/08/2016 - 02/12/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Nathan Dean Comm. Center 436 Hogue Ave Rockmart, GA 30153"
+      },
+      {
+        "text": "02/16/2016 - 02/19/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th Board of Elections and Registration 144 West Avenue, Suite D Cedartown, GA 30125"
+      },
+      {
+        "text": "02/16/2016 - 02/19/2016 9:00 AM - 5:00 PM, Days: Tu,W,Th,F Nathan Dean Comm. Center 436 Hogue Ave Rockmart, GA 30153"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Board of Elections and Registration 144 West Avenue, Suite D Cedartown, GA 30125"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Nathan Dean Comm. Center 436 Hogue Ave Rockmart, GA 30153"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections and Registration 144 West Avenue, Suite D Cedartown, GA 30125"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Nathan Dean Comm. Center 436 Hogue Ave Rockmart, GA 30153"
+      }
+    ]
+  },
+  {
+    "name": "Pulaski",
+    "value": "116",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Courthouse Annex 45 S. Lumpkin Street Hawkinsville, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Courthouse Annex 45 S. Lumpkin Street Hawkinsville, GA"
+      }
+    ]
+  },
+  {
+    "name": "Putnam",
+    "value": "117",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Putnam County Board of Elections & Registration 100 South Jefferson Avenue, Suite 217 Eatonton, GA 31024"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Putnam County Board of Elections & Registration 100 South Jefferson Avenue, Suite 217 Eatonton, GA 31024"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Putnam County Administration Building 117 Putnam Drive Eatonton, GA 31024"
+      }
+    ]
+  },
+  {
+    "name": "Quitman",
+    "value": "118",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 4:00 PM, Days: M,Tu,W,Th,F Quitman County Court House 111 main St. Georgetown, GA 39854"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Quitman County Court House 111 main St. Georgetown, GA 39854"
+      }
+    ]
+  },
+  {
+    "name": "Rabun",
+    "value": "119",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Rabun County Elections and Registration Office 19 Jo Dotson Circle, Suite 201 Clayton, GA 30525"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Rabun County Elections and Registration Office 19 Jo Dotson Circle, Suite 201 Clayton, GA 30525"
+      }
+    ]
+  },
+  {
+    "name": "Randolph",
+    "value": "120",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Randolph Elections and REgistration Randolph County Government Center 93 Front Street Cuthbert, GA 39840"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Randolph Elections and REgistration Randolph County Government Center 93 Front Street Cuthbert, GA 39840"
+      }
+    ]
+  },
+  {
+    "name": "Richmond",
+    "value": "121",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/19/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections 535 Telfair Street Augusta, GA 30901"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Board of Elections 535 Telfair Street Augusta, GA 30901"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Diamond Lakes Regional Park 4335 Windsor Spring Road Hephzibah, GA 30815"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Henry H. Brigham Community Center 2463 Golden Camp Road Augusta, GA 30906"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Warren Road Community Center 300 Warren Road Augusta, GA 30907"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Board of Elections 535 Telfair Street Augusta, GA 30901"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Diamond Lakes Regional Park 4335 Windsor Spring Road Hephzibah, GA 30815"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Henry H. Brigham Community Center 2463 Golden Camp Road Augusta, GA 30906"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:30 AM - 6:00 PM, Days: M,Tu,W,Th,F Warren Road Community Center 300 Warren Road Augusta, GA 30907"
+      }
+    ]
+  },
+  {
+    "name": "Rockdale",
+    "value": "122",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/19/2016 8:00 AM - 4:30 PM, Days: M,Tu,W,Th,F 1400 Parker Road, Lobby C Conyers, GA 30094"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 1400 Parker Road, Lobby C Conyers, GA 30094"
+      },
+      {
+        "text": "02/22/2016 - 02/23/2016 8:00 AM - 4:30 PM, Days: M,Tu 1400 Parker Road, Lobby C Conyers, GA 30094"
+      },
+      {
+        "text": "02/24/2016 - 02/26/2016 8:00 AM - 7:00 PM, Days: W,Th,F 1400 Parker Road, Lobby C Conyers, GA 30094"
+      }
+    ]
+  },
+  {
+    "name": "Schley",
+    "value": "123",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F SchleyCounty Courthouse Annex Registrar's Office 47 North Pecan St Ellaville, GA 31806"
+      }
+    ]
+  },
+  {
+    "name": "Screven",
+    "value": "124",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Screven County Courthouse 216 Mims Road, Room 114 Sylvania, GA 30467"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:30 PM, Days: Sa Screven County Courthouse 216 Mims Road, Room 114 Sylvania, GA 30467"
+      }
+    ]
+  },
+  {
+    "name": "Seminole",
+    "value": "125",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Seminole County Courthouse Probate and Magistrate Court Office 200 South Knox Avenue Donalsonville, GA 39845"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 5:00 PM, Days: Sa Seminole County Courthouse Probate and Magistrate Court Office 200 South Knox Avenue Donalsonville, GA 39845"
+      }
+    ]
+  },
+  {
+    "name": "Spalding",
+    "value": "126",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Memorial Drive Plaza 825 Memorial Drive Griffin, GA 30224"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Memorial Drive Plaza 825 Memorial Drive Griffin, GA 30224"
+      }
+    ]
+  },
+  {
+    "name": "Stephens",
+    "value": "127",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Stephens County Courthouse Annex 40 East Taguloo, Suite 250 Toccoa, GA 30577"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Stephens County Courthouse Annex 40 East Taguloo, Suite 250 Toccoa, GA 30577"
+      }
+    ]
+  },
+  {
+    "name": "Stewart",
+    "value": "128",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 3:30 PM, Days: M,Tu,W,Th,F,Sa 1764 Broad Street Lumpkin, GA 31815"
+      }
+    ]
+  },
+  {
+    "name": "Sumter",
+    "value": "129",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Sumter County Courthouse 500 West Lamar Street Suite 110 Voter Registration Office Americus, GA 31709"
+      },
+      {
+        "text": "02/15/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: Su,M,Tu,W,Th Sumter County Courthouse 500 West Lamar Street Suite 110 Voter Registration Office Americus, GA 31709"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Sumter County Courthouse 500 West Lamar Street Suite 110 Voter Registration Office Americus, GA 31709"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Sumter County Courthouse 500 West Lamar Street Suite 110 Voter Registration Office Americus, GA 31709"
+      }
+    ]
+  },
+  {
+    "name": "Talbot",
+    "value": "130",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 9:00 AM - 4:00 PM, Days: M,Tu,W,Th,F Talbot County Board of Elections and Reg. 141 N. Jefferson Av Talbotton, GA 31827"
+      },
+      {
+        "text": "02/15/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: M,Tu,W,Th,F,Sa Talbot County Board of Elections and Reg. 141 N. Jefferson Av Talbotton, GA 31827"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 9:00 AM - 4:00 PM, Days: M,Tu,W,Th,F Talbot County Board of Elections and Reg. 141 N. Jefferson Av Talbotton, GA 31827"
+      }
+    ]
+  },
+  {
+    "name": "Taliaferro",
+    "value": "131",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Taliaferro County Courthouse 113 Monument Street Crawfordville, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Taliaferro County Courthouse 113 Monument Street Crawfordville, GA"
+      }
+    ]
+  },
+  {
+    "name": "Tattnall",
+    "value": "132",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/12/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Tattnall County Board of Elections and Registration 114 West Brazell Street Reidsville, GA"
+      },
+      {
+        "text": "02/16/2016 - 02/19/2016 8:00 AM - 5:00 PM, Days: Tu,W,Th,F Tattnall County Board of Elections and Registration 114 West Brazell Street Reidsville, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Tattnall County Board of Elections and Registration 114 West Brazell Street Reidsville, GA"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Old Collins Gym 509 N.W. Williams St. Collins, GA 30421"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Southeastern Technical School 211 S Tillman Street Glennville, GA 30427"
+      },
+      {
+        "text": "02/22/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Tattnall County Board of Elections and Registration 114 West Brazell Street Reidsville, GA"
+      }
+    ]
+  },
+  {
+    "name": "Taylor",
+    "value": "133",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Taylor County Voter Registrar 1B Ivy Street Butler, GA 31006"
+      }
+    ]
+  },
+  {
+    "name": "Telfair",
+    "value": "134",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F 91 Telfair Avenue Suite H McRae, GA 31055"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 91 Telfair Avenue Suite H McRae, GA 31055"
+      }
+    ]
+  },
+  {
+    "name": "Terrell",
+    "value": "135",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Government Building Board of Elections and Registration 955 Forrester Drive SE Dawson, GA 39842"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Government Building Board of Elections and Registration 955 Forrester Drive SE Dawson, GA 39842"
+      }
+    ]
+  },
+  {
+    "name": "Thomas",
+    "value": "136",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections 325 N. Madison St. Thomasville, GA 31792"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Board of Elections 325 N. Madison St. Thomasville, GA 31792"
+      }
+    ]
+  },
+  {
+    "name": "Tift",
+    "value": "137",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Board of Elections and Registration 222 Chestnut Avenue Tifton, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Board of Elections and Registration 222 Chestnut Avenue Tifton, GA"
+      }
+    ]
+  },
+  {
+    "name": "Toombs",
+    "value": "138",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F 125 W Lincoln Ave Lyons, GA 30436"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 125 W Lincoln Ave Lyons, GA 30436"
+      }
+    ]
+  },
+  {
+    "name": "Towns",
+    "value": "139",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F Towns County Registrars Office Old Rock Jail 48 River Street, Suite 30 Hiawassee, GA 30546"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Towns County Registrars Office Old Rock Jail 48 River Street, Suite 30 Hiawassee, GA 30546"
+      }
+    ]
+  },
+  {
+    "name": "Treutlen",
+    "value": "140",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/29/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F Annex Building 650 Second Street South Soperton, GA 30457"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:30 AM - 4:30 PM, Days: Sa Annex Building 650 Second Street South Soperton, GA 30457"
+      }
+    ]
+  },
+  {
+    "name": "Turner",
+    "value": "142",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Turner Co. Bd. of Elections & Registration 1807 US Highway 41 South Sycamore, GA 31790"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Turner Co. Bd. of Elections & Registration 1807 US Highway 41 South Sycamore, GA 31790"
+      }
+    ]
+  },
+  {
+    "name": "Twiggs",
+    "value": "143",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F County Courthouse 425 Railroad Street N Jeffersonville, GA"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa County Courthouse 425 Railroad Street N Jeffersonville, GA"
+      }
+    ]
+  },
+  {
+    "name": "Union",
+    "value": "144",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 4:30 PM, Days: M,Tu,W,Th,F Union County Courthouse 65 Courthouse St Blairsville, GA 30512"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Union County Courthouse 65 Courthouse St Blairsville, GA 30512"
+      }
+    ]
+  },
+  {
+    "name": "Upson",
+    "value": "145",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F The CivicCenter 101 Civic Center Dr. Thomaston, GA 30286"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa The CivicCenter 101 Civic Center Dr. Thomaston, GA 30286"
+      }
+    ]
+  },
+  {
+    "name": "Walker",
+    "value": "146",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 4:30 PM, Days: M,Tu,W,Th,F Courthouse 103 S. Duke St LaFayette, GA 30728"
+      },
+      {
+        "text": "02/20/2016 - 02/26/2016 9:00 AM - 4:00 PM, Days: M,Tu,W,Th,F,Sa Chickamauga 1817 Lee Clarkson Rd Chickamauga, GA 30707"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Courthouse 103 S. Duke St LaFayette, GA 30728"
+      },
+      {
+        "text": "02/20/2016 - 02/26/2016 9:00 AM - 4:00 PM, Days: M,Tu,W,Th,F,Sa Fairyland 1214 Lula Lake Rd Lookout Mountain, GA 30750"
+      },
+      {
+        "text": "02/20/2016 - 02/26/2016 9:00 AM - 4:00 PM, Days: M,Tu,W,Th,F,Sa Rock Spring 265 Bicentennial Trail Building 500 Student Center Rock Spring, GA 30739"
+      },
+      {
+        "text": "02/20/2016 - 02/26/2016 9:00 AM - 4:00 PM, Days: M,Tu,W,Th,F,Sa Rossville 400 McFarland Ave Rossville, GA 30741"
+      }
+    ]
+  },
+  {
+    "name": "Walton",
+    "value": "147",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F Walton County Elections Office 303 S. Hammond Drive Monroe, GA 30655"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Walton County Elections Office 303 S. Hammond Drive Monroe, GA 30655"
+      }
+    ]
+  },
+  {
+    "name": "Ware",
+    "value": "148",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F 408 TEBEAU STREET WAYROSS, GA 31501"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 408 TEBEAU STREET WAYROSS, GA 31501"
+      }
+    ]
+  },
+  {
+    "name": "Warren",
+    "value": "149",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Community Service Building 48 Warren Street Warrenton, GA 30828"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Community Service Building 48 Warren Street Warrenton, GA 30828"
+      }
+    ]
+  },
+  {
+    "name": "Washington",
+    "value": "150",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Washington County Courthouse Registrar's Office 132 W. Haynes Street Sandersville, GA 31082"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Washington County Courthouse Registrar's Office 132 W. Haynes Street Sandersville, GA 31082"
+      }
+    ]
+  },
+  {
+    "name": "Wayne",
+    "value": "151",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F,Sa Wayne County Courthouse Registrar's Office 174 North Brunswick Street Jesup, GA 31546"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Wayne County Courthouse Registrar's Office 174 North Brunswick Street Jesup, GA 31546"
+      }
+    ]
+  },
+  {
+    "name": "Webster",
+    "value": "152",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 9:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Webster County Board of Elections and Registration 6622 Cass Street Preston, GA 31824"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Webster County Board of Elections and Registration 6622 Cass Street Preston, GA 31824"
+      }
+    ]
+  },
+  {
+    "name": "Wheeler",
+    "value": "153",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 4:00 PM, Days: M,Tu,W,Th,F 16 W Forest Ave Suite 101 Alamo, GA 30411"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 16 W Forest Ave Suite 101 Alamo, GA 30411"
+      }
+    ]
+  },
+  {
+    "name": "White",
+    "value": "154",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F 1241 Helen Hwy Suite 210-A Cleveland, GA 30528"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa 1241 Helen Hwy Suite 210-A Cleveland, GA 30528"
+      }
+    ]
+  },
+  {
+    "name": "Whitfield",
+    "value": "155",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Registrar's Office 205 N. Selvidge Street, Suite K Dalton, GA 30720"
+      }
+    ]
+  },
+  {
+    "name": "Wilcox",
+    "value": "156",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 4:00 PM, Days: M,Tu,W,Th,F Wilcox County Board of Elections Office 377 College Street Abbeville, GA 31001"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 8:00 AM - 4:00 PM, Days: Sa Wilcox County Board of Elections Office 377 College Street Abbeville, GA 31001"
+      }
+    ]
+  },
+  {
+    "name": "Wilkes",
+    "value": "157",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Wilkes County Courthouse 23 Court Street, Room 113 Washington, GA 30673-1570"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Wilkes County Courthouse 23 Court Street, Room 113 Washington, GA 30673-1570"
+      }
+    ]
+  },
+  {
+    "name": "Wilkinson",
+    "value": "158",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Wilkinson County Courthouse 100 Bacon Street Room 133 Irwinton, GA 31042"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:00 PM, Days: Sa Wilkinson County Courthouse 100 Bacon Street Room 133 Irwinton, GA 31042"
+      }
+    ]
+  },
+  {
+    "name": "Worth",
+    "value": "159",
+    "locations": [
+      {
+        "text": "02/08/2016 - 02/26/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F Worth County Courthouse Voter Registration & Board of Elections 201 North Main Street, Room 10 Sylvester, GA 31791"
+      },
+      {
+        "text": "02/20/2016 - 02/20/2016 9:00 AM - 4:30 PM, Days: Sa Worth County Courthouse Voter Registration & Board of Elections 201 North Main Street, Room 10 Sylvester, GA 31791"
+      }
+    ]
+  }
+]

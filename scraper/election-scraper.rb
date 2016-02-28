@@ -19,7 +19,7 @@ module GA
         select_county(county[:value])
         go_button.click
 
-        county[:locations] = all('tbody span.standardfont').map{ |e| {text: e.native.value} }
+        county[:locations] = all('tbody span.standardfont').map{ |e| {text: e['outerHTML']} }
       end
     end
 
