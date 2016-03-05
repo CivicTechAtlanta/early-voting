@@ -1,3 +1,5 @@
-* run election-scraper.rb
-* run the results through http://konklone.io/json/ and save as data-from-scraper.csv
-* then run process-data.R
+npm install -g phantomjs
+sudo gem install capybara
+sudo gem install poltergeist
+ruby election-scraper.rb
+node process-html.js
