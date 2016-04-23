@@ -225,6 +225,16 @@
             -83.6651026,
             32.8152413
         ]
+      },
+      {
+        "name": "Terminal Station",
+        "address1": "200 Cherry St.  Suite 203",
+        "city": "Macon",
+        "zip": "31201",
+        "coordinates": [
+          -83.6241179,
+          32.8335971
+        ]
       }
     ]
   },
@@ -1505,6 +1515,16 @@
             -81.3166711,
             32.3695625
         ]
+      },
+      {
+        "name": "Old Marlow Elementary School",
+        "address1": "4752 GA Highway 17 South",
+        "city": "Guyton",
+        "zip": "31312",
+        "coordinates": [
+          -81.3654221,
+          32.2077848
+        ]
       }
     ]
   },
@@ -1706,8 +1726,8 @@
         "city": "Cumming",
         "zip": "30041",
         "coordinates": [
-			-84.163131,
-			34.1180612
+    			-84.163131,
+    			34.1180612
         ]
       },
       {
@@ -2178,8 +2198,8 @@
         "city": "Buford",
         "zip": "30518",
         "coordinates": [
-			-83.9691803,
-			34.1072984
+    			-83.9691803,
+    			34.1072984
         ]
       },
       {
@@ -2188,8 +2208,8 @@
       	"city": "Snellville",
       	"zip": "30039",
         "coordinates": [
-			-84.049469,
-			33.8168329
+    			-84.049469,
+    			33.8168329
         ]
       },
       {
@@ -2198,8 +2218,8 @@
         "city": "Dacula",
         "zip": "30019",
         "coordinates": [
-			-83.8921146,
-			33.9961374
+    			-83.8921146,
+    			33.9961374
         ]
       },
       {
@@ -2208,8 +2228,8 @@
         "city": "Suwanee",
         "zip": "30024",
         "coordinates": [
-			-84.0506174,
-			34.0595517
+    			-84.0506174,
+    			34.0595517
         ]
       },
       {
@@ -3158,7 +3178,7 @@
     "id": "109",
     "locations": [
       {
-        "name": "City of Lexington Registrar's Office",
+        "name": "Multi-Purpose Building (Lower Level)",
         "address1": "109 East Boggs Street",
         "city": "Lexington",
         "zip": "30648",
