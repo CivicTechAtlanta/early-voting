@@ -1,15 +1,19 @@
+var dateString = '20160524';
+
 var logger = require('tracer').colorConsole({
   format: '<{{title}}> (in {{file}}:{{line}}) {{message}}'
 });
 var moment = require('moment');
 var fs = require('fs');
-var counties = fs.readFileSync('html-from-scraper-20160301.json');
+var counties = fs.readFileSync('scraped/html-from-scraper-' + dateString + '.json');
 counties = JSON.parse(counties);
 var parsedCounties = [];
 var votingStartDate;
 var votingEndDate;
 var votingDates = [];
 var uniqueLocations = [];
+
+var knownData = require('./polling-places.json');
 
 function replaceAll(str, find, replace) {
   return str.replace(new RegExp(find, 'g'), replace);
@@ -36,7 +40,7 @@ votingDates = getDatesBetween(votingStartDate, votingEndDate);
 
 for (var i = 0; i < parsedCounties.length; i++) {
   var county = parsedCounties[i];
-  logger.warn(county);
+  // logger.warn(county);
 
   county.locations = matchLocations(county);
   parseLocations(county.locations);
@@ -44,8 +48,6 @@ for (var i = 0; i < parsedCounties.length; i++) {
   delete county.locationTimes;
   parsedCounties[i] = county;
 }
-
-logger.warn(parsedCounties);
 
 
 
@@ -59,7 +61,10 @@ pollingPlaces.forEach(function(county) {
     delete location.dates;
   });
 });
-fs.writeFile('processed-20160301.json', JSON.stringify(pollingPlaces));
+// change processed to locations
+// change parsed to processed
+fs.writeFile('scraped/locations-' + dateString + '.json', JSON.stringify(pollingPlaces));
+fs.writeFile('scraped/processed-' + dateString + '.json', JSON.stringify(parsedCounties));
 
 // if one doesn't match exactly, error and ask if it is new
 // if it is new, write the polling place to the DB
@@ -135,6 +140,7 @@ function parseLocation(location) {
   location = findZip(location);
   location = findCity(location);
   location = findAddress(location);
+  location = mergeWithKnownData(location, knownData);
   // logger.log(location);
   return location;
 }
@@ -173,7 +179,7 @@ function findFirstDate(location) {
     }
   } else {
     // error
-    logger.log(location);
+    // logger.log(location);
     throw new Error('First character of location text was not a number');
     // and find the first number in location
   }
@@ -238,13 +244,7 @@ function findDays(location) {
   return location;
 }
 
-// test that isNaN(10-12) === true
-// otherwise 9-digit zips will slip through
-
-// here's a 9 digit example, in our data:
-// <span id="ctl00_ContentPlaceHolder2_rptVotingInformation_ctl01_lblLocationDetail" class="standardfont"><b>02/20/2016 - 02/20/2016</b><br>9:00 AM - 4:00 PM, Days: Sa<br>Wilkes County Courthouse<br>23 Court Street, Room 113<br>Washington, GA30673-1570<br><br>
 function findZip(location) {
-
   // if there's a ", GA", assume that what's after it is the zip, excluding any <br>s
   var split = location.text.split(', GA');
   if (split[1] && !split[2]) { // make sure there's one and only one ", GA"
@@ -252,7 +252,7 @@ function findZip(location) {
     location.zip = split[1];
     location.text = split[0];
   } else {
-    logger.log(location);
+    // logger.log(location);
     throw new Error('No state found, therefore no zip code identified');
   }
 
@@ -276,8 +276,8 @@ function findAddress(location) {
   var split = location.text.split('<br>');
   var missingPlaceName = false;
   if (!isNaN(split[0].substring(0, 1))) {
-    logger.log(location.text);
-    logger.warn('WARN: Seems to be missing a place name');
+    // logger.log(location.text);
+    // logger.warn('WARN: Seems to be missing a place name');
     location.name = "";
     missingPlaceName = true;
   } else {
@@ -290,7 +290,7 @@ function findAddress(location) {
     location.address2 = missingPlaceName ? split[1] : split[2];
   }
   if (split[3]) {
-    logger.log(location);
+    // logger.log(location);
     throw new Error('Too many address lines');
   }
 
@@ -298,13 +298,33 @@ function findAddress(location) {
   delete location.originalText;
 
   if (missingPlaceName) {
-    logger.log(location);
+    // logger.log(location);
   }
 
   return location;
 }
 
+function mergeWithKnownData(location, knownData) {
+  knownData.forEach(function(county) {
+    if (location.county === county.name) {
+      county.locations.forEach(function(pollingPlace) {
+        if (pollingPlace.address1 === location.address1 && pollingPlace.city === location.city) {
+          location.coordinates = pollingPlace.coordinates;
+        }
+      });
+    }
+  });
 
+  if (typeof(location.coordinates) === 'undefined') {
+    // logger.warn(location);
+    // throw new Error('Polling place is unknown: not available in polling-places.json');
+  } else if (location.coordinates.length === 0) {
+    // logger.warn(location);
+    // throw new Error('Polling place missing coordinates in polling-places.json');
+  }
+
+  return location;
+}
 
 
 
@@ -376,6 +396,7 @@ function compareLocationToLocations(location, locations) {
       'address2': location.address2, // only add if there is an address2?
       'city': location.city,
       'zip': location.zip,
+      'coordinates': location.coordinates,
       'times': [{
         'firstDate': location.firstDate,
         'secondDate': location.secondDate,
