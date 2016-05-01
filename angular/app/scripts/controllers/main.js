@@ -44,8 +44,8 @@ angular.module('earlyVotingApp')
       };
     }
 
-    this.nextElectionDate = moment("20151103", "YYYYMMDD").format('LL');
-    this.nextElectionType = "general election";
-    this.nextElectionRegistrationDate = moment("20150926", "YYYYMMDD").format('LL');
-    this.nextElectionEarlyVotingDate = moment("20151012", "YYYYMMDD").format('LL');
+    this.nextElectionDate = moment("20160524", "YYYYMMDD").format('LL');
+    this.nextElectionType = "primary election";
+    this.nextElectionRegistrationDate = moment("20160426", "YYYYMMDD").format('LL');
+    this.nextElectionEarlyVotingDate = moment("20160502", "YYYYMMDD").format('LL');
   });

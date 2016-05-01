@@ -3,7 +3,7 @@
     <md-card-content>
       <div id="address">
         <h2 class="md-title">{{place.properties.location}}</h2>
-        <h3>{{place.properties.address}}<br>{{place.properties.city}}, GA {{place.properties.zip}}</h3>
+        <h3><span ng-bind-html="place.properties.address"></span><br>{{place.properties.city}}, GA {{place.properties.zip}}</h3>
         <p ng-bind-html="place.properties.datesSimplified"></p>
         <p class="warning">
           Anyone registered to vote in {{place.county}} County can vote early here.<br>Not a {{ place.county }} County voter? 
