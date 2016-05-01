@@ -65,6 +65,7 @@ pollingPlaces.forEach(function(county) {
 // change parsed to processed
 fs.writeFile('scraped/locations-' + dateString + '.json', JSON.stringify(pollingPlaces));
 fs.writeFile('scraped/processed-' + dateString + '.json', JSON.stringify(parsedCounties));
+fs.writeFile('scraped/processed-' + dateString + '.geojson', JSON.stringify(convertJsonToGeojson(parsedCounties)));
 
 // if one doesn't match exactly, error and ask if it is new
 // if it is new, write the polling place to the DB
@@ -327,6 +328,55 @@ function mergeWithKnownData(location, knownData) {
 }
 
 
+// this set of functions is temporary until we change data structure for front end
+function parseLocationForGeojson(location, index) {
+  var geoLocation = {
+    "type": "Feature", 
+    "geometry": {
+      "type": "Point", 
+      "coordinates": []
+    },
+    "properties": {
+    }
+  };
+
+  geoLocation.geometry.coordinates = location.coordinates;
+  geoLocation.properties.id = index; 
+  geoLocation.properties.location = location.name;
+  geoLocation.properties.address = location.address1;
+  if (typeof(location.address2) !== 'undefined') {geoLocation.properties.address += "<br>" + location.address2;} // possibly insert <br> here?
+  geoLocation.properties.city = location.city;
+  geoLocation.properties.zip = location.zip;
+  geoLocation.properties.dates = location.dates;
+  geoLocation.properties.datesSimplified = "";
+
+  logger.warn(location);
+  logger.log(geoLocation);
+
+  return geoLocation;
+}
+
+function parseCountyForGeojson(county) {
+  var geoCounty = [{"type": "FeatureCollection", "features": []}];
+  // logger.log(geoCounty);
+  county.locations.forEach(function (location, index) {
+    geoCounty[0].features.push(parseLocationForGeojson(location, index));
+  });
+
+  return geoCounty;
+}
+
+function convertJsonToGeojson(json) {
+  var geojson = {};
+  json.forEach(function (county) {
+    var countyName = county.name;
+    var geoCounty = parseCountyForGeojson(county);
+    geojson[countyName] = geoCounty;
+  });
+
+  // logger.warn(geojson);
+  return geojson;
+}
 
 
 

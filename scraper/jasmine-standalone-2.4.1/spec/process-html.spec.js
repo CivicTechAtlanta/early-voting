@@ -1,3 +1,5 @@
+// it should throw an error if the second date listed for a polling place is chronologically before the first
+
 describe("getDatesBetween", function() {
   it("should be able to get dates between 12/30/2015 and 01/04/2016", function() {
     expect(getDatesBetween('12/30/2015', '01/04/2016')).toEqual(["12/30/2015", "12/31/2015", "01/01/2016", "01/02/2016", "01/03/2016", "01/04/2016"]);
@@ -73,15 +75,15 @@ describe("mergeWithKnownData", function() {
 // pass it knownData = 
 // should fail because knownData is missing coordinates
 
-// describe("parseLocation", function() {
-//   it("should handle missing place names", function() {
-//   	var input = { text: '<span id="ctl00_ContentPlaceHolder2_rptVotingInformation_ctl02_lblLocationDetail" class="standardfont">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>05/16/2016 - 05/20/2016</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;125 Pine Ave<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Albany, GA&nbsp;&nbsp;31701<br><br></span>',
-// 		  county: 'Dougherty',
-// 		  countyID: '47' };
-// 		var output = parseLocation(input);
-// 	  expect(output.name).toEqual('');
-// 	  expect(output.address1).toEqual('125 Pine Ave');
-//   });
-// });
+describe("parseLocation", function() {
+  it("should handle missing place names", function() {
+  	var input = { text: '<span id="ctl00_ContentPlaceHolder2_rptVotingInformation_ctl02_lblLocationDetail" class="standardfont">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>05/16/2016 - 05/20/2016</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:30 AM - 5:00 PM, Days: M,Tu,W,Th,F<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;125 Pine Ave<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Albany, GA&nbsp;&nbsp;31701<br><br></span>',
+		  county: 'Dougherty',
+		  countyID: '47' };
+		var output = parseLocation(input);
+	  expect(output.name).toEqual('');
+	  expect(output.address1).toEqual('125 Pine Ave');
+  });
+});
 
 // test that warns work properly (in SpecRunner, import tracer)

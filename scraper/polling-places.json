@@ -542,6 +542,16 @@
         ]
       },
       {
+        "name": "Freedom Center",
+        "address1": "5238 Evitt Street",
+        "city": "Ringgold",
+        "zip": "30736",
+        "coordinates": [
+          -85.1069494,
+          34.9159986
+        ]
+      },
+      {
       	"name": "Ringgold City Hall (Ringgold Municipal Voters Only)",
       	"address1": "150 Tennessee St.",
       	"city": "Ringgold",
@@ -853,6 +863,16 @@
     "name": "Cobb",
     "id": "33",
     "locations": [
+      {
+        "name": "Cobb County Civic Center",
+        "address1": "548 S. Marietta Pkwy.",
+        "city": "Marietta",
+        "zip": "30060-2251",
+        "coordinates": [
+          -84.5112628,
+          33.9403288
+        ]
+      },
       {
         "name": "Switzer Central Library",
         "address1": "266 Roswell St.",
@@ -1638,9 +1658,9 @@
         ]
       },
       {
-      	"name": "Peachtree City Library",
-      	"address1": "201 Willowbend Road",
-      	"city": "Peachtree City",
+      	"name": "Peachtree City Library ",
+      	"address1": "201 Willowbend Road ",
+      	"city": "Peachtree City ",
       	"zip": "30269",
         "coordinates": [
             -84.5806959,
@@ -1917,7 +1937,11 @@
         "name": "Milton Library",
         "address1": "855 Mayfield Road",
         "city": "Milton",
-        "zip": "30009"
+        "zip": "30009",
+        "coordinates": [
+          -84.3367995,
+          34.0903658
+        ]
       },
       {
         "name": "North Fulton Service Center",
@@ -2214,7 +2238,7 @@
       },
       {
         "name": "Dacula Activity Building",
-        "address1": "2735 Old Auburn Road",
+        "address1": "2735 Old Auburn Avenue",
         "city": "Dacula",
         "zip": "30019",
         "coordinates": [
@@ -2584,6 +2608,12 @@
         	-83.762328,
         	34.1077092
         ]
+      },
+      {
+        "name": "The Gordon Street Center",
+        "address1": "441 Gordon Street",
+        "city": "Jefferson",
+        "zip": "30549"
       }
     ]
   },
@@ -3608,6 +3638,17 @@
         	-83.3332395,
         	34.5799653
         ]
+      },
+      {
+        "name": "Stephens County Registrar Office",
+        "address1": "12 West Tugalo Street",
+        "address2": "Suite 250",
+        "city": "Toccoa",
+        "zip": "30577",
+        "coordinates": [
+          -83.3342991,
+          34.5799265
+        ]
       }
     ]
   },
@@ -3621,7 +3662,8 @@
         "city": "Lumpkin",
         "zip": "31815",
         "coordinates": [
-        	
+          -84.7954299,
+        	32.0510332
         ]
       }
     ]
@@ -3637,7 +3679,8 @@
         "city": "Americus",
         "zip": "31709",
         "coordinates": [
-        	
+          -84.2396085,
+        	32.0718439
         ]
       }
     ]
@@ -3652,8 +3695,9 @@
         "city": "Talbotton",
         "zip": "31827",
         "coordinates": [
-        	
-        ]
+              -84.5414374,
+              32.679656
+            ]
       }
     ]
   },
@@ -3693,7 +3737,8 @@
         "city": "Collins",
         "zip": "30421",
         "coordinates": [
-        	
+          -82.1136153,
+        	32.181167
         ]
       },
       {
@@ -3728,7 +3773,8 @@
         "city": "Butler",
         "zip": "31006",
         "coordinates": [
-        	
+          -84.2374615,
+          32.5561052
         ]
       },
       {
@@ -3754,7 +3800,8 @@
         "city": "McRae",
         "zip": "31055",
         "coordinates": [
-        	
+          -82.8967552,
+          32.0660772
         ]
       },
       {
@@ -3800,7 +3847,8 @@
         "city": "Dawson",
         "zip": "39842",
         "coordinates": [
-        	
+          -84.4367007,
+          31.7611471
         ]
       }
     ]
@@ -3815,7 +3863,8 @@
         "city": "Thomasville",
         "zip": "31792",
         "coordinates": [
-        	
+          -83.9834827,
+          30.8389602
         ]
       }
     ]
@@ -3862,7 +3911,8 @@
         "city": "Hiawassee",
         "zip": "30546",
         "coordinates": [
-        	
+          -83.7571592,
+          34.9475965
         ]
       }
     ]
@@ -3940,7 +3990,8 @@
         "city": "Blairsville",
         "zip": "30512",
         "coordinates": [
-        	
+          -83.9607834,
+          34.878533
         ]
       },
       {
@@ -3965,7 +4016,8 @@
         "city": "Thomaston",
         "zip": "30286",
         "coordinates": [
-        	
+          -84.3100886,
+          32.8856028
         ]
       }
     ]
@@ -3980,7 +4032,8 @@
         "city": "LaFayette",
         "zip": "30728",
         "coordinates": [
-        	
+          -85.280673,
+          34.7044171
         ]
       },
       {
@@ -3989,7 +4042,8 @@
         "city": "Chickamauga",
         "zip": "30707",
         "coordinates": [
-        	
+          -85.2851461,
+          34.8636789
         ]
       },
       {
@@ -3998,7 +4052,8 @@
         "city": "Lookout Mountain",
         "zip": "30750",
         "coordinates": [
-        	
+          -85.358081,
+          34.9778504
         ]
       },
       {
@@ -4008,7 +4063,8 @@
         "city": "Rock Spring",
         "zip": "30739",
         "coordinates": [
-        	
+          -85.2460525,
+          34.80951
         ]
       },
       {
@@ -4017,7 +4073,8 @@
         "city": "Rossville",
         "zip": "30741",
         "coordinates": [
-        	
+          -85.2885424,
+          34.9814506
         ]
       }
     ]
@@ -4073,7 +4130,8 @@
         "city": "Warrenton",
         "zip": "30828",
         "coordinates": [
-        	
+          -82.6622855,
+          33.4074413
         ]
       },
       {
@@ -4174,7 +4232,8 @@
         "city": "Cleveland",
         "zip": "30528",
         "coordinates": [
-        	
+          -83.7550038,
+          34.61811
         ]
       },
       {
@@ -4209,7 +4268,8 @@
         "city": "Dalton",
         "zip": "30720",
         "coordinates": [
-        	
+          -84.9714324,
+          34.7724927
         ]
       }
     ]
@@ -4224,7 +4284,8 @@
         "city": "Abbeville",
         "zip": "31001",
         "coordinates": [
-        	
+          -83.3136643,
+          31.9909785
         ]
       }
     ]
