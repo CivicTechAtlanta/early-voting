@@ -1,4 +1,4 @@
-var dateString = '20160524';
+var dateString = '20160726';
 
 var logger = require('tracer').colorConsole({
   format: '<{{title}}> (in {{file}}:{{line}}) {{message}}'
@@ -14,6 +14,47 @@ var votingDates = [];
 var uniqueLocations = [];
 
 var knownData = require('./polling-places.json');
+
+var logging = false;
+
+function parseData() {
+  counties.forEach(function(county) {
+    var countyName = county.name;
+    var countyID = county.value;
+    var locations = county.locations;
+  });
+  // once we've processed the counties, we can find all the dates
+  votingDates = getDatesBetween(votingStartDate, votingEndDate);
+
+  for (var i = 0; i < parsedCounties.length; i++) {
+    var county = parsedCounties[i];
+    // logger.warn(county);
+
+    logger.debug(parsedCounties);
+    county.locations = matchLocations(county);
+    parseLocations(county.locations);
+    // logger.log(county);
+    delete county.locationTimes;
+    parsedCounties[i] = county;
+  }
+
+  // make a db of known polling places
+  // copy object
+  var pollingPlaces = JSON.parse(JSON.stringify(parsedCounties));
+  pollingPlaces.forEach(function(county) {
+    county.locations.forEach(function(location) {
+      delete location.dates;
+    });
+  });
+  // change processed to locations
+  // change parsed to processed
+  fs.writeFile('scraped/locations-' + dateString + '.json', JSON.stringify(pollingPlaces));
+  fs.writeFile('scraped/processed-' + dateString + '.json', JSON.stringify(parsedCounties));
+  fs.writeFile('scraped/processed-' + dateString + '.geojson', JSON.stringify(convertJsonToGeojson(parsedCounties)));
+
+  // if one doesn't match exactly, error and ask if it is new
+  // if it is new, write the polling place to the DB
+}
 
 function replaceAll(str, find, replace) {
   return str.replace(new RegExp(find, 'g'), replace);
@@ -35,47 +76,20 @@ counties.forEach(function(county) {
   var locations = county.locations;
   parsedCounties = processCounty(parsedCounties, countyName, countyID, locations);
 });
-// once we've processed the counties, we can find all the dates
-votingDates = getDatesBetween(votingStartDate, votingEndDate);
-
-for (var i = 0; i < parsedCounties.length; i++) {
-  var county = parsedCounties[i];
-  // logger.warn(county);
-
-  county.locations = matchLocations(county);
-  parseLocations(county.locations);
-  // logger.log(county);
-  delete county.locationTimes;
-  parsedCounties[i] = county;
-}
 
 
+// parse full data from html-from-scraper-[DATE_FROM_LINE_1].json
+parseData();
 
+// or parse a single location
+var location = {"text":"<span id=\"ctl00_ContentPlaceHolder2_rptVotingInformation_ctl00_lblLocationDetail\" class=\"standardfont\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>07/05/2016 - 07/22/2016</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2808 N. Oak Street<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Valdosta, GA&nbsp;&nbsp;31602<br><br></span>"};
+// logging = true;
+// parseLocation(location);
 
-
-// make a db of known polling places
-// copy object
-var pollingPlaces = JSON.parse(JSON.stringify(parsedCounties));
-pollingPlaces.forEach(function(county) {
-  county.locations.forEach(function(location) {
-    delete location.dates;
-  });
-});
-// change processed to locations
-// change parsed to processed
-fs.writeFile('scraped/locations-' + dateString + '.json', JSON.stringify(pollingPlaces));
-fs.writeFile('scraped/processed-' + dateString + '.json', JSON.stringify(parsedCounties));
-fs.writeFile('scraped/processed-' + dateString + '.geojson', JSON.stringify(convertJsonToGeojson(parsedCounties)));
-
-// if one doesn't match exactly, error and ask if it is new
-// if it is new, write the polling place to the DB
-
-
-
-
-
-
-
+// or parse a single county
+var county = {"name":"Lowndes","value":"92","locations":[{"text":"<span id=\"ctl00_ContentPlaceHolder2_rptVotingInformation_ctl00_lblLocationDetail\" class=\"standardfont\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>07/05/2016 - 07/22/2016</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2808 N. Oak Street<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Valdosta, GA&nbsp;&nbsp;31602<br><br></span>"}]};
+// logging = true;
+// processCounty(county.name, county.value, county.locations);
 
 
 
@@ -277,9 +291,13 @@ function findAddress(location) {
   var split = location.text.split('<br>');
   var missingPlaceName = false;
   if (!isNaN(split[0].substring(0, 1))) {
-    // logger.log(location.text);
-    // logger.warn('WARN: Seems to be missing a place name');
+    logger.warn('WARN:     Seems to be missing a place name');
+    logger.warn('LOCATION: ' + location.text);
     location.name = "";
+    // since what's here isn't a place name, assume it's the address
+    if (!split[1]) {
+      location.address1 = split[0];
+    }
     missingPlaceName = true;
   } else {
     location.name = split[0];
@@ -317,11 +335,11 @@ function mergeWithKnownData(location, knownData) {
   });
 
   if (typeof(location.coordinates) === 'undefined') {
-    // logger.warn(location);
-    // throw new Error('Polling place is unknown: not available in polling-places.json');
+    logger.warn(location);
+    throw new Error('Polling place is unknown: not available in polling-places.json');
   } else if (location.coordinates.length === 0) {
-    // logger.warn(location);
-    // throw new Error('Polling place missing coordinates in polling-places.json');
+    logger.warn(location);
+    throw new Error('Polling place missing coordinates in polling-places.json');
   }
 
   return location;
@@ -404,6 +422,7 @@ function convertJsonToGeojson(json) {
 // if it's not unique, add the times to the existing location
 function matchLocations(county) {
   var locationsInCounty = [];
+  logger.debug(county);
   for (var i = 0; i < county.locationTimes.length; i++) {
     var locationTime = county.locationTimes[i];
     locationsInCounty = compareLocationToLocations(locationTime, locationsInCounty);
@@ -511,3 +530,9 @@ function parseTimes(location) {
   location.dates.sort(compareDates);
   delete location.times;
 }
+
+exports.parseLocation = parseLocation;
+exports.getDatesBetween = getDatesBetween;
+exports.findZip = findZip;
+exports.findCity = findCity;
+exports.mergeWithKnownData = mergeWithKnownData;
