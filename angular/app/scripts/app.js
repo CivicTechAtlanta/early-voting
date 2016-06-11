@@ -31,6 +31,13 @@ angular
   //     .primaryPalette('pink')
   //     .accentPalette('amazingPaletteName');
   // })
+  .constant("electionProperties", {
+    // from http://sos.ga.gov/index.php/elections/2016_election_dates
+    "date": "20160726",
+    "type": "primary election runoff",
+    "registrationDate": "20160426",
+    "earlyVotingDate": "20160705"
+  })
   .config(function($mdThemingProvider) {
     $mdThemingProvider.definePalette('codeForATLPrimary', {
       '50': 'e6eef2',
@@ -78,7 +85,7 @@ angular
       .primaryPalette('codeForATLPrimary')
       .accentPalette('codeForATLAccent');
   })
-  .config(function ($routeProvider) {
+  .config(function (electionProperties, $routeProvider) {
     $routeProvider
       .when('/', {
         title: '',
@@ -113,7 +120,7 @@ angular
           }],
           countyElectionInfo: ['$http', '$route', function($http, $route) {
             var county = $route.current.params.countyName;
-            return $http.get('data/elections/20160524-locations.geojson').then(function(result) {
+            return $http.get('data/elections/' + electionProperties.date + '-locations.geojson').then(function(result) {
               if (typeof(result.data[county]) === "undefined") {
                 console.log("undefined");
                 // result.data[county].earlyVoting = false;
@@ -136,7 +143,7 @@ angular
         resolve: {
           pollingPlaceInfo: [ '$http', '$route', function($http, $route) {
             var county = $route.current.params.countyName;
-            return $http.get('data/elections/20160524-locations.geojson').then(function(result) {
+            return $http.get('data/elections/' + electionProperties.date + '-locations.geojson').then(function(result) {
               var pollingPlaces = result.data[county][0].features;
               for (var i = 0; i < pollingPlaces.length; i++) {
                 if (parseInt(pollingPlaces[i].properties.id) === parseInt($route.current.params.pollingPlace)) {

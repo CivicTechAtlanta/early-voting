@@ -8,7 +8,7 @@
  * Controller of the earlyVotingApp
  */
 angular.module('earlyVotingApp')
-  .controller('MainCtrl', function ($scope, $log, $location) {
+  .controller('MainCtrl', function ($scope, $log, $location, electionProperties) {
     this.gaCounties = [];
 
     this.querySearch = function(query) {
@@ -44,8 +44,8 @@ angular.module('earlyVotingApp')
       };
     }
 
-    this.nextElectionDate = moment("20160524", "YYYYMMDD").format('LL');
-    this.nextElectionType = "primary election";
-    this.nextElectionRegistrationDate = moment("20160426", "YYYYMMDD").format('LL');
-    this.nextElectionEarlyVotingDate = moment("20160502", "YYYYMMDD").format('LL');
+    this.nextElectionDate = moment(electionProperties.date, "YYYYMMDD").format('LL');
+    this.nextElectionType = electionProperties.type;
+    this.nextElectionRegistrationDate = moment(electionProperties.registrationDate, "YYYYMMDD").format('LL');
+    this.nextElectionEarlyVotingDate = moment(electionProperties.earlyVotingDate, "YYYYMMDD").format('LL');
   });

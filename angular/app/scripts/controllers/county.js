@@ -8,12 +8,14 @@
  * Controller of the earlyVotingApp
  */
 angular.module('earlyVotingApp')
-  .controller('CountyCtrl', ['$scope', '$routeParams', 'countyElectionInfo', 'countyBoundaries', 'leafletBoundsHelpers', 
-  									function ($scope,   $routeParams,   countyElectionInfo,   countyBoundaries,   leafletBoundsHelpers) {
+  .controller('CountyCtrl', ['$scope', '$routeParams', 'countyElectionInfo', 'countyBoundaries', 'electionProperties', 'leafletBoundsHelpers', 
+  									function ($scope,   $routeParams,   countyElectionInfo,   countyBoundaries,   electionProperties,   leafletBoundsHelpers) {
 
 		$scope.loading = false;
     this.county = $routeParams.countyName;
 		this.countyElectionInfo = countyElectionInfo;
+		this.electionDate = moment(electionProperties.date, "YYYYMMDD").format('LL');
+		this.electionType = electionProperties.type;
     var countyBbox = countyBoundaries.properties.BOUNDS;
     this.bounds = leafletBoundsHelpers.createBoundsFromArray([
     	[ countyBbox[1], countyBbox[0] ],
