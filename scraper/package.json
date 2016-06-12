@@ -7,5 +7,13 @@
   "dependencies": {
     "moment": "^2.12.0",
     "tracer": "^0.8.3"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "tap": "^5.7.2",
+    "tape": "^4.5.1"
+  },
+  "scripts": {
+    "test": "tap ./test/*.js --cov"
   }
 }

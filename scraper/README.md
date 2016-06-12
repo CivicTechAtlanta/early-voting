@@ -11,6 +11,7 @@
 
 # To run tests of parser:
     cd early-voting/scraper
-    jasmine-node spec
+    npm install
+    npm test
 
 View http://localhost:8001/ in browser

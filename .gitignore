@@ -1,2 +1,4 @@
 /node_modules
 /scraper/node_modules
+/scraper/.nyc_output
+/scraper/npm-debug.log
