@@ -772,7 +772,8 @@
     "locations": [
       {
         "name": "Clayton County Elections and Registration",
-        "address1": "121 S. McDonough Street",
+        "address1": "Second Floor",
+        "address2": "121 S. McDonough Street",
         "city": "Jonesboro",
         "zip": "30236",
         "coordinates": [
@@ -1795,7 +1796,7 @@
     "locations": [
       {
         "name": "Adamsville Recreation Center",
-        "address1": "3201 Martin Luther King, Jr. Dr,, SW",
+        "address1": "3201 MLK Jr. Dr. SW",
         "city": "Atlanta",
         "zip": "30311",
         "coordinates": [
@@ -1844,8 +1845,8 @@
         ]
       },
       {
-        "name": "Chastain Park Gymnasium",
-        "address1": "140 West Wieuca, Road NW",
+        "name": "Chastain Park Recreation Center",
+        "address1": "140 W. Wieuca Rd. NW ",
         "city": "Atlanta",
         "zip": "30342",
         "coordinates": [
@@ -1945,7 +1946,7 @@
       },
       {
         "name": "North Fulton Service Center",
-        "address1": "7741 Roswell Road",
+        "address1": "7741 Roswell Road, Suite 232 Room 128",
         "city": "Sandy Springs",
         "zip": "30350",
         "coordinates": [
@@ -2538,7 +2539,7 @@
       },
       {
         "name": "Central Georgia Technical College",
-        "address1": "80 Cohen Walker Dr.",
+        "address1": "71 Cohen Walker Dr.",
         "city": "Warner Robins",
         "zip": "31088",
         "coordinates": [
@@ -3938,7 +3939,8 @@
   	"locations": [
       {
       	"name": "Elections and Registration Office",
-      	"address1": "100 Ridley Avenue, Suite 1100",
+      	"address1": "100 Ridley Avenue",
+        "address2": "Suite 1100",
       	"city": "LaGrange",
       	"zip": "30240",
         "coordinates": [
@@ -4227,7 +4229,7 @@
     "locations": [
       {
         "name": "",
-        "address1": "1241 Helen Hwy",
+        "address1": "1241 Helen Hwy ",
         "address2": "Suite 210-A",
         "city": "Cleveland",
         "zip": "30528",
