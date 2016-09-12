@@ -97,7 +97,13 @@ md-card {
 
 .button-container {
   width: 100%;
-  text-align: right;
+  .left-button {
+    width: calc(100% - 104px - 21px);
+    text-align: left;
+    &.md-secondary {
+      color: $secondary;
+    }
+  }
 }
 
 /* Responsive: Portrait tablets and up */
