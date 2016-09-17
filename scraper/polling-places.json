@@ -462,6 +462,16 @@
         	-81.5437449,
         	30.7419442
         ]
+      },
+      {
+        "name": "Kingsland Rec Center",
+        "address1": "1050 Wildcat Dr",
+        "city": "Kingsland",
+        "zip": "31548",
+        "coordinates": [
+          -81.6468043,
+          30.8139285
+        ]
       }
     ]
   },
@@ -1103,6 +1113,17 @@
 	        -82.0504837,
         	33.5382255
         ]
+      },
+      {
+        "name": "Columbia County Early Voting at G3",
+        "address1": "610 Ronald Reagan Drive",
+        "address2": "Buiilding G3 - next to Zaxbys",
+        "city": "Evans",
+        "zip": "30809",
+        "coordinates": [
+          -82.1360883,
+          33.5432992
+        ]
       }
     ]
   },
@@ -1351,6 +1372,16 @@
         "coordinates": [
         	-84.1112021,
         	33.6936596
+        ]
+      },
+      {
+        "name": "Coan Recreation Center-Atlanta",
+        "address1": "1530 Woodbine Avenue, SE",
+        "city": "Atlanta",
+        "zip": "30317",
+        "coordinates": [
+          -84.3369454,
+          33.7518615
         ]
       }
     ]
@@ -1659,9 +1690,9 @@
         ]
       },
       {
-      	"name": "Peachtree City Library ",
-      	"address1": "201 Willowbend Road ",
-      	"city": "Peachtree City ",
+      	"name": "Peachtree City Library",
+      	"address1": "201 Willow Bend Rd",
+      	"city": "Peachtree City",
       	"zip": "30269",
         "coordinates": [
             -84.5806959,
@@ -1670,12 +1701,23 @@
       },
       {
       	"name": "Tyrone Town Hall",
-      	"address1": "881 Senoia Road",
+      	"address1": "881 Senoia Rd.",
       	"city": "Tyrone",
       	"zip": "30290",
         "coordinates": [
             -84.596434,
             33.4752139
+        ]
+      },
+      {
+        "name": "Fayette County Administrative Complex",
+        "address1": "Public Meeting Room",
+        "address2": "140 Stonewall Ave. West",
+        "city": "Fayetteville",
+        "zip": "30214",
+        "coordinates": [
+            -84.457149,
+            33.4470178
         ]
       }
     ]
@@ -1805,8 +1847,8 @@
         ]
       },
       {
-        "name": "Adamsville-Collier Heights Branch Library",
-        "address1": "3424 Martin Luther King, Dr,",
+        "name": "Adamsville Collier Heights Library",
+        "address1": "3424 Martin Luther King Jr. Dr.",
         "city": "Atlanta",
         "zip": "30331",
         "coordinates": [
@@ -1836,7 +1878,7 @@
       },
       {
         "name": "Buckhead Library",
-        "address1": "269 Buckhead Avenue NE",
+        "address1": "269 Buckhead Ave. NE",
         "city": "Atlanta",
         "zip": "30305",
         "coordinates": [
@@ -1855,23 +1897,13 @@
         ]
       },
       {
-      	"name": "Coan Park Recreation Center",
-      	"address1": "1530 Woodbine Avenue, SE",
-      	"city": "Atlanta",
-      	"zip": "30317",
-        "coordinates": [
-			-84.336664,
-			33.7519124
-        ]
-      },
-      {
         "name": "College Park Historical Building",
         "address1": "3675 Auditorium Way",
         "city": "College Park",
         "zip": "30337",
         "coordinates": [
-			-84.450878,
-			33.655064
+          -84.450878,
+          33.655064
         ]
       },
       {
@@ -1920,8 +1952,8 @@
         "city": "Atlanta",
         "zip": "30312",
         "coordinates": [
-			-84.3793794,
-			33.7370753
+          -84.3793794,
+          33.7370753
         ]
       },
       {
@@ -1930,8 +1962,8 @@
         "city": "Alpharetta",
         "zip": "30022",
         "coordinates": [
-			-84.2655154,
-			33.9773142
+          -84.2655154,
+          33.9773142
         ]
       },
       {
@@ -1946,12 +1978,12 @@
       },
       {
         "name": "North Fulton Service Center",
-        "address1": "7741 Roswell Road, Suite 232 Room 128",
+        "address1": "7741 Roswell Road, Suite 232",
         "city": "Sandy Springs",
         "zip": "30350",
         "coordinates": [
-			-84.3627312,
-			33.9657187
+          -84.3627312,
+          33.9657187
         ]
       },
       {
@@ -1960,8 +1992,8 @@
         "city": "Johns Creek",
         "zip": "30022",
         "coordinates": [
-			-84.2227533,
-			34.0147999
+          -84.2227533,
+          34.0147999
         ]
       },
       {
@@ -1970,8 +2002,8 @@
         "city": "Atlanta",
         "zip": "30327",
         "coordinates": [
-			-84.4254094,
-			33.8451648
+          -84.4254094,
+          33.8451648
         ]
       },
       {
@@ -1980,8 +2012,8 @@
         "city": "Atlanta",
         "zip": "30318",
         "coordinates": [
-        	-84.4697134,
-        	33.8049385
+          -84.4697134,
+          33.8049385
         ]
       },
       {
@@ -1990,8 +2022,8 @@
         "city": "Atlanta",
         "zip": "30268",
         "coordinates": [
-        	-84.6629334,
-        	33.5280808
+          -84.6629334,
+          33.5280808
         ]
       },
       {
@@ -2000,8 +2032,8 @@
       	"city": "Atlanta",
       	"zip": "30310",
         "coordinates": [
-			-84.4137157,
-			33.7126213
+          -84.4137157,
+          33.7126213
         ]
       },
       {
@@ -2010,24 +2042,24 @@
       	"city": "Atlanta",
       	"zip": "30306",
         "coordinates": [
-			-84.3552663,
-			33.7741759
+          -84.3552663,
+          33.7741759
         ]
       },
       {
         "name": "Robert F. Fulton Ocee Library",
         "address1": "5090 Abbotts Bridge Road",
-        "city": "Alpharetta",
-        "zip": "30075",
+        "city": "Johns Creek",
+        "zip": "30355",
         "coordinates": [
             -84.2095857,
             34.0645546
         ]
       },
       {
-        "name": "Roswell Branch Library",
+        "name": "Roswell Library",
         "address1": "115 Norcross Street",
-        "city": "Roswell ",
+        "city": "Roswell",
         "zip": "30075",
         "coordinates": [
             -84.357783,
@@ -2036,12 +2068,12 @@
       },
       {
         "name": "Sandy Springs Library",
-        "address1": "395 Mount Vernon HWY, NE",
+        "address1": "395 Mount Vernon Hwy NE",
         "city": "Sandy Springs",
         "zip": "30328",
         "coordinates": [
-			-84.3740999,
-			33.9244086
+          -84.3740999,
+          33.9244086
         ]
       },
       {
@@ -2050,18 +2082,18 @@
         "city": "College Park",
         "zip": "30349",
         "coordinates": [
-			-84.5498808,
-			33.6014156
+          -84.5498808,
+          33.6014156
         ]
       },
       {
         "name": "Southwest Arts Center",
-        "address1": "915 New Hope Road, SW",
+        "address1": "915 New Hope Rd., SW",
         "city": "Atlanta",
         "zip": "30331",
         "coordinates": [
-			-84.5415544,
-			33.7296843
+          -84.5415544,
+          33.7296843
         ]
       },
       {
@@ -2070,8 +2102,8 @@
       	"city": "Alpharetta",
       	"zip": "30004",
         "coordinates": [
-			-84.2989111,
-			34.0768876
+          -84.2989111,
+          34.0768876
         ]
       },
       {
@@ -2080,18 +2112,171 @@
       	"city": "Atlanta",
       	"zip": "30314",
         "coordinates": [
-			-84.4237409,
-			33.7540521
+          -84.4237409,
+          33.7540521
         ]
       },
       {
         "name": "Welcome All Recreation Center",
-        "address1": "4255 Will Lee Road",
+        "address1": "4255 Will Lee Rd",
         "city": "College Park",
         "zip": "30349",
         "coordinates": [
-			-84.5284217,
-			33.6331104
+          -84.5284217,
+          33.6331104
+        ]
+      },
+      {
+        "name": "College Park Library",
+        "address1": "3647 Main Street",
+        "city": "College Park",
+        "zip": "30337",
+        "coordinates": [
+          -84.4498875,
+          33.6556957
+        ]
+      },
+      {
+        "name": "Southeast Atlanta Library",
+        "address1": "1463 Pryor Road",
+        "city": "Atlanta ",
+        "zip": "30315",
+        "coordinates": [
+          -84.3943136,
+          33.7148422
+        ]
+      },
+      {
+        "name": "Wolf Creek Library",
+        "address1": "3100 Enon Road",
+        "city": "Atlanta",
+        "zip": "30331",
+        "coordinates": [
+          -84.5743176,
+          33.6726212
+        ]
+      },
+      {
+        "name": "Georgia Institute Technology",
+        "address1": "William C. Wardlaw Jr. Center-The Poole Board Room",
+        "address2": "177 North Ave. ",
+        "city": "Atlanta",
+        "zip": "30332",
+        "coordinates": [
+          -84.3929338,
+          33.7716014
+        ]
+      },
+      {
+        "name": "H.J,C. Bowden Senior Multipurpose ",
+        "address1": "2885 Church Street",
+        "city": "East Point",
+        "zip": "30344",
+        "coordinates": [
+          -84.4450607,
+          33.6769189
+        ]
+      },
+      {
+        "name": "Dorothy C, Benson Senior Multi-Purpose",
+        "address1": "6500 Venon Woods Dr. NE ",
+        "city": "Sandy Springs",
+        "zip": "30328",
+        "coordinates": [
+          -84.3781007,
+          33.9293288
+        ]
+      },
+      {
+        "name": "Helene S. Mills Senior Multi-Purpose",
+        "address1": "515 John Wesley Dobbs Ave., NE",
+        "city": "Atlanta",
+        "zip": "30312",
+        "coordinates": [
+          -84.3711505,
+          33.7587541
+        ]
+      },
+      {
+        "name": "Georgia State University",
+        "address1": "Veterans Memorial Hall in Dahlberg Hall",
+        "address2": "30 Courtland Street",
+        "city": "Atlanta",
+        "zip": "30303",
+        "coordinates": [
+          -84.3849794,
+          33.7535952
+        ]
+      },
+      {
+        "name": "Quality Living Services Senior Facility",
+        "address1": "4001 Danforth Rd.,SW",
+        "city": "Atlanta ",
+        "zip": "30331",
+        "coordinates": [
+          -84.5195991,
+          33.7266074
+        ]
+      },
+      {
+        "name": "Crabapple Neighborhood Senior Center",
+        "address1": "12624 Boadwell Rd.",
+        "city": "Alpharetta",
+        "zip": "30004",
+        "coordinates": [
+          -84.3400837,
+          34.0892296
+        ]
+      },
+      {
+        "name": "Roswell Neighborhood Senior Center",
+        "address1": "1250 Warsaw Rd.",
+        "city": "Roswell",
+        "zip": "30076",
+        "coordinates": [
+          -84.3328461,
+          34.0311526
+        ]
+      },
+      {
+        "name": "Atlanta Metropolitan State College",
+        "address1": "1630 Metropolitan Parkway, SW",
+        "address2": "Edwin Thompson, Sr. Student Center Building 800",
+        "city": "Atlanta",
+        "zip": "30310",
+        "coordinates": [
+          -84.4058321,
+          33.7119314
+        ]
+      },
+      {
+        "name": "New Horizon Neighborhood Senior Center",
+        "address1": "745 Orr Street, NW ",
+        "city": "Atlanta",
+        "zip": "30314",
+        "coordinates": [
+          -84.4118033,
+          33.7625776
+        ]
+      },
+      {
+        "name": "Harriet G. Darnell Senior Multi-Purpose",
+        "address1": "677 Fairburn Road, NW",
+        "city": "Atlanta",
+        "zip": "30331",
+        "coordinates": [
+          -84.4995339,
+          33.7741892
+        ]
+      },
+      {
+        "name": "Palmetto Neighborhood Senior Center",
+        "address1": "510 Turner Ave.",
+        "city": "Palmetto",
+        "zip": "30268",
+        "coordinates": [
+          -84.6687709,
+          33.5248132
         ]
       }
     ]
@@ -2371,6 +2556,16 @@
             -83.8937781,
             34.1521162
         ]
+      },
+      {
+        "name": "East Hall Community Center",
+        "address1": "3911 P Davison Road",
+        "city": "Gainesv",
+        "zip": "30507",
+        "coordinates": [
+          -83.7374079,
+          34.3184434
+        ]
       }
     ]
   },
@@ -2464,6 +2659,16 @@
         	-85.0980866,
         	33.279203
         ]
+      },
+      {
+        "name": "Franklin City Hall",
+        "address1": "150 Davis St",
+        "city": "Franklin",
+        "zip": "30217",
+        "coordinates": [
+          -85.0991632,
+          33.2796167
+        ]
       }
     ]
   },
@@ -2513,7 +2718,7 @@
       },
       {
         "name": "Locust Grove Library",
-        "address1": "115 LG Griffin Rd",
+        "address1": "115 MLK Jr. Blvd.",
         "city": "Locust Grove",
         "zip": "30248",
         "coordinates": [
@@ -2932,6 +3137,27 @@
         "coordinates": [
             -82.5051447,
             33.4696768
+        ]
+      },
+      {
+        "name": "Precinct On Main",
+        "address1": "(Old THS Gym)",
+        "address2": "511 Main St (Across",
+        "city": "Thomson",
+        "zip": "30824",
+        "coordinates": [
+          -82.5062374,
+          33.4721132
+        ]
+      },
+      {
+        "name": "Old Dearing School Gym",
+        "address1": "4683 Augusta Hwy",
+        "city": "Dearing",
+        "zip": "30808",
+        "coordinates": [
+          -82.381476,
+          33.4126087
         ]
       }
     ]
@@ -4336,7 +4562,8 @@
         "city": "Sylvester",
         "zip": "31791",
         "coordinates": [
-        	
+          -83.8361921,
+          31.5279619
         ]
       }
     ]
