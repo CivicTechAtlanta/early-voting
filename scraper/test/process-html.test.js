@@ -69,8 +69,8 @@ test('mergeWithKnownData should return location with coordinates', function(t) {
     var knownData = [{"name":"Taliaferro","id":"131","locations":[{"name":"Taliaferro County Courthouse","address1":"113 Monument Street","city":"Crawfordville","zip":"","coordinates":[-82.8966592,33.5546265]}]}];
     var output = processHTML.mergeWithKnownData(location, knownData);
     t.ok(output.coordinates); // similar to expect(output.coordinates).not.toBeUndefined();
-    t.equal(output.coordinates[0], -82.8966592);    
-    t.equal(output.coordinates[1], 33.5546265);    
+    t.equal(output.coordinates[0], -82.8966592);
+    t.equal(output.coordinates[1], 33.5546265);
 });
 
 test('mergeWithKnownData should throw an error if polling-places.json is missing a coordinate for a polling place of interest', function(t) {
@@ -89,3 +89,44 @@ test('mergeWithKnownData should throw an error if polling-places.json is missing
 // // should fail because knownData is missing coordinates
 
 // // test that warns work properly (in SpecRunner, import tracer)
+
+
+// write tests for simplifyDates
+test('simplifyDates should return sensible output', function(t) {
+    t.plan(5); // number of tests to run
+        var sylvester = {"name":"Worth County Courthouse","address1":"Voter Registration & Board of Elections","address2":"201 North Main Street, Room 10","city":"Sylvester","zip":"31791","coordinates":[-83.8361921,31.5279619],"dates":[{"date":"2016-10-17","time":"8:00 AM - 5:00 PM"},{"date":"2016-10-18","time":"8:00 AM - 5:00 PM"},{"date":"2016-10-19","time":"8:00 AM - 5:00 PM"},{"date":"2016-10-20","time":"8:00 AM - 5:00 PM"},{"date":"2016-10-21","time":"8:00 AM - 5:00 PM"},{"date":"2016-10-24","time":"8:00 AM - 5:00 PM"},{"date":"2016-10-25","time":"8:00 AM - 5:00 PM"},{"date":"2016-10-26","time":"8:00 AM - 5:00 PM"},{"date":"2016-10-27","time":"8:00 AM - 5:00 PM"},{"date":"2016-10-28","time":"8:00 AM - 5:00 PM"},{"date":"2016-10-29","time":"9:00 AM - 4:00 PM"},{"date":"2016-10-31","time":"8:00 AM - 5:00 PM"},{"date":"2016-11-01","time":"8:00 AM - 5:00 PM"},{"date":"2016-11-02","time":"8:00 AM - 5:00 PM"},{"date":"2016-11-03","time":"8:00 AM - 5:00 PM"},{"date":"2016-11-04","time":"8:00 AM - 5:00 PM"}]};
+        var sylvesterExpected = "10/17-11/04 M-F 8am - 5pm<br>10/29 Sa 9am - 4pm";
+        var mcDonough = {"name":"Elections and Registration","address1":"40 Atlanta St","city":"McDonough","zip":"30253","coordinates":[-84.14831,33.4487898],"dates":[{"date":"2015-10-12","time":"8:00 AM - 5:00 PM"},{"date":"2015-10-13","time":"8:00 AM - 5:00 PM"},{"date":"2015-10-14","time":"8:00 AM - 5:00 PM"},{"date":"2015-10-15","time":"8:00 AM - 5:00 PM"},{"date":"2015-10-16","time":"8:00 AM - 5:00 PM"},{"date":"2015-10-19","time":"7:00 AM - 7:00 PM"},{"date":"2015-10-20","time":"7:00 AM - 7:00 PM"},{"date":"2015-10-21","time":"7:00 AM - 7:00 PM"},{"date":"2015-10-22","time":"7:00 AM - 7:00 PM"},{"date":"2015-10-23","time":"7:00 AM - 7:00 PM"},{"date":"2015-10-24","time":"7:00 AM - 4:00 PM"},{"date":"2015-10-25","time":"Closed"},{"date":"2015-10-26","time":"7:00 AM - 7:00 PM"},{"date":"2015-10-27","time":"7:00 AM - 7:00 PM"},{"date":"2015-10-28","time":"7:00 AM - 7:00 PM"},{"date":"2015-10-29","time":"7:00 AM - 7:00 PM"},{"date":"2015-10-30","time":"7:00 AM - 7:00 PM"}]};
+        var mcDonoughExpected = "10/12-10/26 M-F 8am - 5pm<br>10/19-10/24 M-F 7am - 7pm Sa 7am - 4pm<br>10/26-10/30 M-F 7am - 7pm";
+        var lunch = {"name":"Registrar's Office","address1":"408 Thomaston Street","city":"Barnesville","zip":"30204","coordinates":[-84.15761,33.0519465],"dates":[{"date":"2015-10-12","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"},{"date":"2015-10-13","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"},{"date":"2015-10-14","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"},{"date":"2015-10-15","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"},{"date":"2015-10-16","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"},{"date":"2015-10-19","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"},{"date":"2015-10-20","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"},{"date":"2015-10-21","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"},{"date":"2015-10-22","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"},{"date":"2015-10-23","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"},{"date":"2015-10-24","time":"Closed"},{"date":"2015-10-25","time":"Closed"},{"date":"2015-10-26","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"},{"date":"2015-10-27","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"},{"date":"2015-10-28","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"},{"date":"2015-10-29","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"},{"date":"2015-10-30","time":"8:00 AM - 12:30 PM, 1:30 PM - 5:00 PM"}]};
+        var lunchExpected = "10/12-10/30 M-F 8am - 12:30pm, 1:30pm - 5pm";
+        var twoDays = {"name":"Georgia Institute Technology","address1":"William C. Wardlaw Jr. Center-The Poole Board Room","address2":"177 North Ave. ","city":"Atlanta","zip":"30332","coordinates":[-84.3929338,33.7716014],"dates":[{"date":"2016-10-18","time":"8:30 AM - 4:00 PM"},{"date":"2016-10-19","time":"8:30 AM - 4:00 PM"}]};
+        var twoDaysExpected = "10/18-10/19 Tu-W 8:30am - 4pm";
+    var weekendOnly = {"name":"Helene S. Mills Senior Multi-Purpose","address1":"515 John Wesley Dobbs Ave., NE","city":"Atlanta","zip":"30312","coordinates":[-84.3711505,33.7587541],"dates":[{"date":"2016-10-22","time":"7:00 AM - 7:00 PM"},{"date":"2016-10-23","time":"12:00 PM - 5:00 PM"}]};
+    var weekendOnlyExpected = "10/22-10/23 Sa 7am - 7pm Su 12pm - 5pm";
+    t.equal(processHTML.simplifyDates(sylvester), sylvesterExpected);
+    t.equal(processHTML.simplifyDates(mcDonough), mcDonoughExpected);
+    t.equal(processHTML.simplifyDates(lunch), lunchExpected);
+    t.equal(processHTML.simplifyDates(twoDays), twoDaysExpected);
+    t.equal(processHTML.simplifyDates(weekendOnly), weekendOnlyExpected);
+});
+
+// TODO: test getDaysOfWeekString
+test('getDaysOfWeekString should handle M-F', function(t) {
+    t.plan(1);
+    var input = { Mo: true, Tu: true, We: true, Th: true, Fr: true, Sa: false, Su: false };
+    t.equal(processHTML.getDaysOfWeekString(input), 'M-F');
+});
+
+test('getDaysOfWeekString should handle Sa-Su', function(t) {
+    t.plan(1);
+    var input = { Mo: false, Tu: false, We: false, Th: false, Fr: false, Sa: true, Su: true };
+    t.equal(processHTML.getDaysOfWeekString(input), 'Sa-Su');
+});
+
+test('getDaysOfWeekString should handle Su-M', function(t) {
+    t.plan(1);
+    var input = { Mo: true, Tu: false, We: false, Th: false, Fr: false, Sa: false, Su: true };
+    t.equal(processHTML.getDaysOfWeekString(input), 'Su-M');
+});
+

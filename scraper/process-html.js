@@ -30,7 +30,7 @@ function parseData() {
     var county = parsedCounties[i];
     // logger.warn(county);
 
-    logger.debug(parsedCounties);
+    // logger.debug(parsedCounties);
     county.locations = matchLocations(county);
     parseLocations(county.locations);
     // logger.log(county);
@@ -156,7 +156,6 @@ function parseLocation(location) {
   location = findCity(location);
   location = findAddress(location);
   location = mergeWithKnownData(location, knownData);
-  // logger.log(location);
   return location;
 }
 
@@ -327,7 +326,7 @@ function mergeWithKnownData(location, knownData) {
   knownData.forEach(function(county) {
     if (location.county === county.name) {
       county.locations.forEach(function(pollingPlace) {
-        if (pollingPlace.address1 === location.address1 && pollingPlace.city === location.city) {
+        if (pollingPlace.address1.toLowerCase() === location.address1.toLowerCase() && pollingPlace.city.toLowerCase() === location.city.toLowerCase()) {
           location.coordinates = pollingPlace.coordinates;
         }
       });
@@ -366,10 +365,10 @@ function parseLocationForGeojson(location, index) {
   geoLocation.properties.city = location.city;
   geoLocation.properties.zip = location.zip;
   geoLocation.properties.dates = location.dates;
-  geoLocation.properties.datesSimplified = "";
+  geoLocation.properties.datesSimplified = location.datesSimplified;
 
-  logger.warn(location);
-  logger.log(geoLocation);
+  // logger.warn(location);
+  // logger.log(geoLocation);
 
   return geoLocation;
 }
@@ -422,7 +421,7 @@ function convertJsonToGeojson(json) {
 // if it's not unique, add the times to the existing location
 function matchLocations(county) {
   var locationsInCounty = [];
-  logger.debug(county);
+  // logger.debug(county);
   for (var i = 0; i < county.locationTimes.length; i++) {
     var locationTime = county.locationTimes[i];
     locationsInCounty = compareLocationToLocations(locationTime, locationsInCounty);
@@ -481,9 +480,10 @@ function compareLocationToLocations(location, locations) {
 }
 
 function parseLocations(county) {
-  // logger.log(county);
   county.forEach(function(location) {
     parseTimes(location);
+    // logger.log(location.name);
+    // logger.log(location);
   });
 }
 
@@ -529,10 +529,143 @@ function parseTimes(location) {
   });
   location.dates.sort(compareDates);
   delete location.times;
+  location = addSimplifiedDates(location);
 }
+
+// BEGIN SIMPLIFY DATES
+
+function getDaysOfWeekString(days) {
+  // input example: { Mo: true, Tu: false, We: false, Th: false, Fr: false, Sa: false, Su: false }
+  // output example: M
+
+  var numberOfDays = 0;
+  var daysArray = [];
+  var dayNamesArray = ['M', 'Tu', 'W', 'Th', 'F', 'Sa', 'Su'];
+
+  var daysOfWeekString = "";
+  var firstDayOpen = "";
+  var lastDayOpen = "";
+  for (var key in days) {
+    if (days.hasOwnProperty(key)) {
+      var dayStatus = days[key];
+      if (dayStatus) {
+        daysArray.push(true);
+        numberOfDays += 1;
+      } else {
+        daysArray.push(false);
+      }
+    }
+  }
+
+  var lastDayWasOpen = false;
+  for (var i = 0; i < daysArray.length; i++) {
+    if (numberOfDays === 1 && daysArray[i]) {
+      daysOfWeekString = dayNamesArray[i];
+      break;
+    }
+    if (daysArray[i]) {
+      if (firstDayOpen === '') {
+        firstDayOpen = dayNamesArray[i];
+        lastDayWasOpen = true;
+      } else if (lastDayWasOpen) {
+        lastDayOpen = dayNamesArray[i];
+      } else if (firstDayOpen === 'M') {
+        // handle the case where it runs past the end of the week, e.g. Sa-M
+        lastDayOpen = firstDayOpen;
+        firstDayOpen = dayNamesArray[i];
+        break;
+      }
+    } else {
+      lastDayWasOpen = false;
+    }
+  }
+
+  if (daysOfWeekString === "") {
+    daysOfWeekString = firstDayOpen + '-' + lastDayOpen;
+  }
+
+  return daysOfWeekString;
+}
+
+// a row is a segment of dates that makes sense to pair together, e.g. "10/17-10/21 M-F 8am - 5pm"
+function createDateRow(dates) {
+  var currentRowData = {"days": {"Mo": false, "Tu": false, "We": false, "Th": false, "Fr": false, "Sa": false, "Su": false}, "time": null, "startDate": null, "endDate": null};
+  var currentRowString = "";
+  // STEP 1: look at the first day in the stack
+  // logger.log(dates[0]);
+  // use moment to get the day of the week
+  var dayOfWeekOfFirstDay = moment(dates[0].date, 'YYYY-MM-DD').format('dd');
+  currentRowData.days[dayOfWeekOfFirstDay] = true;
+  currentRowData.time = dates[0].time;
+  currentRowData.startDate = moment(dates[0].date, 'YYYY-MM-DD').format('MM/DD');
+  dates.shift(); // remove the first day from the stack
+  
+  // STEP 2: see if the next day in the stack also belongs in the first row
+  while (typeof(dates[0]) !== 'undefined' && typeof(dates[0].time) !== 'undefined' && dates[0].time === currentRowData.time) {
+    var dayOfWeekOfThisDay = moment(dates[0].date, 'YYYY-MM-DD').format('dd');
+    currentRowData.endDate = moment(dates[0].date, 'YYYY-MM-DD').format('MM/DD');
+    currentRowData.days[dayOfWeekOfThisDay] = true;
+
+    dates.shift();
+  }
+
+  currentRowString = currentRowData.startDate;
+  if (currentRowData.endDate) {
+    currentRowString += '-' + currentRowData.endDate;
+  }
+  currentRowString += ' ';
+  currentRowString += getDaysOfWeekString(currentRowData.days) + ' ';
+  currentRowString += replaceAll(currentRowData.time, ':00', '').toLowerCase();
+  currentRowString = replaceAll(currentRowString, ' am', 'am');
+  currentRowString = replaceAll(currentRowString, ' pm', 'pm');
+  // TODO: replace ":30 " with ":30"
+
+  var toReturn = {};
+  toReturn.row = currentRowString;
+  toReturn.remainingDates = dates;
+  return toReturn;
+}
+
+function simplifyDates(location) {
+  var simplifiedDates = "";
+  var datesLeftInStack = location.dates.slice();
+
+  while (typeof(datesLeftInStack) !== 'undefined' && datesLeftInStack.length > 0) {
+    var returnedInfo = createDateRow(datesLeftInStack);
+    if (simplifiedDates !== '') { simplifiedDates += '<br>'; }
+    simplifiedDates += returnedInfo.row;
+    datesLeftInStack = returnedInfo.remainingDates;
+  }
+
+  if (simplifiedDates.length > 90) {
+    if (simplifiedDates.length > 160) {
+      logger.error('insanely long simplifiedDates');
+    } else {
+      logger.warn('extra long simplifiedDates');
+    }
+    logger.log(simplifiedDates);
+    logger.log(simplifiedDates.length);
+    // TODO: possibly here we should set simplifiedDates equal to ""
+  }
+
+  return simplifiedDates;
+}
+
+function addSimplifiedDates(location) {
+
+  location.datesSimplified = simplifyDates(location);
+
+  return location;
+}
+
+// TODO: handle crazy-long strings
+
+// END SIMPLIFY DATES
 
 exports.parseLocation = parseLocation;
 exports.getDatesBetween = getDatesBetween;
 exports.findZip = findZip;
 exports.findCity = findCity;
 exports.mergeWithKnownData = mergeWithKnownData;
+exports.simplifyDates = simplifyDates;
+exports.getDaysOfWeekString = getDaysOfWeekString;
