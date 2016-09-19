@@ -4,13 +4,13 @@
       <h1>{{ county.county }} County Early Voting Locations</h1>
       <h2>for {{county.electionDate}} <span class="capitalize">{{county.electionType}}</span></h2>
       <md-tabs md-dynamic-height md-border-bottom ng-if="county.countyElectionInfo.earlyVoting">
+        <md-tab label="list closest">
+          <ng-include src="'views/_county-list.html'"></ng-include>
+        </md-tab>
         <md-tab label="map">
           <md-content class="md-padding">
             <leaflet defaults="defaults" tiles="tiles" paths="paths" bounds="county.bounds" geojson="geojson" geojson-nested="true" height="480px" width="100%"></leaflet>
           </md-content>
-        </md-tab>
-        <md-tab label="list closest">
-          <ng-include src="'views/_county-list.html'"></ng-include>
         </md-tab>
       </md-tabs>
       <p ng-if="!county.countyElectionInfo.earlyVoting" class="md-warn">No early voting locations found for this county.</p>
