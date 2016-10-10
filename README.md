@@ -4,11 +4,11 @@ Contributors:
 
 To run the angular app:
 
-        `cd angular`
-        `bower install`
-        `npm install`
-        `gem install compass`
-        `grunt serve`
+        cd angular
+        bower install
+        npm install
+        gem install compass
+        grunt serve
 
 
 About the directories:

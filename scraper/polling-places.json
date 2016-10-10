@@ -58,8 +58,8 @@
         "city": "Newton",
         "zip": "39870",
         "coordinates": [
-        	-84.3416371,
-        	31.3171775
+          -84.3416371,
+          31.3171775
         ]
       }
     ]
@@ -91,8 +91,8 @@
         "city": "Homer",
         "zip": "",
         "coordinates": [
-        	-83.4978017,
-        	34.3354927
+          -83.4978017,
+          34.3354927
         ]
       }
     ]
@@ -129,13 +129,13 @@
         ]
       },
       {
-      	"name": "Adairsville Interim City Hall",
-      	"address1": "101 Public Square",
-      	"city": "Adairsville",
-      	"zip": "30103",
+        "name": "Adairsville Interim City Hall",
+        "address1": "101 Public Square",
+        "city": "Adairsville",
+        "zip": "30103",
         "coordinates": [
-			-84.9349219,
-			34.367663
+      -84.9349219,
+      34.367663
         ]
       },
       {
@@ -149,30 +149,30 @@
         ]
       },
       {
-      	"name": "Emerson City Hall",
-      	"address1": "700 HWY 293",
-      	"city": "Emerson",
-      	"zip": "30137",
+        "name": "Emerson City Hall",
+        "address1": "700 HWY 293",
+        "city": "Emerson",
+        "zip": "30137",
         "coordinates": [
             -84.7571771,
             34.1266823
         ]
       },
       {
-      	"name": "Euharlee City Hall",
-      	"address1": "30 Burge's Mill Rd",
-      	"city": "Euharlee",
-      	"zip": "30145",
+        "name": "Euharlee City Hall",
+        "address1": "30 Burge's Mill Rd",
+        "city": "Euharlee",
+        "zip": "30145",
         "coordinates": [
             -84.9358691,
             34.146235
         ]
       },
       {
-      	"name": "Kingston City Hall",
-      	"address1": "30 West Main St",
-      	"city": "Kingston",
-      	"zip": "30145",
+        "name": "Kingston City Hall",
+        "address1": "30 West Main St",
+        "city": "Kingston",
+        "zip": "30145",
         "coordinates": [
             -84.945134,
             34.235353
@@ -218,7 +218,7 @@
     "locations": [
       {
         "name": "Macon-Bibb County Board of Elections",
-        "address1": "2445 Pio Nono Avenue",
+        "address1": "2525 Pio Nono Avenue",
         "city": "Macon",
         "zip": "31206",
         "coordinates": [
@@ -265,8 +265,8 @@
         "city": "Nahunta",
         "zip": "31553",
         "coordinates": [
-        	-81.9805678,
-        	31.2082003
+          -81.9805678,
+          31.2082003
         ]
       }
     ]
@@ -297,8 +297,8 @@
         "city": "Richmond Hill",
         "zip": "31324",
         "coordinates": [
-        	-81.2602868,
-        	31.8811072
+          -81.2602868,
+          31.8811072
         ]
       },
       {
@@ -308,25 +308,25 @@
         "city": "Pembroke",
         "zip": "31321",
         "coordinates": [
-        	-81.6211174,
-        	32.1338181
+          -81.6211174,
+          32.1338181
         ]
       },
       {
-      	"name": "Harn Community Center",
-      	"address1": "91 Lanier Street",
-      	"city": "Pembroke",
-      	"zip": "31321",
+        "name": "Harn Community Center",
+        "address1": "91 Lanier Street",
+        "city": "Pembroke",
+        "zip": "31321",
         "coordinates": [
             -81.6175615,
             32.2317658
         ]
       },
       {
-      	"name": "J F Gregory - The John Stevens Wetland Center",
-      	"address1": "600 Cedar Street",
-      	"city": "Richmond Hill",
-      	"zip": "31324",
+        "name": "J F Gregory - The John Stevens Wetland Center",
+        "address1": "600 Cedar Street",
+        "city": "Richmond Hill",
+        "zip": "31324",
         "coordinates": [
             -81.3080201,
             31.9468896
@@ -344,8 +344,27 @@
         "city": "Statesboro",
         "zip": "30458",
         "coordinates": [
-	        -81.7834427,
-        	32.4523013
+          -81.7834427,
+          32.4523013
+        ]
+      },{
+        "name": "Georgia Southern University",
+        "address1": "Russell Union",
+        "address2": "85 GA Avenue Rm 1042",
+        "city": "Statesboro",
+        "zip": "30458",
+        "coordinates": [
+          -81.7798721,
+          32.424976
+        ]
+      },{
+        "name": "Honey Bowen",
+        "address1": "1 Max Lockwood Drive",
+        "city": "Statesboro",
+        "zip": "30458",
+        "coordinates": [
+          -81.7834251,
+          32.4375461
         ]
       }
     ]
@@ -360,8 +379,8 @@
         "city": "Waynesboro",
         "zip": "30830-1417",
         "coordinates": [
-        	-82.0156154,
-        	33.090539
+          -82.0156154,
+          33.090539
         ]
       }
     ]
@@ -393,35 +412,35 @@
         "city": "Morgan",
         "zip": "39866",
         "coordinates": [
-	        -84.6007035,
-        	31.5382182
+          -84.6007035,
+          31.5382182
         ]
       },
       {
-      	"name": "City of Arlington",
-      	"address1": "567 Pioneer Rd",
-      	"city": "Arlington",
-      	"zip": "39813",
+        "name": "City of Arlington",
+        "address1": "567 Pioneer Rd",
+        "city": "Arlington",
+        "zip": "39813",
         "coordinates": [
             -84.7261448,
             31.4402942
         ]
       },
       {
-      	"name": "City of Edison",
-      	"address1": "19437 Hartford St",
-      	"city": "Edison",
-      	"zip": "39846",
+        "name": "City of Edison",
+        "address1": "19437 Hartford St",
+        "city": "Edison",
+        "zip": "39846",
         "coordinates": [
             -84.7334374,
             31.5598568
         ]
       },
       {
-      	"name": "City of Leary",
-      	"address1": "39292 Mercer Ave",
-      	"city": "Leary",
-      	"zip": "39862",
+        "name": "City of Leary",
+        "address1": "39292 Mercer Ave",
+        "city": "Leary",
+        "zip": "39862",
         "coordinates": [
             -84.5165442,
             31.4861289
@@ -449,8 +468,8 @@
         "city": "Kingsland",
         "zip": "31548",
         "coordinates": [
-	        -81.6839125,
-        	30.7979917
+          -81.6839125,
+          30.7979917
         ]
       },
       {
@@ -459,8 +478,8 @@
         "city": "Saint Marys",
         "zip": "31558",
         "coordinates": [
-        	-81.5437449,
-        	30.7419442
+          -81.5437449,
+          30.7419442
         ]
       },
       {
@@ -485,8 +504,8 @@
         "city": "Metter",
         "zip": "30439",
         "coordinates": [
-        	-82.0664565,
-        	32.3935238
+          -82.0664565,
+          32.3935238
         ]
       }
     ]
@@ -501,8 +520,8 @@
         "city": "Carrollton",
         "zip": "30117",
         "coordinates": [
-			-85.071579,
-			33.5838589
+      -85.071579,
+      33.5838589
         ]
       },
       {
@@ -511,8 +530,8 @@
         "city": "Villa Rica",
         "zip": "30180",
         "coordinates": [
-			-84.9288121,
-			33.7290987
+      -84.9288121,
+      33.7290987
         ]
       }
     ]
@@ -527,8 +546,8 @@
         "city": "Ringgold",
         "zip": "",
         "coordinates": [
-        	-85.1113341,
-        	34.9163641
+          -85.1113341,
+          34.9163641
         ]
       },
       {
@@ -537,15 +556,15 @@
         "city": "Rossville",
         "zip": "30741",
         "coordinates": [
-        	-85.2253164,
-        	34.9615193
+          -85.2253164,
+          34.9615193
         ]
       },
       {
-      	"name": "Fort Oglethorpe City Hall (Ft Oglethorpe Municipal Voters Only)",
-      	"address1": "500 City Hall Dr.",
-      	"city": "Fort Oglethorpe",
-      	"zip": "30742",
+        "name": "Fort Oglethorpe City Hall (Ft Oglethorpe Municipal Voters Only)",
+        "address1": "500 City Hall Dr.",
+        "city": "Fort Oglethorpe",
+        "zip": "30742",
         "coordinates": [
             -85.2461816,
             34.9501987
@@ -562,10 +581,10 @@
         ]
       },
       {
-      	"name": "Ringgold City Hall (Ringgold Municipal Voters Only)",
-      	"address1": "150 Tennessee St.",
-      	"city": "Ringgold",
-      	"zip": "30736",
+        "name": "Ringgold City Hall (Ringgold Municipal Voters Only)",
+        "address1": "150 Tennessee St.",
+        "city": "Ringgold",
+        "zip": "30736",
         "coordinates": [
             -85.1093542,
             34.9162501
@@ -594,8 +613,8 @@
         "city": "Saint George",
         "zip": "31562",
         "coordinates": [
-        	-82.038051,
-        	30.5245717
+          -82.038051,
+          30.5245717
         ]
       }
     ]
@@ -630,8 +649,8 @@
         "city": "Savannah",
         "zip": "31410",
         "coordinates": [
-        	-81.0180885,
-        	32.0390197
+          -81.0180885,
+          32.0390197
         ]
       },
       {
@@ -666,8 +685,8 @@
         "city": "Cusseta",
         "zip": "",
         "coordinates": [
-        	-84.7657452,
-        	32.3077137
+          -84.7657452,
+          32.3077137
         ]
       }
     ]
@@ -698,8 +717,8 @@
         "city": "Canton",
         "zip": "30114",
         "coordinates": [
-			-84.487127,
-			34.236605
+      -84.487127,
+      34.236605
         ]
       },
       {
@@ -708,8 +727,8 @@
         "city": "Ball Ground",
         "zip": "30107",
         "coordinates": [
-			-84.3781149,
-			34.340435
+      -84.3781149,
+      34.340435
         ]
       },
       {
@@ -718,8 +737,8 @@
         "city": "Canton",
         "zip": "30115",
         "coordinates": [
-			-84.4214352,
-			34.1704298
+      -84.4214352,
+      34.1704298
         ]
       },
       {
@@ -728,8 +747,8 @@
         "city": "Woodstock",
         "zip": "30189",
         "coordinates": [
-			-84.5440235,
-			34.1057048
+      -84.5440235,
+      34.1057048
         ]
       },
       {
@@ -738,8 +757,8 @@
         "city": "Woodstock",
         "zip": "30188",
         "coordinates": [
-			-84.5144904,
-			34.1127015
+      -84.5144904,
+      34.1127015
         ]
       }
     ]
@@ -757,6 +776,34 @@
             -83.376911,
             33.9594017
         ]
+      },{
+        "name": "Athens Clarke-County City Hall",
+        "address1": "301 College Avenue",
+        "address2": "Conference Room 103",
+        "city": "Athens",
+        "zip": "30601",
+        "coordinates": [
+          -83.3765869,
+          33.9596624
+        ]
+      },{
+        "name": "Athens Regional Library",
+        "address1": "2025 Baxter Street",
+        "city": "Athens",
+        "zip": "30606",
+        "coordinates": [
+          -83.4038093,
+          33.9449381
+        ]
+      },{
+        "name": "UGA Tate Student Center ",
+        "address1": "Room 137 ",
+        "city": "Athens",
+        "zip": "30602",
+        "coordinates": [
+          -83.3757667,
+          33.9504992
+        ]
       }
     ]
   },
@@ -770,8 +817,8 @@
         "city": "Fort Gaines",
         "zip": "",
         "coordinates": [
-        	-85.049019,
-        	31.6052993
+          -85.049019,
+          31.6052993
         ]
       }
     ]
@@ -797,8 +844,8 @@
         "city": "Rex",
         "zip": "30273",
         "coordinates": [
-			-84.2762357,
-			33.587247
+      -84.2762357,
+      33.587247
         ]
       },
       {
@@ -807,19 +854,18 @@
         "city": "Jonesboro",
         "zip": "30236",
         "coordinates": [
-			-84.3633345,
-			33.5532549
+      -84.3633345,
+      33.5532549
         ]
       },
       {
         "name": "Morrow Municipal Complex",
-        "address1": "Community Room",
-        "address2": "1500 Morrow Road",
+        "address1": "1500 Morrow Road",
         "city": "Morrow",
         "zip": "30260",
         "coordinates": [
-			-84.340798,
-			33.583658
+      -84.340798,
+      33.583658
         ]
       },
       {
@@ -828,8 +874,8 @@
         "city": "Hampton",
         "zip": "30228",
         "coordinates": [
-			-84.3308016,
-			33.4480994
+      -84.3308016,
+      33.4480994
         ]
       },
       {
@@ -838,15 +884,15 @@
         "city": "Riverdale",
         "zip": "30274",
         "coordinates": [
-			-84.437761,
-			33.5900625
+      -84.437761,
+      33.5900625
         ]
       },
       {
-      	"name": "Old Riverdale City Hall",
-      	"address1": "6690 Church Street",
-      	"city": "Riverdale",
-      	"zip": "30274",
+        "name": "Old Riverdale City Hall",
+        "address1": "6690 Church Street",
+        "city": "Riverdale",
+        "zip": "30274",
         "coordinates": [
             -84.4175507,
             33.5720574
@@ -864,8 +910,8 @@
         "city": "Homerville",
         "zip": "31634",
         "coordinates": [
-        	-82.7516311,
-        	31.0418946
+          -82.7516311,
+          31.0418946
         ]
       }
     ]
@@ -875,8 +921,8 @@
     "id": "33",
     "locations": [
       {
-        "name": "Cobb County Civic Center",
-        "address1": "548 S. Marietta Pkwy.",
+        "name": "Central, Cobb Civic Center",
+        "address1": "548 S. Marietta Pkwy",
         "city": "Marietta",
         "zip": "30060-2251",
         "coordinates": [
@@ -890,8 +936,8 @@
         "city": "Marietta",
         "zip": "30060-2005",
         "coordinates": [
-        	-84.5441581,
-        	33.9500493
+          -84.5441581,
+          33.9500493
         ]
       },
       {
@@ -901,18 +947,18 @@
         "city": "Marietta",
         "zip": "30064-5287",
         "coordinates": [
-        	-84.5742764,
-        	33.9262658
+          -84.5742764,
+          33.9262658
         ]
       },
       {
         "name": "Main Office",
-        "address1": "736 Whitlock Ave.",
+        "address1": "736 Whitlock Ave. NW",
         "city": "Marietta",
-        "zip": "30064",
+        "zip": "30064-4663",
         "coordinates": [
-			-84.5739717,
-			33.9535641
+      -84.5739717,
+      33.9535641
         ]
       },
       {
@@ -921,8 +967,8 @@
         "city": "Marietta",
         "zip": "30068-4233",
         "coordinates": [
-			-84.4228727,
-			33.9632547
+      -84.4228727,
+      33.9632547
         ]
       },
       {
@@ -931,8 +977,8 @@
         "city": "Kennesaw",
         "zip": "30144-1082",
         "coordinates": [
-			-84.6517694,
-			34.0360177
+      -84.6517694,
+      34.0360177
         ]
       },
       {
@@ -941,8 +987,8 @@
         "city": "Mableton",
         "zip": "30126-2438",
         "coordinates": [
-			-84.571845,
-			33.8185969
+      -84.571845,
+      33.8185969
         ]
       },
       {
@@ -952,68 +998,97 @@
         "city": "Powder Springs",
         "zip": "30127-4486",
         "coordinates": [
-			-84.6950732,
-			33.9421345
+      -84.6950732,
+      33.9421345
         ]
       },
       {
-      	"name": "Austell City Hall",
-      	"address1": "2716 Broad Street SW",
-      	"city": "Austell",
-      	"zip": "30206",
+        "name": "Austell City Hall",
+        "address1": "2716 Broad Street SW",
+        "city": "Austell",
+        "zip": "30206",
         "coordinates": [
             -84.6355694,
             33.8137046
         ]
       },
       {
-      	"name": "Ben Robertson Community Center",
-      	"address1": "2753 Watts Rd.",
-      	"city": "Kennesaw",
-      	"zip": "30144",
+        "name": "Ben Robertson Community Center",
+        "address1": "2753 Watts Rd.",
+        "city": "Kennesaw",
+        "zip": "30144",
         "coordinates": [
             -84.6230507,
             34.0215994
         ]
       },
       {
-      	"name": "Powder Springs Community Development Building",
-      	"address1": "4488 Pineview Dr.",
-      	"city": "Powder Springs",
-      	"zip": "30127",
+        "name": "Powder Springs Community Development Building",
+        "address1": "4488 Pineview Dr.",
+        "city": "Powder Springs",
+        "zip": "30127",
         "coordinates": [
             -84.6865421,
             33.8609483
         ]
       },
       {
-      	"name": "Smyrna Community Center",
-      	"address1": "200 Village Green Cir.",
-      	"city": "Smyrna",
-      	"zip": "30080",
+        "name": "Smyrna Community Center",
+        "address1": "200 Village Green Cir.",
+        "city": "Smyrna",
+        "zip": "30080",
         "coordinates": [
             -84.5187446,
             33.8863117
         ]
       },
       {
-      	"name": "Noonday Baptist Church Sanctuary",
-      	"address1": "4120 Canton Rd.",
-      	"city": "Marietta",
-      	"zip": "30066-2714",
+        "name": "Noonday Baptist Church Sanctuary",
+        "address1": "4120 Canton Rd.",
+        "city": "Marietta",
+        "zip": "30066-2714",
         "coordinates": [
-			-84.5258519,
-			34.0514598
+      -84.5258519,
+      34.0514598
         ]
       },
       {
-      	"name": "Windy Hill Community Center",
-      	"address1": "1885 Roswell St. SE",
-      	"city": "Smyrna",
-      	"zip": "30080-2213",
+        "name": "Windy Hill Community Center",
+        "address1": "1885 Roswell St. SE",
+        "city": "Smyrna",
+        "zip": "30080-2213",
         "coordinates": [
-			-84.504898,
-			33.8907475
+      -84.504898,
+      33.8907475
+        ]
+      },{
+        "name": "Mountain View, East Cobb Senior Center",
+        "address1": "3332 Sandy Plains Rd.",
+        "city": "Marietta",
+        "zip": "30066-4743",
+        "coordinates": [
+          -84.4660956,
+          34.0324775
+        ]
+      },{
+        "name": "Powder Springs",
+        "address1": "Ron Anderson Recreation Center (Wild Horse Park)",
+        "address2": "3820 Macedonia Rd.",
+        "city": "Powder Springs",
+        "zip": "30127-3624",
+        "coordinates": [
+          -84.6649034,
+          33.8764844
+        ]
+      },{
+        "name": "Six Flags Area",
+        "address1": "South Cobb Recreation Center",
+        "address2": "875 Six Flags Drive",
+        "city": "Austell",
+        "zip": "30168-7064",
+        "coordinates": [
+          -84.5808616,
+          33.7769812
         ]
       }
     ]
@@ -1028,8 +1103,8 @@
         "city": "Douglas",
         "zip": "31533",
         "coordinates": [
-        	-82.8525371,
-        	31.5078121
+          -82.8525371,
+          31.5078121
         ]
       }
     ]
@@ -1044,35 +1119,35 @@
         "city": "Moultrie",
         "zip": "31768",
         "coordinates": [
-        	-83.7872795,
-        	31.1802961
+          -83.7872795,
+          31.1802961
         ]
       },
       {
-      	"name": "Doerun City Hall",
-      	"address1": "223 W Broad Avenue",
-      	"city": "Doerun",
-      	"zip": "31744",
+        "name": "Doerun City Hall",
+        "address1": "223 W Broad Avenue",
+        "city": "Doerun",
+        "zip": "31744",
         "coordinates": [
             -83.9178436,
             31.3194844
         ]
       },
       {
-      	"name": "Ellenton City Hall",
-      	"address1": "103 N Baker St",
-      	"city": "Ellenton",
-      	"zip": "31747",
+        "name": "Ellenton City Hall",
+        "address1": "103 N Baker St",
+        "city": "Ellenton",
+        "zip": "31747",
         "coordinates": [
             -83.5897238,
             31.1779503
         ]
       },
       {
-      	"name": "Moultrie City Hall",
-      	"address1": "21 1st Avenue, NE",
-      	"city": "Moultrie",
-      	"zip": "31768",
+        "name": "Moultrie City Hall",
+        "address1": "21 1st Avenue, NE",
+        "city": "Moultrie",
+        "zip": "31768",
         "coordinates": [
             -83.7900781,
             31.1815393
@@ -1100,8 +1175,8 @@
         "city": "Grovetown",
         "zip": "30813",
         "coordinates": [
-        	-82.2295158,
-        	33.5199692
+          -82.2295158,
+          33.5199692
         ]
       },
       {
@@ -1110,8 +1185,8 @@
         "city": "Augusta",
         "zip": "30907",
         "coordinates": [
-	        -82.0504837,
-        	33.5382255
+          -82.0504837,
+          33.5382255
         ]
       },
       {
@@ -1164,8 +1239,8 @@
         "city": "Newnan",
         "zip": "30265",
         "coordinates": [
-        	-84.6712726,
-        	33.3862513
+          -84.6712726,
+          33.3862513
         ]
       }
     ]
@@ -1180,8 +1255,8 @@
         "city": "Roberta",
         "zip": "31078",
         "coordinates": [
-			-84.0167745,
-        	32.739083
+      -84.0167745,
+          32.739083
         ]
       }
     ]
@@ -1222,15 +1297,15 @@
         "city": "Trenton",
         "zip": "30752",
         "coordinates": [
-        	-85.5109415,
-        	34.8720827
+          -85.5109415,
+          34.8720827
         ]
       },
       {
-      	"name": "City Hall",
-      	"address1": "12885 N Main St",
-      	"city": "Trenton",
-      	"zip": "30752",
+        "name": "City Hall",
+        "address1": "12885 N Main St",
+        "city": "Trenton",
+        "zip": "30752",
         "coordinates": [
             -85.5055652,
             34.8788848
@@ -1248,8 +1323,8 @@
         "city": "Dawsonville",
         "zip": "30534",
         "coordinates": [
-        	-84.1231747,
-        	34.4201527
+          -84.1231747,
+          34.4201527
         ]
       }
     ]
@@ -1264,8 +1339,8 @@
         "city": "Bainbridge",
         "zip": "39817",
         "coordinates": [
-        	-84.5768025,
-        	30.9065253
+          -84.5768025,
+          30.9065253
         ]
       },
       {
@@ -1274,8 +1349,8 @@
         "city": "Bainbridge",
         "zip": "39817",
         "coordinates": [
-        	-84.5582034,
-        	30.9151421
+          -84.5582034,
+          30.9151421
         ]
       }
     ]
@@ -1300,8 +1375,8 @@
         "city": "Decatur",
         "zip": "30034",
         "coordinates": [
-			-84.2748457,
-			33.7087634
+      -84.2748457,
+      33.7087634
         ]
       },
       {
@@ -1310,8 +1385,8 @@
         "city": "Tucker",
         "zip": "30084",
         "coordinates": [
-			-84.220701,
-			33.855758
+      -84.220701,
+      33.855758
         ]
       },
       {
@@ -1320,8 +1395,8 @@
         "city": "Stone Mountain",
         "zip": "30088",
         "coordinates": [
-			-84.178803,
-			33.733515
+      -84.178803,
+      33.733515
         ]
       },
       {
@@ -1330,8 +1405,8 @@
         "city": "Brookhaven",
         "zip": "30319",
         "coordinates": [
-			-84.334038,
-			33.87074
+      -84.334038,
+      33.87074
         ]
       },
       {
@@ -1340,8 +1415,8 @@
         "city": "Chamblee",
         "zip": "30341",
         "coordinates": [
-			-84.299345,
-			33.896014
+      -84.299345,
+      33.896014
         ]
       },
       {
@@ -1350,8 +1425,8 @@
         "city": "Decatur",
         "zip": "30030",
         "coordinates": [
-			-84.3006403,
-			33.775326
+      -84.3006403,
+      33.775326
         ]
       },
       {
@@ -1360,8 +1435,8 @@
         "city": "Dunwoody",
         "zip": "30338",
         "coordinates": [
-	        -84.332176,
-        	33.9447802
+          -84.332176,
+          33.9447802
         ]
       },
       {
@@ -1370,8 +1445,8 @@
         "city": "Lithonia",
         "zip": "30038",
         "coordinates": [
-        	-84.1112021,
-        	33.6936596
+          -84.1112021,
+          33.6936596
         ]
       },
       {
@@ -1397,8 +1472,8 @@
         "city": "Eastman",
         "zip": "31023",
         "coordinates": [
-        	-83.1754971,
-        	32.2002741
+          -83.1754971,
+          32.2002741
         ]
       }
     ]
@@ -1413,25 +1488,25 @@
         "city": "Vienna",
         "zip": "31092",
         "coordinates": [
-        	-83.7800262,
-        	32.0960867
+          -83.7800262,
+          32.0960867
         ]
       },
       {
-      	"name": "Vienna City Hall",
-      	"address1": "203 Cotton St",
-      	"city": "Vienna",
-      	"zip": "31092",
+        "name": "Vienna City Hall",
+        "address1": "203 Cotton St",
+        "city": "Vienna",
+        "zip": "31092",
         "coordinates": [
             -83.7962003,
             32.090299
         ]
       },
       {
-      	"name": "Unadilla City Hall",
-      	"address1": "1616 Borum St",
-      	"city": "Unadilla",
-      	"zip": "31092",
+        "name": "Unadilla City Hall",
+        "address1": "1616 Borum St",
+        "city": "Unadilla",
+        "zip": "31092",
         "coordinates": [
             -83.7424825,
             32.2628412
@@ -1445,7 +1520,7 @@
     "locations": [
       {
         "name": "",
-      	"address1": "222 Pine Avenue, Room 220",
+        "address1": "222 Pine Avenue, Room 220",
         "city": "Albany",
         "zip": "31701",
         "coordinates": [
@@ -1454,13 +1529,13 @@
         ]
       },
       {
-      	"name": "",
-      	"address1": "125 Pine Ave",
-      	"city": "Albany",
-      	"zip": "31701",
+        "name": "",
+        "address1": "125 Pine Ave",
+        "city": "Albany",
+        "zip": "31701",
         "coordinates": [
-        	-84.1505495,
-        	31.5788788
+          -84.1505495,
+          31.5788788
         ]
       }
     ]
@@ -1475,8 +1550,8 @@
         "city": "Douglasville",
         "zip": "30134",
         "coordinates": [
-			-84.7305898,
-			33.7434934
+      -84.7305898,
+      33.7434934
         ]
       },
       {
@@ -1485,8 +1560,8 @@
         "city": "Douglasville",
         "zip": "30135",
         "coordinates": [
-			-84.6580816,
-			33.6709096
+      -84.6580816,
+      33.6709096
         ]
       },
       {
@@ -1495,8 +1570,8 @@
         "city": "Douglasville",
         "zip": "30135",
         "coordinates": [
-			-84.684364,
-			33.7491739
+      -84.684364,
+      33.7491739
         ]
       },
       {
@@ -1505,8 +1580,8 @@
         "city": "Douglasville",
         "zip": "30135",
         "coordinates": [
-			-84.8315887,
-			33.6418986
+      -84.8315887,
+      33.6418986
         ]
       },
       {
@@ -1515,8 +1590,8 @@
         "city": "Douglasville",
         "zip": "30134",
         "coordinates": [
-			-84.7504251,
-			33.7496736
+      -84.7504251,
+      33.7496736
         ]
       }
     ]
@@ -1531,8 +1606,8 @@
         "city": "Blakely",
         "zip": "39823",
         "coordinates": [
-        	-84.9328085,
-        	31.378284
+          -84.9328085,
+          31.378284
         ]
       }
     ]
@@ -1548,8 +1623,8 @@
         "city": "Statenville",
         "zip": "31648",
         "coordinates": [
-        	-83.0251843,
-        	30.7035045
+          -83.0251843,
+          30.7035045
         ]
       }
     ]
@@ -1590,8 +1665,8 @@
         "city": "Elberton",
         "zip": "30635",
         "coordinates": [
-        	-82.8688087,
-        	34.1099341
+          -82.8688087,
+          34.1099341
         ]
       }
     ]
@@ -1623,25 +1698,25 @@
         "city": "Claxton",
         "zip": "30417",
         "coordinates": [
-        	-81.9076188,
-        	32.1618104
+          -81.9076188,
+          32.1618104
         ]
       },
       {
-      	"name": "Claxton City Hall",
-      	"address1": "206 Railroad St",
-      	"city": "Claxton",
-      	"zip": "30417",
+        "name": "Claxton City Hall",
+        "address1": "206 Railroad St",
+        "city": "Claxton",
+        "zip": "30417",
         "coordinates": [
             -81.9135064,
             32.1604508
         ]
       },
       {
-      	"name": "Hagan City Hall",
-      	"address1": "6327 Tattnall St",
-      	"city": "Hagan",
-      	"zip": "30429",
+        "name": "Hagan City Hall",
+        "address1": "6327 Tattnall St",
+        "city": "Hagan",
+        "zip": "30429",
         "coordinates": [
             -81.9372654,
             32.1560008
@@ -1659,15 +1734,15 @@
         "city": "Blue Ridge",
         "zip": "30513",
         "coordinates": [
-	        -84.3269915,
-        	34.8642574
+          -84.3269915,
+          34.8642574
         ]
       },
       {
-      	"name": "McCaysville City Hall",
-      	"address1": "223 Blue Ridge Drive",
-      	"city": "McCaysville",
-      	"zip": "30555",
+        "name": "McCaysville City Hall",
+        "address1": "223 Blue Ridge Drive",
+        "city": "McCaysville",
+        "zip": "30555",
         "coordinates": [
             -84.3726378,
             34.9856095
@@ -1690,20 +1765,20 @@
         ]
       },
       {
-      	"name": "Peachtree City Library",
-      	"address1": "201 Willow Bend Rd",
-      	"city": "Peachtree City",
-      	"zip": "30269",
+        "name": "Peachtree City Library",
+        "address1": "201 Willow Bend Rd",
+        "city": "Peachtree City",
+        "zip": "30269",
         "coordinates": [
             -84.5806959,
             33.4004543
         ]
       },
       {
-      	"name": "Tyrone Town Hall",
-      	"address1": "881 Senoia Rd.",
-      	"city": "Tyrone",
-      	"zip": "30290",
+        "name": "Tyrone Town Hall",
+        "address1": "881 Senoia Rd.",
+        "city": "Tyrone",
+        "zip": "30290",
         "coordinates": [
             -84.596434,
             33.4752139
@@ -1733,8 +1808,8 @@
         "city": "Rome",
         "zip": "30161",
         "coordinates": [
-        	-85.1715337,
-        	34.2537934
+          -85.1715337,
+          34.2537934
         ]
       },
       {
@@ -1743,8 +1818,8 @@
         "city": "Rome",
         "zip": "30161",
         "coordinates": [
-        	-85.1666382,
-        	34.2610048
+          -85.1666382,
+          34.2610048
         ]
       }
     ]
@@ -1769,8 +1844,8 @@
         "city": "Cumming",
         "zip": "30041",
         "coordinates": [
-			-84.0676029,
-			34.3052558
+      -84.0676029,
+      34.3052558
         ]
       },
       {
@@ -1779,8 +1854,8 @@
         "city": "Cumming",
         "zip": "30040",
         "coordinates": [
-			-84.215062,
-			34.2024959
+      -84.215062,
+      34.2024959
         ]
       },
       {
@@ -1789,8 +1864,8 @@
         "city": "Cumming",
         "zip": "30041",
         "coordinates": [
-    			-84.163131,
-    			34.1180612
+          -84.163131,
+          34.1180612
         ]
       },
       {
@@ -1800,8 +1875,8 @@
         "city": "Cumming",
         "zip": "30040",
         "coordinates": [
-        	-84.13868,
-        	34.2073343
+          -84.13868,
+          34.2073343
         ]
       }
     ]
@@ -1821,10 +1896,10 @@
         ]
       },
       {
-      	"name": "Royston City Hall",
-      	"address1": "684 Franklin Springs St.",
-      	"city": "Royston",
-      	"zip": "30662",
+        "name": "Royston City Hall",
+        "address1": "684 Franklin Springs St.",
+        "city": "Royston",
+        "zip": "30662",
         "coordinates": [
             -83.1228854,
             34.284463
@@ -1842,8 +1917,8 @@
         "city": "Atlanta",
         "zip": "30311",
         "coordinates": [
-			-84.492061,
-			33.754541
+      -84.492061,
+      33.754541
         ]
       },
       {
@@ -1852,8 +1927,8 @@
         "city": "Atlanta",
         "zip": "30331",
         "coordinates": [
-        	-84.5001655,
-        	33.7550039
+          -84.5001655,
+          33.7550039
         ]
       },
       {
@@ -1862,18 +1937,18 @@
         "city": "Alpharetta",
         "zip": "30009",
         "coordinates": [
-        	-84.2927676,
-        	34.0746212
+          -84.2927676,
+          34.0746212
         ]
       },
       {
-      	"name": "Ben Hill Recreation Center",
-      	"address1": "2405 Fairburn Road SW",
-      	"city": "Atlanta",
-      	"zip": "30331",
+        "name": "Ben Hill Recreation Center",
+        "address1": "2405 Fairburn Road SW",
+        "city": "Atlanta",
+        "zip": "30331",
         "coordinates": [
-			-84.5129982,
-			33.6886564
+      -84.5129982,
+      33.6886564
         ]
       },
       {
@@ -1882,8 +1957,8 @@
         "city": "Atlanta",
         "zip": "30305",
         "coordinates": [
-			-84.3792862,
-			33.8377839
+      -84.3792862,
+      33.8377839
         ]
       },
       {
@@ -1892,8 +1967,8 @@
         "city": "Atlanta",
         "zip": "30342",
         "coordinates": [
-			-84.3917385,
-			33.8753116
+      -84.3917385,
+      33.8753116
         ]
       },
       {
@@ -1922,8 +1997,8 @@
         "city": "Roswell",
         "zip": "30076",
         "coordinates": [
-        	-84.2935563,
-        	34.0033506
+          -84.2935563,
+          34.0033506
         ]
       },
       {
@@ -2027,20 +2102,20 @@
         ]
       },
       {
-      	"name": "Perkerson Park Recreation Center",
-      	"address1": "770 Deckner Avenue, SW",
-      	"city": "Atlanta",
-      	"zip": "30310",
+        "name": "Perkerson Park Recreation Center",
+        "address1": "770 Deckner Avenue, SW",
+        "city": "Atlanta",
+        "zip": "30310",
         "coordinates": [
           -84.4137157,
           33.7126213
         ]
       },
       {
-      	"name": "Ponce De Leon Library",
-      	"address1": "980 Ponce De Leon Avenue NE",
-      	"city": "Atlanta",
-      	"zip": "30306",
+        "name": "Ponce De Leon Library",
+        "address1": "980 Ponce De Leon Avenue NE",
+        "city": "Atlanta",
+        "zip": "30306",
         "coordinates": [
           -84.3552663,
           33.7741759
@@ -2097,20 +2172,20 @@
         ]
       },
       {
-      	"name": "The Milton Center",
-      	"address1": "86 School Drive",
-      	"city": "Alpharetta",
-      	"zip": "30004",
+        "name": "The Milton Center",
+        "address1": "86 School Drive",
+        "city": "Alpharetta",
+        "zip": "30004",
         "coordinates": [
           -84.2989111,
           34.0768876
         ]
       },
       {
-      	"name": "Washington Park Library",
-      	"address1": "1116 MLK JR. Drive, SW",
-      	"city": "Atlanta",
-      	"zip": "30314",
+        "name": "Washington Park Library",
+        "address1": "1116 MLK JR. Drive, SW",
+        "city": "Atlanta",
+        "zip": "30314",
         "coordinates": [
           -84.4237409,
           33.7540521
@@ -2324,8 +2399,8 @@
         "city": "Brunswick",
         "zip": "31520",
         "coordinates": [
-        	-81.4849111,
-        	31.1520756
+          -81.4849111,
+          31.1520756
         ]
       },
       {
@@ -2334,8 +2409,8 @@
         "city": "St. Simons Island",
         "zip": "31522",
         "coordinates": [
-        	-81.3866924,
-        	31.1574208
+          -81.3866924,
+          31.1574208
         ]
       }
     ]
@@ -2366,8 +2441,8 @@
         "city": "Cairo",
         "zip": "39828",
         "coordinates": [
-        	-84.2072241,
-        	30.8790904
+          -84.2072241,
+          30.8790904
         ]
       }
     ]
@@ -2382,8 +2457,8 @@
         "city": "Greensboro",
         "zip": "30642",
         "coordinates": [
-        	-83.1935254,
-        	33.5661419
+          -83.1935254,
+          33.5661419
         ]
       }
     ]
@@ -2408,18 +2483,18 @@
         "city": "Buford",
         "zip": "30518",
         "coordinates": [
-    			-83.9691803,
-    			34.1072984
+          -83.9691803,
+          34.1072984
         ]
       },
       {
-      	"name": "Centerville Community Center",
-      	"address1": "3025 Bethany Church Road",
-      	"city": "Snellville",
-      	"zip": "30039",
+        "name": "Centerville Community Center",
+        "address1": "3025 Bethany Church Road",
+        "city": "Snellville",
+        "zip": "30039",
         "coordinates": [
-    			-84.049469,
-    			33.8168329
+          -84.049469,
+          33.8168329
         ]
       },
       {
@@ -2428,8 +2503,8 @@
         "city": "Dacula",
         "zip": "30019",
         "coordinates": [
-    			-83.8921146,
-    			33.9961374
+          -83.8921146,
+          33.9961374
         ]
       },
       {
@@ -2438,8 +2513,8 @@
         "city": "Suwanee",
         "zip": "30024",
         "coordinates": [
-    			-84.0506174,
-    			34.0595517
+          -84.0506174,
+          34.0595517
         ]
       },
       {
@@ -2449,8 +2524,8 @@
         "city": "Snellville",
         "zip": "30078",
         "coordinates": [
-			-84.001639,
-			33.790141
+      -84.001639,
+      33.790141
         ]
       },
       {
@@ -2459,8 +2534,8 @@
         "city": "Norcross",
         "zip": "30039",
         "coordinates": [
-			-84.1978186,
-			33.8821369
+      -84.1978186,
+      33.8821369
         ]
       },
       {
@@ -2470,8 +2545,8 @@
         "city": "Stone Mountain",
         "zip": "30087",
         "coordinates": [
-        	-84.1335473,
-        	33.8448843
+          -84.1335473,
+          33.8448843
         ]
       },
       {
@@ -2480,8 +2555,8 @@
         "city": "Duluth",
         "zip": "30096",
         "coordinates": [
-        	-84.1472517,
-        	33.9738868
+          -84.1472517,
+          33.9738868
         ]
       }
     ]
@@ -2507,8 +2582,8 @@
         "city": "Cornelia",
         "zip": "30531",
         "coordinates": [
-        	-83.5247291,
-        	34.5105641
+          -83.5247291,
+          34.5105641
         ]
       },
       {
@@ -2517,8 +2592,8 @@
         "city": "Clarkesville",
         "zip": "30523",
         "coordinates": [
-        	-83.5031992,
-        	34.6104507
+          -83.5031992,
+          34.6104507
         ]
       }
     ]
@@ -2575,13 +2650,12 @@
     "locations": [
       {
         "name": "Board of Elections Office",
-        "address1": "Temporary Courthouse",
-        "address2": "10571 Highway 15 North, Room 106",
+        "address1": "10571 Highway 15 North, Room 106",
         "city": "Sparta",
         "zip": "31087",
         "coordinates": [
-        	-82.9718073,
-        	33.2906192
+          -82.9718073,
+          33.2906192
         ]
       }
     ]
@@ -2601,10 +2675,10 @@
         ]
       },
       {
-      	"name": "Buchanan City Hall",
-      	"address1": "4300 Georgia Hwy 120",
-      	"city": "Buchanan",
-      	"zip": "30113",
+        "name": "Buchanan City Hall",
+        "address1": "4300 Georgia Hwy 120",
+        "city": "Buchanan",
+        "zip": "30113",
         "coordinates": [
             -85.1898594,
             33.8026777
@@ -2656,8 +2730,8 @@
         "city": "Franklin",
         "zip": "30217",
         "coordinates": [
-        	-85.0980866,
-        	33.279203
+          -85.0980866,
+          33.279203
         ]
       },
       {
@@ -2702,8 +2776,8 @@
         "city": "Stockbridge",
         "zip": "30281",
         "coordinates": [
-			-84.1866298,
-			33.6067239
+      -84.1866298,
+      33.6067239
         ]
       },
       {
@@ -2738,8 +2812,8 @@
         "city": "Perry",
         "zip": "31069",
         "coordinates": [
-			-83.7339299,
-			32.4577932
+      -83.7339299,
+      32.4577932
         ]
       },
       {
@@ -2748,8 +2822,8 @@
         "city": "Warner Robins",
         "zip": "31088",
         "coordinates": [
-			-83.668172,
-			32.5457645
+      -83.668172,
+      32.5457645
         ]
       },
       {
@@ -2759,8 +2833,8 @@
         "city": "Warner Robins",
         "zip": "31093",
         "coordinates": [
-        	-83.6439965,
-        	32.6196738
+          -83.6439965,
+          32.6196738
         ]
       }
     ]
@@ -2791,8 +2865,8 @@
         "city": "Jefferson",
         "zip": "30549",
         "coordinates": [
-        	-83.5740823,
-        	34.1161361
+          -83.5740823,
+          34.1161361
         ]
       },
       {
@@ -2801,8 +2875,8 @@
         "city": "Commerce",
         "zip": "30529",
         "coordinates": [
-        	-83.4656577,
-        	34.2102946
+          -83.4656577,
+          34.2102946
         ]
       },
       {
@@ -2811,15 +2885,19 @@
         "city": "Braselton ",
         "zip": "30517",
         "coordinates": [
-        	-83.762328,
-        	34.1077092
+          -83.762328,
+          34.1077092
         ]
       },
       {
         "name": "The Gordon Street Center",
         "address1": "441 Gordon Street",
         "city": "Jefferson",
-        "zip": "30549"
+        "zip": "30549",
+        "coordinates": [
+          -83.5681486,
+          34.1122577
+        ]
       }
     ]
   },
@@ -2882,8 +2960,8 @@
         "city": "Millen",
         "zip": "",
         "coordinates": [
-        	-81.9428493,
-        	32.8040271
+          -81.9428493,
+          32.8040271
         ]
       }
     ]
@@ -2898,8 +2976,8 @@
         "city": "Wrightsville",
         "zip": "31096",
         "coordinates": [
-        	-82.7234718,
-        	32.7294624
+          -82.7234718,
+          32.7294624
         ]
       }
     ]
@@ -2914,8 +2992,8 @@
         "city": "Gray",
         "zip": "31032",
         "coordinates": [
-        	-83.5348979,
-        	33.0213059
+          -83.5348979,
+          33.0213059
         ]
       }
     ]
@@ -2946,8 +3024,8 @@
         "city": "Lakeland",
         "zip": "31635",
         "coordinates": [
-        	-83.0756769,
-        	31.0415471
+          -83.0756769,
+          31.0415471
         ]
       }
     ]
@@ -2963,8 +3041,8 @@
         "city": "Dublin",
         "zip": "31021",
         "coordinates": [
-        	-82.9027357,
-        	32.5405945
+          -82.9027357,
+          32.5405945
         ]
       }
     ]
@@ -2996,8 +3074,8 @@
         "city": "Hinesville",
         "zip": "31313",
         "coordinates": [
-        	-81.5959758,
-        	31.8477594
+          -81.5959758,
+          31.8477594
         ]
       },
       {
@@ -3006,8 +3084,8 @@
         "city": "Midway",
         "zip": "31320",
         "coordinates": [
-        	-81.4534448,
-        	31.7984599
+          -81.4534448,
+          31.7984599
         ]
       }
     ]
@@ -3022,8 +3100,8 @@
         "city": "Lincolnton",
         "zip": "",
         "coordinates": [
-        	-82.4756858,
-        	33.7873363
+          -82.4756858,
+          33.7873363
         ]
       }
     ]
@@ -3038,8 +3116,8 @@
         "city": "Ludowici",
         "zip": "31316",
         "coordinates": [
-        	-81.7416053,
-        	31.7077479
+          -81.7416053,
+          31.7077479
         ]
       }
     ]
@@ -3086,8 +3164,8 @@
         "city": "Oglethorpe",
         "zip": "31068",
         "coordinates": [
-        	-84.0596167,
-        	32.2951731
+          -84.0596167,
+          32.2951731
         ]
       }
     ]
@@ -3102,8 +3180,8 @@
         "city": "Danielsville",
         "zip": "",
         "coordinates": [
-        	-83.2216984,
-        	34.1218404
+          -83.2216984,
+          34.1218404
         ]
       }
     ]
@@ -3118,8 +3196,8 @@
         "city": "Buena Vista",
         "zip": "31803",
         "coordinates": [
-        	-84.5200494,
-        	32.3230741
+          -84.5200494,
+          32.3230741
         ]
       }
     ]
@@ -3172,8 +3250,8 @@
         "city": "Darien",
         "zip": "",
         "coordinates": [
-        	-81.4337918,
-        	31.3714483
+          -81.4337918,
+          31.3714483
         ]
       }
     ]
@@ -3193,20 +3271,20 @@
         ]
       },
       {
-      	"name": "",
-      	"address1": "104 Wortham Rd",
-      	"city": "Luthersville",
-      	"zip": "30251",
+        "name": "",
+        "address1": "104 Wortham Rd",
+        "city": "Luthersville",
+        "zip": "30251",
         "coordinates": [
             -84.7391849,
             33.2063396
         ]
       },
       {
-      	"name": "",
-      	"address1": "30 Durand St",
-      	"city": "Woodbury",
-      	"zip": "30293",
+        "name": "",
+        "address1": "30 Durand St",
+        "city": "Woodbury",
+        "zip": "30293",
         "coordinates": [
             -84.5799575,
             32.9801694
@@ -3225,8 +3303,8 @@
         "city": "Colquitt",
         "zip": "39837",
         "coordinates": [
-        	-84.7334767,
-        	31.1734979
+          -84.7334767,
+          31.1734979
         ]
       }
     ]
@@ -3241,35 +3319,35 @@
         "city": "Camilla",
         "zip": "31730",
         "coordinates": [
-        	-84.2092518,
-        	31.2316098
+          -84.2092518,
+          31.2316098
         ]
       },
       {
-      	"name": "Jackson House",
-      	"address1": "33 East Walton St",
-      	"city": "Baconton",
-      	"zip": "31716",
+        "name": "Jackson House",
+        "address1": "33 East Walton St",
+        "city": "Baconton",
+        "zip": "31716",
         "coordinates": [
             -84.1646378,
             31.3766279
         ]
       },
       {
-      	"name": "City Hall Building",
-      	"address1": "30 East Broad St",
-      	"city": "Camilla",
-      	"zip": "31730",
+        "name": "City Hall Building",
+        "address1": "30 East Broad St",
+        "city": "Camilla",
+        "zip": "31730",
         "coordinates": [
             -84.2099333,
             31.2311065
         ]
       },
       {
-      	"name": "City Hall Complex",
-      	"address1": "415 W Railroad St S",
-      	"city": "Pelham",
-      	"zip": "31779",
+        "name": "City Hall Complex",
+        "address1": "415 W Railroad St S",
+        "city": "Pelham",
+        "zip": "31779",
         "coordinates": [
             -84.1534164,
             31.1189065
@@ -3304,8 +3382,8 @@
         "city": "Mount Vernon",
         "zip": "30445",
         "coordinates": [
-        	-82.5952778,
-        	32.1745182
+          -82.5952778,
+          32.1745182
         ]
       }
     ]
@@ -3320,8 +3398,8 @@
         "city": "Madison",
         "zip": "30650",
         "coordinates": [
-        	-83.4641944,
-        	33.5973939
+          -83.4641944,
+          33.5973939
         ]
       }
     ]
@@ -3336,25 +3414,25 @@
         "city": "Chatsworth",
         "zip": "30705",
         "coordinates": [
-        	-84.7712948,
-        	34.7663957
+          -84.7712948,
+          34.7663957
         ]
       },
       {
-      	"name": "Chatsworth City Hall",
-      	"address1": "400 N 3rd Ave",
-      	"city": "Chatsworth",
-      	"zip": "30705",
+        "name": "Chatsworth City Hall",
+        "address1": "400 N 3rd Ave",
+        "city": "Chatsworth",
+        "zip": "30705",
         "coordinates": [
             -84.7692956,
             34.7707831
         ]
       },
       {
-      	"name": "Eton City Hall",
-      	"address1": "3464 Highway 411 N",
-      	"city": "Chatsworth",
-      	"zip": "30705",
+        "name": "Eton City Hall",
+        "address1": "3464 Highway 411 N",
+        "city": "Chatsworth",
+        "zip": "30705",
         "coordinates": [
             -84.7479931,
             34.7218181
@@ -3372,8 +3450,8 @@
         "city": "Columbus",
         "zip": "31906",
         "coordinates": [
-        	-84.9458759,
-        	32.476857
+          -84.9458759,
+          32.476857
         ]
       }
     ]
@@ -3388,8 +3466,8 @@
         "city": "Covington",
         "zip": "30014",
         "coordinates": [
-			-83.859156,
-			33.5977453
+      -83.859156,
+      33.5977453
         ]
       },
       {
@@ -3398,8 +3476,8 @@
         "city": "Covington",
         "zip": "30016",
         "coordinates": [
-			-84.0045568,
-			33.5263208
+      -84.0045568,
+      33.5263208
         ]
       }
     ]
@@ -3414,8 +3492,8 @@
         "city": "Watkinsville",
         "zip": "30677",
         "coordinates": [
-        	-83.409687,
-        	33.8634213
+          -83.409687,
+          33.8634213
         ]
       },
       {
@@ -3424,8 +3502,8 @@
         "city": "Watkinsville",
         "zip": "30677",
         "coordinates": [
-        	-83.4546046,
-        	33.8633609
+          -83.4546046,
+          33.8633609
         ]
       }
     ]
@@ -3445,10 +3523,10 @@
         ]
       },
       {
-      	"name": "City of Crawford City Hall",
-      	"address1": "148 S Broad St",
-      	"city": "Crawford",
-      	"zip": "30630",
+        "name": "City of Crawford City Hall",
+        "address1": "148 S Broad St",
+        "city": "Crawford",
+        "zip": "30630",
         "coordinates": [
             -83.1567286,
             33.8807184
@@ -3467,8 +3545,8 @@
         "city": "Dallas",
         "zip": "30132",
         "coordinates": [
-			-84.847128,
-			33.917349
+      -84.847128,
+      33.917349
         ]
       },
       {
@@ -3477,8 +3555,8 @@
         "city": "Dallas",
         "zip": "30132",
         "coordinates": [
-			-84.8415947,
-			34.0352083
+      -84.8415947,
+      34.0352083
         ]
       },
       {
@@ -3487,8 +3565,8 @@
         "city": "Dallas",
         "zip": "30157",
         "coordinates": [
-			-84.7708603,
-			33.9436681
+      -84.7708603,
+      33.9436681
         ]
       },
       {
@@ -3550,8 +3628,8 @@
     "id": "113",
     "locations": [
       {
-        "name": "Pierce County Board of Commissioners",
-        "address1": "312 Nichols Street",
+        "name": "",
+        "address1": "312 Nichols Street, Suite 2",
         "city": "Blackshear",
         "zip": "31516",
         "coordinates": [
@@ -3597,8 +3675,8 @@
         "city": "Rockmart",
         "zip": "30153",
         "coordinates": [
-        	-85.042989,
-        	34.0016421
+          -85.042989,
+          34.0016421
         ]
       }
     ]
@@ -3613,8 +3691,8 @@
         "city": "Hawkinsville",
         "zip": "",
         "coordinates": [
-        	-83.4686983,
-        	32.2818876
+          -83.4686983,
+          32.2818876
         ]
       }
     ]
@@ -3639,15 +3717,15 @@
         "city": "Eatonton",
         "zip": "31024",
         "coordinates": [
-        	-83.3845119,
-        	33.3268334
+          -83.3845119,
+          33.3268334
         ]
       },
       {
-      	"name": "Eatonton City Hall",
-      	"address1": "201 N. Jefferson Ave.",
-      	"city": "Eatonton",
-      	"zip": "31024",
+        "name": "Eatonton City Hall",
+        "address1": "201 N. Jefferson Ave.",
+        "city": "Eatonton",
+        "zip": "31024",
         "coordinates": [
             -83.3896301,
             33.3278287
@@ -3665,8 +3743,8 @@
         "city": "Georgetown",
         "zip": "39854",
         "coordinates": [
-        	-85.1089458,
-        	31.8863309
+          -85.1089458,
+          31.8863309
         ]
       }
     ]
@@ -3686,20 +3764,20 @@
         ]
       },
       {
-      	"name": "City of Sky Valley",
-      	"address1": "3444 Highway 246",
-      	"city": "Sky Valley",
-      	"zip": "30537",
+        "name": "City of Sky Valley",
+        "address1": "3444 Highway 246",
+        "city": "Sky Valley",
+        "zip": "30537",
         "coordinates": [
             -83.3440107,
             34.9925098
         ]
       },
       {
-      	"name": "Town of Tallulah Falls",
-      	"address1": "255 Main St.",
-      	"city": "Tallulah Falls",
-      	"zip": "30573",
+        "name": "Town of Tallulah Falls",
+        "address1": "255 Main St.",
+        "city": "Tallulah Falls",
+        "zip": "30573",
         "coordinates": [
             -83.4169174,
             34.784078
@@ -3830,8 +3908,8 @@
         "city": "Donalsonville",
         "zip": "39845",
         "coordinates": [
-        	-84.8849667,
-        	31.0418354
+          -84.8849667,
+          31.0418354
         ]
       }
     ]
@@ -3862,8 +3940,8 @@
         "city": "Toccoa",
         "zip": "30577",
         "coordinates": [
-        	-83.3332395,
-        	34.5799653
+          -83.3332395,
+          34.5799653
         ]
       },
       {
@@ -3890,7 +3968,7 @@
         "zip": "31815",
         "coordinates": [
           -84.7954299,
-        	32.0510332
+          32.0510332
         ]
       }
     ]
@@ -3907,7 +3985,7 @@
         "zip": "31709",
         "coordinates": [
           -84.2396085,
-        	32.0718439
+          32.0718439
         ]
       }
     ]
@@ -3965,7 +4043,7 @@
         "zip": "30421",
         "coordinates": [
           -82.1136153,
-        	32.181167
+          32.181167
         ]
       },
       {
@@ -3979,10 +4057,10 @@
         ]
       },
       {
-      	"name": "Cobbtown City Hall",
-      	"address1": "36519B Ga Highway 23",
-      	"city": "Cobbtown",
-      	"zip": "30420",
+        "name": "Cobbtown City Hall",
+        "address1": "36519B Ga Highway 23",
+        "city": "Cobbtown",
+        "zip": "30420",
         "coordinates": [
             -82.1313353,
             32.2977255
@@ -4005,10 +4083,10 @@
         ]
       },
       {
-      	"name": "Reynolds City Hall",
-      	"address1": "3 E. William Wainwright Street",
-      	"city": "Reynolds",
-      	"zip": "31076",
+        "name": "Reynolds City Hall",
+        "address1": "3 E. William Wainwright Street",
+        "city": "Reynolds",
+        "zip": "31076",
         "coordinates": [
             -84.0969587,
             32.5598071
@@ -4032,30 +4110,30 @@
         ]
       },
       {
-      	"name": "City of Lumber City City Hall",
-      	"address1": "301 Main St",
-      	"city": "Lumber City",
-      	"zip": "31549",
+        "name": "City of Lumber City City Hall",
+        "address1": "301 Main St",
+        "city": "Lumber City",
+        "zip": "31549",
         "coordinates": [
             -82.6863151,
             31.9299823
         ]
       },
       {
-      	"name": "City of Scotland City Hall",
-      	"address1": "969 Main Street",
-      	"city": "Scotland",
-      	"zip": "31083",
+        "name": "City of Scotland City Hall",
+        "address1": "969 Main Street",
+        "city": "Scotland",
+        "zip": "31083",
         "coordinates": [
             -82.8179691,
             32.0479837
         ]
       },
       {
-      	"name": "City of McRae Helena City Hall",
-      	"address1": "25 S First Avenue",
-      	"city": "McRae Helena",
-      	"zip": "31055",
+        "name": "City of McRae Helena City Hall",
+        "address1": "25 S First Avenue",
+        "city": "McRae Helena",
+        "zip": "31055",
         "coordinates": [
             -82.8979883,
             32.0685634
@@ -4122,7 +4200,7 @@
         "city": "Lyons",
         "zip": "30436",
         "coordinates": [
-        	
+          
         ]
       }
     ]
@@ -4154,27 +4232,28 @@
         "city": "Soperton",
         "zip": "30457",
         "coordinates": [
-        	
+          -82.592683,
+          32.3767822
         ]
       }
     ]
   },
   {
-  	"name": "Troup",
-  	"id": "141",
-  	"locations": [
+    "name": "Troup",
+    "id": "141",
+    "locations": [
       {
-      	"name": "Elections and Registration Office",
-      	"address1": "100 Ridley Avenue",
+        "name": "Elections and Registration Office",
+        "address1": "100 Ridley Avenue",
         "address2": "Suite 1100",
-      	"city": "LaGrange",
-      	"zip": "30240",
+        "city": "LaGrange",
+        "zip": "30240",
         "coordinates": [
             -85.0307623,
             33.0401901
         ]
       }
-  	]
+    ]
   },
   {
     "name": "Turner",
@@ -4223,10 +4302,10 @@
         ]
       },
       {
-      	"name": "Blairsville City Hall",
-      	"address1": "64 Blue Ridge St",
-      	"city": "Blairsville",
-      	"zip": "30512",
+        "name": "Blairsville City Hall",
+        "address1": "64 Blue Ridge St",
+        "city": "Blairsville",
+        "zip": "30512",
         "coordinates": [
             -83.9596908,
             34.8753589
@@ -4317,8 +4396,8 @@
         "city": "Monroe",
         "zip": "30655",
         "coordinates": [
-			-83.6989342,
-			33.7977874
+      -83.6989342,
+      33.7977874
         ]
       }
     ]
@@ -4330,17 +4409,18 @@
       {
         "name": "",
         "address1": "408 Tebeau Street",
-        "city": "Waycross",
+        "city": "Wayross",
         "zip": "31501",
         "coordinates": [
-        	
+          -82.3611743,
+          31.2108255
         ]
       },
       {
-      	"name": "Board of Elections and Registration Office, Ware County Courthouse",
-      	"address1": "800 Church Street",
-      	"city": "Waycross",
-      	"zip": "31501",
+        "name": "Board of Elections and Registration Office, Ware County Courthouse",
+        "address1": "800 Church Street",
+        "city": "Waycross",
+        "zip": "31501",
         "coordinates": [
             -82.3576126,
             31.2144741
@@ -4363,20 +4443,20 @@
         ]
       },
       {
-      	"name": "Norwood City Hall",
-      	"address1": "14 Railroad St",
-      	"city": "Norwood",
-      	"zip": "30821",
+        "name": "Norwood City Hall",
+        "address1": "14 Railroad St",
+        "city": "Norwood",
+        "zip": "30821",
         "coordinates": [
             -82.7065872,
             33.4631195
         ]
       },
       {
-      	"name": "Warrenton City Hall",
-      	"address1": "29 Edward D Ricketson St",
-      	"city": "Warrenton",
-      	"zip": "30828",
+        "name": "Warrenton City Hall",
+        "address1": "29 Edward D Ricketson St",
+        "city": "Warrenton",
+        "zip": "30828",
         "coordinates": [
             -82.6623771,
             33.4049419
@@ -4428,7 +4508,8 @@
         "city": "Preston",
         "zip": "31824",
         "coordinates": [
-        	
+          -84.5368402,
+          32.0673085
         ]
       }
     ]
@@ -4440,11 +4521,11 @@
       {
         "name": "",
         "address1": "16 W Forest Ave",
-        "address2": "Suite 101",
         "city": "Alamo",
         "zip": "30411",
         "coordinates": [
-        	
+          -82.7825181,
+          32.1494342
         ]
       }
     ]
@@ -4465,20 +4546,20 @@
         ]
       },
       {
-      	"name": "Cleveland City Hall",
-      	"address1": "85 S. Main St.",
-      	"city": "Cleveland",
-      	"zip": "30528",
+        "name": "Cleveland City Hall",
+        "address1": "85 S. Main St.",
+        "city": "Cleveland",
+        "zip": "30528",
         "coordinates": [
             -83.7628785,
             34.5954362
         ]
       },
       {
-      	"name": "Helen City Hall",
-      	"address1": "25 Alpenrosen Strasse",
-      	"city": "Helen",
-      	"zip": "30545",
+        "name": "Helen City Hall",
+        "address1": "25 Alpenrosen Strasse",
+        "city": "Helen",
+        "zip": "30545",
         "coordinates": [
             -83.7255342,
             34.6996206
