@@ -24,6 +24,10 @@ body {
   padding: 0;
 }
 
+a {
+  color: $primary;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
