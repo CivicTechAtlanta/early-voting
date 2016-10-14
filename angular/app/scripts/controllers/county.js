@@ -39,7 +39,7 @@ angular.module('earlyVotingApp')
         tiles: {
           url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
           options: {
-            attribution: 'Tiles &copy; <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png" />'
+            attribution: 'Tiles &copy; <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="https://developer.mapquest.com/sites/default/files/mapquest/osm/mq_logo.png" />'
           }
         },
         // this is the geolocation marker
