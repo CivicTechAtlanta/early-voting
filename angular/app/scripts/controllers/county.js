@@ -8,7 +8,7 @@
  * Controller of the earlyVotingApp
  */
 angular.module('earlyVotingApp')
-  .controller('CountyCtrl', ['$scope', '$routeParams', 'countyElectionInfo', 'countyBoundaries', 'electionProperties', 'leafletBoundsHelpers', 
+  .controller('CountyCtrl', ['$scope', '$routeParams', 'countyElectionInfo', 'countyBoundaries', 'electionProperties', 'leafletBoundsHelpers',
                     function ($scope,   $routeParams,   countyElectionInfo,   countyBoundaries,   electionProperties,   leafletBoundsHelpers) {
 
     $scope.loading = false;
@@ -105,14 +105,14 @@ angular.module('earlyVotingApp')
 
       var R = 3961; // mi
       var x1 = userLat-placeLat;
-      var dLat = toRad(x1);  
+      var dLat = toRad(x1);
       var x2 = userLon-placeLon;
-      var dLon = toRad(x2);  
-      var a = Math.sin(dLat/2) * Math.sin(dLat/2) + 
-        Math.cos(toRad(placeLat)) * Math.cos(toRad(userLat)) * 
-        Math.sin(dLon/2) * Math.sin(dLon/2);  
-      var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
-      var d = R * c; 
+      var dLon = toRad(x2);
+      var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+        Math.cos(toRad(placeLat)) * Math.cos(toRad(userLat)) *
+        Math.sin(dLon/2) * Math.sin(dLon/2);
+      var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+      var d = R * c;
 
       return d;
     };
