@@ -643,6 +643,22 @@ function simplifyDates(location) {
     } else {
       logger.warn('extra long simplifiedDates');
     }
+    // TODO: move this elsewhere?
+    // needs to happen before dates get simplified
+    // check for duplicate dates
+    for (var i = 0; i < location.dates.length - 1; i++) {
+      if (location.dates[i].date === location.dates[i + 1].date) {
+        // if there is a duplicate date, we want to combine all occurances
+        location.dates[i].time = location.dates[i].time + ', ' + location.dates[i + 1].time;
+        location.dates.splice(i + 1, 1);
+        // still warn with final result (because things can be real weird)
+        // e.g. 10/17/2016 - 11/04/2016 8:00 AM - 5:00 PM, Days: M,Tu,W,Th,F and 10/25/2016 - 11/03/2016 8:00 AM - 7:00 PM, Days: Tu,Th
+        logger.warn('location: ' + location.address1 + ' ' + location.city);
+        logger.warn('multiple times for date ' + location.dates[i].date + ' consolidated to ' + location.dates[i].time);
+        // TODO: ask user for what the time should say
+        // TODO: write tests for this
+      }
+    }
     logger.log(simplifiedDates);
     logger.log(simplifiedDates.length);
     // TODO: possibly here we should set simplifiedDates equal to ""
