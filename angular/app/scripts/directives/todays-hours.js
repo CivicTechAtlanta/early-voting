@@ -28,7 +28,7 @@ angular.module('earlyVotingApp')
 
       }
 
-      return "Closed today";
+      return "This location is closed today";
     }
 
     function getTomorrowsHours(allHours) {
@@ -43,7 +43,12 @@ angular.module('earlyVotingApp')
 
       }
 
-      return "Closed tomorrow";
+      return "This location is closed tomorrow";
+    }
+
+    function getOpeningDate(allHours) {
+      console.log(allHours[0].date);
+      return "This location opens " + moment(allHours[0].date, 'YYYYMMDD').format('MMM Do');
     }
 
     function getRelevantHours(allHours) {
@@ -54,7 +59,7 @@ angular.module('earlyVotingApp')
         // return the time tomorrow;
         return getTomorrowsHours(allHours);
       } else if (earlyVotingBegins.isAfter(tomorrowsDate)) { // if today is before the day before early voting
-        return "Early voting begins " + earlyVotingBegins.format('MMM Do');
+        return getOpeningDate(allHours);
       } else if (currentHour >= 21) { // after 9pm, display tomorrow's hours
         return getTomorrowsHours(allHours);
       } else {
