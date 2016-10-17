@@ -9,7 +9,7 @@
 angular.module('earlyVotingApp')
   .directive('todaysHours', function (electionProperties) {
 
-    var currentDate = moment().format('YYYYMMDD');
+    var currentDate = moment();
     // var currentDate = moment('20161019', 'YYYYMMDD');
     var currentHour = moment().format('H');
     var tomorrowsDate = moment(currentDate, 'YYYYMMDD').add(1, 'days'); // moment() here prevents mutation
@@ -22,7 +22,7 @@ angular.module('earlyVotingApp')
         var date = allHours[i].date;
         var time = allHours[i].time;
 
-        if (moment(date, 'YYYY-MM-DD').isSame(currentDate)) {
+        if (moment(date, 'YYYY-MM-DD').isSame(currentDate, 'day')) {
           return "Open " + time + ' today (' + currentDate.format('MMM Do') + ')';
         }
 
@@ -37,7 +37,7 @@ angular.module('earlyVotingApp')
         var date = allHours[i].date;
         var time = allHours[i].time;
 
-        if (moment(date, 'YYYY-MM-DD').isSame(tomorrowsDate)) {
+        if (moment(date, 'YYYY-MM-DD').isSame(tomorrowsDate, 'day')) {
           return "Open " + time + ' tomorrow (' + tomorrowsDate.format('MMM Do') + ')';
         }
 
