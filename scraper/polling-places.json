@@ -1824,6 +1824,17 @@
           -85.1666382,
           34.2610048
         ]
+      },
+      {
+        "name": "Garden Lakes Baptist Church",
+        "address1": "2200 Redmond Circle",
+        "address2": "",
+        "city": "Rome",
+        "zip": "30165",
+        "coordinates": [
+          -85.2274409,
+          34.2840374
+        ]
       }
     ]
   },
