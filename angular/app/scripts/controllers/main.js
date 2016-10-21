@@ -11,8 +11,6 @@ angular.module('earlyVotingApp')
   .controller('MainCtrl', function ($scope, $log, $location, electionProperties) {
 
     this.selectCounty = function(county) {
-      console.log(county);
-      console.log(this.selectedCounty);
       $location.path("/counties/" + county);
     };
     this.selectedCounty = undefined;

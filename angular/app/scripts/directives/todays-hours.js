@@ -47,7 +47,6 @@ angular.module('earlyVotingApp')
     }
 
     function getOpeningDate(allHours) {
-      console.log(allHours[0].date);
       return "This location opens " + moment(allHours[0].date, 'YYYYMMDD').format('MMM Do');
     }
 
