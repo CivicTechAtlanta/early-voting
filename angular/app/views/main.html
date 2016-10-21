@@ -1,4 +1,4 @@
-<md-content class="md-padding md-primary md-hue-1">
+<md-content class="md-padding md-primary md-hue-1 main-view">
   <md-card>
     <md-card-content>
       <h2 class="md-title">Early Voting Locations &amp; Times</h2>
@@ -8,21 +8,8 @@
       <p>
         There aren't many early voting locations for each county, so you'll need to use the tool below to find times and places where you can vote early:
       </p>
-      <form ng-submit="$event.preventDefault()">
-        <md-autocomplete
-          md-selected-item="main.selectedCounty"
-          md-search-text-change="main.searchTextChange(main.searchText)"
-          md-search-text="main.searchText"
-          md-selected-item-change="main.selectedCountyChange(county)"
-          md-items="county in main.querySearch(main.searchText)"
-          md-item-text="county.display"
-          md-min-length="0"
-          placeholder="Type your county here">
-          <span md-highlight-text="main.searchText" md-highlight-flags="^i"> {{county.display}}</span>
-          <md-not-found>
-            No matches found for "{{main.searchText}}".
-          </md-not-found>
-        </md-autocomplete>
+      <form>
+        <input type="text" ng-model="main.selectedCounty" uib-typeahead="county for county in main.counties | filter:$viewValue | limitTo:5" class="form-control select-county" typeahead-editable="false" typeahead-on-select="main.selectCounty($item)" placeholder="Type your county here" />
         <div class="button-container">
           <md-button md-no-ink class="md-secondary left-button" href="/#/counties">Or see a list of counties</md-button>
           <md-button class="md-raised md-primary" href="/#/counties">Submit</md-button>

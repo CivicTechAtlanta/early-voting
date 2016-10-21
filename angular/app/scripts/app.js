@@ -18,7 +18,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.bootstrap'
   ])
   .run(['$rootScope', '$route', '$window', function($rootScope, $route, $window) {
     $rootScope.$on('$routeChangeSuccess', function() {
