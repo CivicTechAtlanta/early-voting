@@ -123,7 +123,7 @@ angular
             var county = $route.current.params.countyName;
             return $http.get('data/elections/' + electionProperties.date + '-locations.geojson').then(function(result) {
               if (typeof(result.data[county]) === "undefined") {
-                console.log("undefined");
+                // console.log("undefined");
                 // result.data[county].earlyVoting = false;
                 return {earlyVoting: false};
               } else {

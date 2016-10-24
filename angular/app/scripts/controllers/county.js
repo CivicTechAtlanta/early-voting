@@ -129,7 +129,7 @@ angular.module('earlyVotingApp')
         pollingPlaces = pollingPlaces.sort(compare);
         $scope.sorted = true;
         $scope.loading = false;
-        console.log("geolocationComplete");
+        // console.log("geolocationComplete");
       });
     });
 
@@ -146,12 +146,12 @@ angular.module('earlyVotingApp')
         $scope.paths.circle.opacity = 1;
         $scope.paths.circle.fillOpacity = 0.5;
       }, function(error) {
-        console.log(error);
+        // console.log(error);
         $scope.loading = false;
         $scope.errorText = "";
         if (error.message === "User denied Geolocation") {
           $scope.errorText = "Geolocation turned off";
-          console.log($scope.errorText);
+          // console.log($scope.errorText);
         }
       });
     };
