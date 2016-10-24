@@ -11,6 +11,9 @@ angular.module('earlyVotingApp')
   .controller('MainCtrl', function ($scope, $log, $location, electionProperties) {
 
     this.selectCounty = function(county) {
+      // hide keyboard on mobile
+      var inputElement = document.getElementsByClassName('select-county')[0];
+      inputElement.blur();
       $location.path("/counties/" + county);
     };
     this.selectedCounty = undefined;
