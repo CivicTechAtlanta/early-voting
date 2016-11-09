@@ -18,17 +18,20 @@ var knownData = require('./polling-places.json');
 var logging = false;
 
 function parseData() {
+  var numberOfCountiesInData = 0;
   counties.forEach(function(county) {
+    numberOfCountiesInData++;
     var countyName = county.name;
     var countyID = county.value;
     var locations = county.locations;
   });
+  logger.warn('Number of counties with polling places:', numberOfCountiesInData, 'of 159');
   // once we've processed the counties, we can find all the dates
   votingDates = getDatesBetween(votingStartDate, votingEndDate);
 
   for (var i = 0; i < parsedCounties.length; i++) {
     var county = parsedCounties[i];
-    // logger.warn(county);
+    // logger.debug(county);
 
     // logger.debug(parsedCounties);
     county.locations = matchLocations(county);
@@ -290,8 +293,8 @@ function findAddress(location) {
   var split = location.text.split('<br>');
   var missingPlaceName = false;
   if (!isNaN(split[0].substring(0, 1))) {
-    logger.warn('WARN:     Seems to be missing a place name');
-    logger.warn('LOCATION: ' + location.text);
+    logger.debug('WARN:     Seems to be missing a place name');
+    logger.debug('LOCATION: ' + location.text);
     location.name = "";
     // since what's here isn't a place name, assume it's the address
     if (!split[1]) {
@@ -334,10 +337,10 @@ function mergeWithKnownData(location, knownData) {
   });
 
   if (typeof(location.coordinates) === 'undefined') {
-    logger.warn(location);
+    logger.debug(location);
     throw new Error('Polling place is unknown: not available in polling-places.json');
   } else if (location.coordinates.length === 0) {
-    logger.warn(location);
+    logger.debug(location);
     throw new Error('Polling place missing coordinates in polling-places.json');
   }
 
@@ -367,7 +370,7 @@ function parseLocationForGeojson(location, index) {
   geoLocation.properties.dates = location.dates;
   geoLocation.properties.datesSimplified = location.datesSimplified;
 
-  // logger.warn(location);
+  // logger.debug(location);
   // logger.log(geoLocation);
 
   return geoLocation;
@@ -391,7 +394,7 @@ function convertJsonToGeojson(json) {
     geojson[countyName] = geoCounty;
   });
 
-  // logger.warn(geojson);
+  // logger.debug(geojson);
   return geojson;
 }
 
@@ -639,9 +642,9 @@ function simplifyDates(location) {
 
   if (simplifiedDates.length > 90) {
     if (simplifiedDates.length > 160) {
-      logger.error('insanely long simplifiedDates');
+      logger.warn('insanely long simplifiedDates');
     } else {
-      logger.warn('extra long simplifiedDates');
+      logger.debug('extra long simplifiedDates');
     }
     logger.log(simplifiedDates);
     logger.log(simplifiedDates.length);
