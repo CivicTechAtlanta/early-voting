@@ -508,15 +508,17 @@ function compareDates(a, b) {
     return -1;
   else if (a.date > b.date)
     return 1;
-  else 
-    return 0;
+  else if (a.listingOrder < b.listingOrder)
+    return -1;
+  return 1;
 }
 
 function parseTimes(location) {
   // add each relevant date and time to location.dates
   // if it tries to add a date multiple times, it should error
   location.dates = [];
-  location.times.forEach(function(time) {
+  for (var i = 0; i < location.times.length; i++) {
+    var time = location.times[i];
     var dateRange = getDatesBetween(time.firstDate, time.secondDate);
     var daysObject = parseDays(time.days);
     dateRange.forEach(function(date) {
@@ -525,14 +527,34 @@ function parseTimes(location) {
       if (daysObject[moment(date, "MM-DD-YYYY").day()]) {
         location.dates.push({
           "date": moment(date, "MM-DD-YYYY").format("YYYY-MM-DD"),
-          "time": time.timeRange
+          "time": time.timeRange,
+          "listingOrder": i // this gives the order of the listing on the SOS website, to fix afternoon times from occurring before morning lunch breaks 
         });
       }
     });
-  });
+  }
   location.dates.sort(compareDates);
+  handleLunchBreaks(location.dates);
   delete location.times;
   location = addSimplifiedDates(location);
+}
+
+function handleLunchBreaks(dates) {
+  for (var i = 0; i < dates.length; i++) {
+    var date = dates[i];
+    if (i !== dates.length - 1) {
+      var nextDate = dates[i + 1];
+      if (date.date === nextDate.date) {
+        // duplicate detected
+        logger.warn('Duplicate date detected; will be consolidated (assuming lunch break):');
+        logger.log(date);
+        logger.log(nextDate);
+        date.time = date.time + ', ' + nextDate.time;
+        dates.splice(i + 1, 1);
+      }
+    }
+    delete date.listingOrder; // was only needed for sorting
+  }
 }
 
 // BEGIN SIMPLIFY DATES
