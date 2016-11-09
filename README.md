@@ -1,6 +1,6 @@
 #Contributors:
 
-* Want to help out? [Look at the issues](https://github.com/codeforatlanta/early-voting/issues) or just find something you can improve and submit a pull request. You can also join [Code for Atlanta's Slack](http://slack.codeforatlanta.org/), then join channel #early-voting to collaborate with others working on the project.. Thanks!
+* Want to help out? [Look at the issues](https://github.com/codeforatlanta/early-voting/projects/1) or just find something you can improve and submit a pull request. You can also join [Code for Atlanta's Slack](http://slack.codeforatlanta.org/), then join channel #early-voting to collaborate with others working on the project.. Thanks!
 
 #To run the angular app:
 
