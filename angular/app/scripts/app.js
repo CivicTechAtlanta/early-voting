@@ -21,10 +21,11 @@ angular
     'ngTouch',
     'ui.bootstrap'
   ])
-  .run(['$rootScope', '$route', '$window', function($rootScope, $route, $window) {
+  .run(['$rootScope', '$route', '$window', '$location', function($rootScope, $route, $window, $location) {
     $rootScope.$on('$routeChangeSuccess', function() {
       document.title = $route.current.title + "Georgia Early Voting | Code for Atlanta";
       $window.scrollTo(0,0);
+      $window.ga('send', 'pageview', { page: $location.url() }); // allows google analytics to track "pages" within the SPA
     });
   }])
   // .config(function($mdThemingProvider) {
