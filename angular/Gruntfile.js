@@ -439,7 +439,7 @@ module.exports = function (grunt) {
     },
 
 
-    aws: grunt.file.readJSON("credentials.json"),
+    // aws: grunt.file.readJSON("credentials.json"),
     // Upload to S3
     s3: {
       options: {

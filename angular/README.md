@@ -11,6 +11,13 @@ Run `grunt` for building and `grunt serve` for preview.
 
 Running `grunt test` will run the unit tests with karma.
 
+## To deploy the app (if you have the AWS token)
+
+Uncomment line 442 of `/angular/Gruntfile.js`
+
+    grunt build
+    grunt upload
+
 ## Update site for a new election
 1. Run the scraper (follow instructions in `scraper/README.md`.
 2. Copy `scraper/scraped/processed-DATE.geojson` to `angular/app/data/elections/DATE-locations.geojson`.
