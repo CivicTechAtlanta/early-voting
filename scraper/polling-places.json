@@ -520,18 +520,8 @@
         "city": "Carrollton",
         "zip": "30117",
         "coordinates": [
-      -85.071579,
-      33.5838589
-        ]
-      },
-      {
-        "name": "Powell Park Arts Center",
-        "address1": "424 Leslie Dr",
-        "city": "Villa Rica",
-        "zip": "30180",
-        "coordinates": [
-      -84.9288121,
-      33.7290987
+          -85.071579,
+          33.5838589
         ]
       }
     ]
@@ -1595,6 +1585,16 @@
         "coordinates": [
           -84.7504251,
           33.7496736
+        ]
+      },
+      {
+        "name": "Powell Park Arts Center",
+        "address1": "424 Leslie Drive",
+        "city": "Villa Rica",
+        "zip": "30180",
+        "coordinates": [
+          -84.9288121,
+          33.7290987
         ]
       }
     ]

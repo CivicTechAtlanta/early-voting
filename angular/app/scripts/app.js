@@ -35,10 +35,10 @@ angular
   // })
   .constant("electionProperties", {
     // from http://sos.ga.gov/index.php/elections/2016_election_dates
-    "date": "20161108",
-    "type": "general election",
+    "date": "20161206",
+    "type": "general election runoff",
     "registrationDate": "20161011",
-    "earlyVotingDate": "20161017"
+    "earlyVotingDate": "20161128"
   })
   .config(function($mdThemingProvider) {
     $mdThemingProvider.definePalette('codeForATLPrimary', {
