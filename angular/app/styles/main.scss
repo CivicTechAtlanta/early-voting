@@ -110,6 +110,10 @@ md-card {
   }
 }
 
+md-card.alert {
+  background-color: $secondary;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
