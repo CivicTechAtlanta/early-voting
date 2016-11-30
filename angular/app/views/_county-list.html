@@ -2,16 +2,19 @@
   <md-list>
     <md-button class="md-raised md-primary geolocation-button" ng-if="!loading" ng-click="county.geolocate()">{{sorted ? "Update" : "Find"}} distance from my location</md-button><div ng-if="errorText" class="error-text">Warning: {{errorText}}</div>
     <br>
+    <button ng-click="county.filterPollingPlaces()">Only Open After 7pm</button>
     <md-progress-linear md-mode="indeterminate" ng-if="loading"></md-progress-linear>
-    <md-list-item ng-repeat="place in county.pollingPlaces"><a ng-href="#/counties/{{county.county}}/{{place.properties.id}}">
-      <div class="md-list-item-text" layout="column">
-        <h3>{{place.properties.location}}</h3>
-        <span><span ng-bind-html="place.properties.address"></span>, {{place.properties.city}}</span><br>
-        <!--<span ng-bind-html="place.properties.datesSimplified"></span>-->
-        <todays-hours all-hours="{{place.properties.dates}}"></todays-hours>
-        <span ng-if="place.distance">{{place.distance | number:1}} miles away</span><br>
-        <md-icon aria-label="Go" class="md-secondary md-hue-3"><i class="fa fa-chevron-right"></i></md-icon>
-      </div>
-    </a></md-list-item>
+    <a ng-href="#/counties/{{county.county}}/{{place.properties.id}}" ng-repeat="place in county.filteredPollingPlaces">
+      <md-list-item>
+        <div class="md-list-item-text" layout="column">
+          <h3>{{place.properties.location}}</h3>
+          <span><span ng-bind-html="place.properties.address"></span>, {{place.properties.city}}</span><br>
+          <!-- <span ng-bind-html="place.properties.datesSimplified"></span> -->
+          <todays-hours all-hours="{{place.properties.dates}}"></todays-hours>
+          <span ng-if="place.distance">{{place.distance | number:1}} miles away</span><br>
+          <md-icon aria-label="Go" class="md-secondary md-hue-3"><i class="fa fa-chevron-right"></i></md-icon>
+        </div>
+      </md-list-item>
+    </a>
   </md-list>
 </md-content>

@@ -35,7 +35,7 @@ angular
   // })
   .constant("electionProperties", {
     // from http://sos.ga.gov/index.php/elections/2016_election_dates
-    "date": "20161206",
+    "date": "20161108",
     "type": "general election runoff",
     "registrationDate": "20161011",
     "earlyVotingDate": "20161128"
