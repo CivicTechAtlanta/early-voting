@@ -23,6 +23,18 @@ angular.module('earlyVotingApp')
     ]);
     // var fileName = 'data/county-outlines/' + this.county + '.geojson';
 
+    this.filterPollingPlaces = function(){
+      var filteredPollingPlaces = this.pollingPlaces.filter(function(place){
+        var len = place.properties.dates.length;
+        var closingTime = getTodaysHours(place.properties.dates).slice(len - 9, len);
+        var chompmedClosingTime = closingTime.split("").filter(function(char){return char != " "}).join("")
+        console.log(chompmedClosingTime);
+
+        return moment(chompmedClosingTime, "h:mm A").isAfter(moment("5:00 PM", "h:mm A")) ;
+      })
+      this.filteredPollingPlaces = filteredPollingPlaces;
+    }
+
     var pollingIcon = {
       iconUrl: '/images/pink-marker.png',
       shadowUrl: '/images/markers-shadow.png',
@@ -126,9 +138,11 @@ angular.module('earlyVotingApp')
 
     $scope.$on('geolocationComplete', function() {
       $scope.$apply(function() {
-        pollingPlaces = pollingPlaces.sort(compare);
+        // pollingPlaces = pollingPlaces.sort(compare);
         $scope.sorted = true;
         $scope.loading = false;
+        console.log($scope);
+        $scope.county.filteredPollingPlaces.sort(compare);
         // console.log("geolocationComplete");
       });
     });
@@ -161,9 +175,26 @@ angular.module('earlyVotingApp')
     if (countyElectionInfo.earlyVoting) {
       var pollingPlaces = countyElectionInfo[0].features;
       this.pollingPlaces = pollingPlaces;
+      this.filteredPollingPlaces = pollingPlaces.slice()
       $scope.sorted = false;
 
       geolocate();
+    }
+
+
+    function getTodaysHours(allHours) {
+
+      for (var i = allHours.length - 1; i >= 0; i--) {
+        var date = allHours[i].date;
+        var time = allHours[i].time;
+                                             /*NOTE: THIS DATE CAN BE CHANGED*/
+        if (moment(date, 'YYYY-MM-DD').isSame(moment("20161019", "YYYYMMDD"), 'day')) {
+          return time
+        }
+
+      }
+
+      return "This location is closed today";
     }
 
   }]);
