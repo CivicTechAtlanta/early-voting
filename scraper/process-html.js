@@ -1,4 +1,4 @@
-var dateString = '20161206';
+var dateString = '20170321';
 
 var logger = require('tracer').colorConsole({
   format: '<{{title}}> (in {{file}}:{{line}}) {{message}}'
