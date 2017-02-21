@@ -1128,7 +1128,7 @@
       },
       {
         "name": "Courthouse Annex",
-        "address1": "101 East Central Avenue, Room 221",
+        "address1": "101 East Central Avenue, Room 133",
         "city": "Moultrie",
         "zip": "31768",
         "coordinates": [
@@ -3190,12 +3190,12 @@
     "locations": [
       {
         "name": "Board of Elections' Office",
-        "address1": "91 Albany Avenue",
+        "address1": "94 Spring Lake Dr",
         "city": "Danielsville",
-        "zip": "",
+        "zip": "30633",
         "coordinates": [
-          -83.2216984,
-          34.1218404
+          -83.221392,
+          34.1242607
         ]
       }
     ]
