@@ -87,6 +87,9 @@ angular
       .primaryPalette('codeForATLPrimary')
       .accentPalette('codeForATLAccent');
   })
+  .config(function($locationProvider) {
+    $locationProvider.hashPrefix('');
+  })
   .config(function (electionProperties, $routeProvider) {
     $routeProvider
       .when('/', {
