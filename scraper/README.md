@@ -1,4 +1,4 @@
-    npm install phantomjs-prebuilt
+    npm install phantomjs -g
     npm install moment
     npm install tracer
     sudo gem install capybara

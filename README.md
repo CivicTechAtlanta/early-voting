@@ -7,6 +7,7 @@
     cd angular
     bower install
     npm install
+    npm install -g grunt
     gem install compass
     grunt serve
 
