@@ -8,8 +8,13 @@
     # change line 1 of process-html.js to match ELECTION_DATE
     node process-html.js
     # if you get error 'Polling place is unknown: not available in polling-places.json', add the polling place to the json (make sure the polling place isn't already in there under another name)
-    # copy the file `scraped/processed-yyyymmdd.geojson` to `angular/app/data/elections/yyyymmdd-locations.geojson`
+    cp -f scraped/processed-[yyyymmdd].geojson ../angular/app/data/elections/[yyyymmdd]-locations.geojson
 
+# To serve and deploy the app
+    cd ../angular
+    grunt serve
+    grunt build
+    grunt upload [you will need the AWS tokens]
 
 # To run tests of parser:
     cd early-voting/scraper
