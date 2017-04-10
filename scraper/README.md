@@ -1,8 +1,9 @@
     npm install phantomjs -g
     npm install moment
     npm install tracer
-    sudo gem install capybara
-    sudo gem install poltergeist
+    gem install capybara
+    gem install poltergeist
+
     ruby election-scraper.rb
     # save the scraped data to scraped/html-from-scraper-[ELECTION_DATE].json
     # change line 1 of process-html.js to match ELECTION_DATE
