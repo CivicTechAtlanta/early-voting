@@ -1,4 +1,4 @@
-var dateString = '20170516';
+var dateString = '20170620';
 
 var logger = require('tracer').colorConsole({
   format: '<{{title}}> (in {{file}}:{{line}}) {{message}}'
@@ -351,9 +351,9 @@ function mergeWithKnownData(location, knownData) {
 // this set of functions is temporary until we change data structure for front end
 function parseLocationForGeojson(location, index) {
   var geoLocation = {
-    "type": "Feature", 
+    "type": "Feature",
     "geometry": {
-      "type": "Point", 
+      "type": "Point",
       "coordinates": []
     },
     "properties": {
@@ -361,7 +361,7 @@ function parseLocationForGeojson(location, index) {
   };
 
   geoLocation.geometry.coordinates = location.coordinates;
-  geoLocation.properties.id = index; 
+  geoLocation.properties.id = index;
   geoLocation.properties.location = location.name;
   geoLocation.properties.address = location.address1;
   if (typeof(location.address2) !== 'undefined') {geoLocation.properties.address += "<br>" + location.address2;} // possibly insert <br> here?
@@ -528,7 +528,7 @@ function parseTimes(location) {
         location.dates.push({
           "date": moment(date, "MM-DD-YYYY").format("YYYY-MM-DD"),
           "time": time.timeRange,
-          "listingOrder": i // this gives the order of the listing on the SOS website, to fix afternoon times from occurring before morning lunch breaks 
+          "listingOrder": i // this gives the order of the listing on the SOS website, to fix afternoon times from occurring before morning lunch breaks
         });
       }
     });
@@ -624,7 +624,7 @@ function createDateRow(dates) {
   currentRowData.time = dates[0].time;
   currentRowData.startDate = moment(dates[0].date, 'YYYY-MM-DD').format('MM/DD');
   dates.shift(); // remove the first day from the stack
-  
+
   // STEP 2: see if the next day in the stack also belongs in the first row
   while (typeof(dates[0]) !== 'undefined' && typeof(dates[0].time) !== 'undefined' && dates[0].time === currentRowData.time) {
     var dayOfWeekOfThisDay = moment(dates[0].date, 'YYYY-MM-DD').format('dd');

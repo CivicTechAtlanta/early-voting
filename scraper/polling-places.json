@@ -1451,6 +1451,36 @@
           -84.220701,
           33.855758
         ]
+      },
+      {
+        "name": "Briarwood Recreation Center",
+        "address1": "2235 Briarwood Way, NE",
+        "city": "Brookhaven",
+        "zip": "30319",
+        "coordinates": [
+          -84.327697,
+          33.850554
+        ]
+      },
+      {
+        "name": "Dunwoody Methodist Church",
+        "address1": "1548 Mount Vernon Road",
+        "city": "Dunwoody",
+        "zip": "30338",
+        "coordinates": [
+          -84.336487,
+          33.945631
+        ]
+      },
+      {
+        "name": "North Dekalb Senior Center",
+        "address1": "3393 Malone Drive",
+        "city": "Chamblee",
+        "zip": "30341",
+        "coordinates": [
+          -84.305888,
+          33.888928
+        ]
       }
     ]
   },
@@ -4214,7 +4244,7 @@
         "city": "Lyons",
         "zip": "30436",
         "coordinates": [
-          
+
         ]
       }
     ]
