@@ -17,7 +17,7 @@ angular.module('earlyVotingApp')
       $location.path("/counties/" + county);
     };
     this.selectedCounty = undefined;
-    this.counties =  [
+    this.counties = [
       "Appling", "Atkinson", "Bacon", "Baker", "Baldwin", "Banks", "Barrow", "Bartow", "Ben Hill",
       "Berrien", "Bibb", "Bleckley", "Brantley", "Brooks", "Bryan", "Bulloch", "Burke", "Butts",
       "Calhoun", "Camden", "Candler", "Carroll", "Catoosa", "Charlton", "Chatham",
