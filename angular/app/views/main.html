@@ -33,12 +33,29 @@
   <md-card>
     <md-card-content>
       <h2 class="md-title">Early Voting Eligibility</h2>
-      <p>
-        <img src="/images/ballot-box.png" width="100px" align="left" style="margin-right: 10px;" />
-        If you're a registered voter in Georgia, then <strong>YES</strong>, you can vote early. No reason is required to vote early.</p>
-      <p>You can register to vote at the <a href="https://registertovote.sos.ga.gov/" target="_blank">Secretary of State's website</a>.</p>
+      <div class="table">
+        <img src="/images/ballot-box.png" class="big-icon" />
+        <div class="icon-description">
+          <p>
+            If you're a registered voter in Georgia, then <strong>YES</strong>, you can vote early. No reason is required to vote early.</p>
+          <p>You can register to vote at the <a href="https://registertovote.sos.ga.gov/" target="_blank">Secretary of State's website</a>.</p>
+        </div>
+      </div>
     </md-card-content>
   </md-card>
   <br>
+
+    <md-card>
+      <md-card-content>
+        <h2 class="md-title">Election Day</h2>
+        <div class="table">
+          <i class="fa fa-calendar-check-o fa-5x big-icon" aria-hidden="true"></i>
+          <div class="icon-description">
+            <election-day></election-day>
+          </div>
+        </div>
+      </md-card-content>
+    </md-card>
+    <br>
 
 </md-content>

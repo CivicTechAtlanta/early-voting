@@ -9,11 +9,12 @@
  */
 angular.module('earlyVotingApp')
   // pollingPlaceInfo comes from a resolve in the route
-  .controller('PlaceCtrl', ['$http', '$routeParams', 'pollingPlaceInfo', '$scope', 
-                   function ($http,   $routeParams,   pollingPlaceInfo,   $scope) {
+  .controller('PlaceCtrl', ['$http', '$routeParams', 'pollingPlaceInfo', 'electionProperties', '$scope', '$mdDialog',
+                   function ($http,   $routeParams,   pollingPlaceInfo,   electionProperties,   $scope,   $mdDialog) {
   function toTitleCase(str) {
     return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
   }
+  this.electionDate = moment(electionProperties.date, "YYYYMMDD").format("dddd, MMMM D");
   this.today = moment().format("dddd, MMMM D");
   this.county = toTitleCase($routeParams.countyName);
   this.properties = pollingPlaceInfo.properties;
@@ -56,4 +57,20 @@ angular.module('earlyVotingApp')
 
   this.googleMapsLink = "http://maps.google.com/maps?daddr='" + this.properties.address + ' ' + this.properties.city + ', GA ' + this.properties.zip + "'";
 
-  }]);
+  function DialogController($scope, $mdDialog) {
+    $scope.close = () => {
+      $mdDialog.cancel();
+    };
+  }
+
+  this.showAlert = function(event) {
+    $mdDialog.show({
+      controller: DialogController,
+      templateUrl: '../views/_sos-dialog.html',
+      parent: angular.element(document.body),
+      targetEvent: event,
+      clickOutsideToClose: true
+    });
+  };
+
+}]);

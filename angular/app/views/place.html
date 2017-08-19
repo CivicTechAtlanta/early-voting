@@ -23,6 +23,14 @@
             {{date.time}}
           </div>
         </div>
+        <div class="date" ng-class="place.electionDate===place.today ? 'today' : ''">
+          <div class="day">
+            {{place.electionDate}}
+          </div>
+          <div class="time">
+            Visit <span class="link" ng-click="place.showAlert($event)">your normal polling place</span> on election day
+          </div>
+        </div>
       </div>
       <h3 class="warning">Find this helpful?</h3>
       <p>Support Code for Atlanta's all-volunteer efforts to build free tools like this with a <a href="http://www.codeforatlanta.org/donate">$10 donation</a>.</p>

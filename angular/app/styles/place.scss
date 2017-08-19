@@ -43,6 +43,11 @@ $tertiary: #399FD3;
         .time {
           display: table-cell;
           padding: 16px;
+          .link {
+            text-decoration: underline;
+            color: $primary;
+            cursor: pointer;
+          }
         }
       }
     }

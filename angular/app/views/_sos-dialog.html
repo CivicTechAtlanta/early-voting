@@ -1,0 +1,27 @@
+<md-dialog>
+  <form ng-cloak>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>Election Day</h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="close()">
+          <md-icon aria-label="Close"><i class="fa fa-2x fa-close"></i></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+    <md-dialog-content>
+      <div class="md-dialog-content">
+        <election-day></election-day>
+      </div>
+    </md-dialog-content>
+    <md-dialog-actions layout="row">
+      <md-button ng-click="close()">
+        Close
+      </md-button>
+      <span flex></span>
+      <md-button href="https://www.mvp.sos.ga.gov/MVP/mvp.do" target="_blank" md-autofocus>
+        My Voter Page
+      </md-button>
+    </md-dialog-actions>
+  </form>
+</md-dialog>

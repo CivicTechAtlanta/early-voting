@@ -57,6 +57,14 @@ a {
   border-top: 1px solid #e5e5e5;
 }
 
+md-dialog {
+  md-toolbar {
+    .md-button.md-icon-button {
+      padding-top: 0px;
+    }
+  }
+}
+
 .container-narrow > hr {
   margin: 30px 0;
 }
@@ -170,6 +178,11 @@ md-card.alert {
 }
 
 .main-view {
+  md-card {
+    .md-title {
+      margin-top: 0px;
+    }
+  }
   input.select-county {
     border-radius: 2px;
     display: block;
@@ -218,5 +231,25 @@ md-card.alert {
         cursor: pointer;
       }
     }
+  }
+
+  .table {
+    display: table;
+    .icon-description {
+      display: inline-block;
+      width: calc(100% - 110px);
+      p:first-child {
+        margin-top: 0px;
+      }
+    }
+    i, div, img {
+      vertical-align: top;
+    }
+  }
+
+  .big-icon {
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
   }
 } 
